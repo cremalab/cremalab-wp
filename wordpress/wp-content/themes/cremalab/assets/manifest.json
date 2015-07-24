@@ -1,0 +1,56 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js",
+        "scripts/global/**/*"
+      ],
+      "bower": [
+        "angular", 
+        "angular-loader", 
+        "angular-resource", 
+        "angular-ui-router", 
+        "angular-bootstrap",
+        "angular-validation",
+        "luminateExtend"
+      ],
+      "main": true
+    },
+    "login.js": {
+      "file": [
+        "scripts/login/**/*"
+      ]
+    },
+    "register.js": {
+      "files": [
+        "scripts/register/**/*"
+      ]
+    },
+    "donate.js": {
+      "files": [
+        "scripts/donate/**/*"
+      ]
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "editor-style.css": {
+      "files": [
+        "styles/editor-style.scss"
+      ]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    }
+  },
+  "config": {
+    "devUrl": "http://localhost:8080/"
+  },
+  "paths": {
+    "source": "wordpress/wp-content/themes/kcw/assets/",
+    "dist": "wordpress/wp-content/themes/kcw/dist/"
+  }
+}
