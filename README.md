@@ -24,7 +24,10 @@ The procedure for starting up a working WordPress is as follows:
 
 1. Clone the project.  (There’s only master branch.)
 2. Run the command `vagrant up` from the directory
-3. Open your browser to http://localhost:8080
+3. Run `npm install`
+4. Run `bower install`
+5. Run `gulp link` to link the `src` theme folder into the wordpress directory
+6. Open your browser to http://localhost:8080
 
 ## Working with the environment
 

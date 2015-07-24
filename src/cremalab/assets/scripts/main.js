@@ -70,26 +70,9 @@
       UTIL.fire('common', 'finalize');
     }
   };
-  
+
   // Load Events
   $(document).ready(UTIL.loadEvents);
-
-  
-  luminateExtend.init({
-    apiKey: 'CMHkey13', 
-    path: {
-      nonsecure: 'http://secure2.convio.net/tcmh/site/',
-      secure: 'https://secure2.convio.net/tcmh/site/'
-    }
-  });
-
-  angular.module("app", [
-    'ngResource',
-    'ui.router',
-    'validation',
-    'validation.rule',
-    'ui.bootstrap'
-  ]);
 
   document.addEventListener("DOMContentLoaded", function() {
     angular.bootstrap(document, ["app"]);

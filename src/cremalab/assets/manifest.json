@@ -6,30 +6,15 @@
         "scripts/global/**/*"
       ],
       "bower": [
-        "angular", 
-        "angular-loader", 
-        "angular-resource", 
-        "angular-ui-router", 
+        "angular",
+        "angular-loader",
+        "angular-resource",
+        "angular-ui-router",
         "angular-bootstrap",
         "angular-validation",
         "luminateExtend"
       ],
       "main": true
-    },
-    "login.js": {
-      "file": [
-        "scripts/login/**/*"
-      ]
-    },
-    "register.js": {
-      "files": [
-        "scripts/register/**/*"
-      ]
-    },
-    "donate.js": {
-      "files": [
-        "scripts/donate/**/*"
-      ]
     },
     "main.css": {
       "files": [
@@ -50,7 +35,7 @@
     "devUrl": "http://localhost:8080/"
   },
   "paths": {
-    "source": "wordpress/wp-content/themes/kcw/assets/",
-    "dist": "wordpress/wp-content/themes/kcw/dist/"
+    "source": "src/cremalab/assets/",
+    "dist": "src/cremalab/dist/"
   }
 }

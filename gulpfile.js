@@ -19,9 +19,10 @@ var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
+var symlink      = require('gulp-symlink');
 
 // See https://github.com/austinpray/asset-builder
-var manifest = require('asset-builder')('wordpress/wp-content/themes/kcw/assets/manifest.json');
+var manifest = require('asset-builder')('src/cremalab/assets/manifest.json');
 
 // `path` - Paths to base asset directories. With trailing slashes.
 // - `path.source` - Path to the source files. Default: `assets/`
@@ -271,6 +272,11 @@ gulp.task('wiredep', function() {
       hasChanged: changed.compareSha1Digest
     }))
     .pipe(gulp.dest(path.source + 'styles'));
+});
+
+gulp.task('link', function() {
+  return gulp.src('src/cremalab')
+    .pipe(symlink('wordpress/wp-content/themes/cremalab'));
 });
 
 // ### Gulp

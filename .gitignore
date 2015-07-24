@@ -1,1 +1,8 @@
 .project
+bower_components
+node_modules
+wordpress
+.DS_Store
+.vagrant
+npm-debug.log
+.ey_local_data

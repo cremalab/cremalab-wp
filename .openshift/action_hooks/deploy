@@ -49,7 +49,7 @@ echo "Copying WordPress plugins from .openshift/plugins"
 cp -rf $OPENSHIFT_REPO_DIR/.openshift/plugins/* ${OPENSHIFT_DATA_DIR}plugins/ 2>/dev/null
 
 echo "Copying WordPress themes from .openshift/themes"
-cp -rf $OPENSHIFT_REPO_DIR/wordpress/wp-content/themes/* ${OPENSHIFT_DATA_DIR}themes/ 2>/dev/null
+cp -rf $OPENSHIFT_REPO_DIR/src/* ${OPENSHIFT_DATA_DIR}themes/ 2>/dev/null
 
 echo "Copying WordPress languages from .openshift/languages"
 cp -rf $OPENSHIFT_REPO_DIR/.openshift/languages/* ${OPENSHIFT_DATA_DIR}languages/ 2>/dev/null
