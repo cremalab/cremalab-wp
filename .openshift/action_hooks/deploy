@@ -17,10 +17,10 @@ fi
 
 # Replace the php/ directory with provided clean WordPress installation
 #
-if [ -d ${OPENSHIFT_REPO_DIR}wordpress ]; then
-  rm -rf ${OPENSHIFT_REPO_DIR}wordpress
+if [ -d ${OPENSHIFT_REPO_DIR}php ]; then
+  rm -rf ${OPENSHIFT_REPO_DIR}php
 fi
-ln -sf ${dest_dir} ${OPENSHIFT_REPO_DIR}wordpress
+ln -sf ${dest_dir} ${OPENSHIFT_REPO_DIR}php
 
 if [ ! -d ${OPENSHIFT_DATA_DIR}uploads ]; then
     mkdir ${OPENSHIFT_DATA_DIR}uploads
@@ -49,7 +49,7 @@ echo "Copying WordPress plugins from .openshift/plugins"
 cp -rf $OPENSHIFT_REPO_DIR/.openshift/plugins/* ${OPENSHIFT_DATA_DIR}plugins/ 2>/dev/null
 
 echo "Copying WordPress themes from .openshift/themes"
-cp -rf $OPENSHIFT_REPO_DIR/.openshift/themes/* ${OPENSHIFT_DATA_DIR}themes/ 2>/dev/null
+cp -rf $OPENSHIFT_REPO_DIR/wordpress/wp-content/themes/* ${OPENSHIFT_DATA_DIR}themes/ 2>/dev/null
 
 echo "Copying WordPress languages from .openshift/languages"
 cp -rf $OPENSHIFT_REPO_DIR/.openshift/languages/* ${OPENSHIFT_DATA_DIR}languages/ 2>/dev/null
@@ -60,11 +60,11 @@ if [ ! -d $OPENSHIFT_DATA_DIR/blogs.dir ]; then
     mkdir $OPENSHIFT_DATA_DIR/blogs.dir
 fi
 
-ln -sf ${OPENSHIFT_DATA_DIR}blogs.dir ${OPENSHIFT_REPO_DIR}wordpress/wp-content/
-ln -sf ${OPENSHIFT_DATA_DIR}plugins   ${OPENSHIFT_REPO_DIR}wordpress/wp-content/
-ln -sf ${OPENSHIFT_DATA_DIR}themes    ${OPENSHIFT_REPO_DIR}wordpress/wp-content/
-ln -sf ${OPENSHIFT_DATA_DIR}languages    ${OPENSHIFT_REPO_DIR}wordpress/wp-content/
-ln -sf ${OPENSHIFT_DATA_DIR}uploads   ${OPENSHIFT_REPO_DIR}wordpress/wp-content/
+ln -sf ${OPENSHIFT_DATA_DIR}blogs.dir ${OPENSHIFT_REPO_DIR}php/wp-content/
+ln -sf ${OPENSHIFT_DATA_DIR}plugins   ${OPENSHIFT_REPO_DIR}php/wp-content/
+ln -sf ${OPENSHIFT_DATA_DIR}themes    ${OPENSHIFT_REPO_DIR}php/wp-content/
+ln -sf ${OPENSHIFT_DATA_DIR}languages    ${OPENSHIFT_REPO_DIR}php/wp-content/
+ln -sf ${OPENSHIFT_DATA_DIR}uploads   ${OPENSHIFT_REPO_DIR}php/wp-content/
 
 # Copy the OpenShift wp-config.php file
 
