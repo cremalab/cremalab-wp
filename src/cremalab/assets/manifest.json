@@ -2,19 +2,12 @@
   "dependencies": {
     "main.js": {
       "files": [
-        "scripts/main.js",
-        "scripts/global/**/*"
-      ],
-      "bower": [
-        "angular",
-        "angular-loader",
-        "angular-resource",
-        "angular-ui-router",
-        "angular-bootstrap",
-        "angular-validation",
-        "luminateExtend"
+        "scripts/main.js"
       ],
       "main": true
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
     },
     "main.css": {
       "files": [
@@ -26,9 +19,6 @@
       "files": [
         "styles/editor-style.scss"
       ]
-    },
-    "modernizr.js": {
-      "bower": ["modernizr"]
     }
   },
   "config": {

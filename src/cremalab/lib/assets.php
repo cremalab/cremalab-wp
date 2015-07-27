@@ -66,6 +66,7 @@ function asset_path($filename) {
 }
 
 function assets() {
+  wp_enqueue_style('fonts', 'http://hello.myfonts.net/count/25cabb', false, null);
   wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, null);
 
   if (is_single() && comments_open() && get_option('thread_comments')) {
@@ -75,12 +76,5 @@ function assets() {
   wp_enqueue_script('modernizr', asset_path('scripts/modernizr.js'), [], null, true);
   wp_enqueue_script('sage_js', asset_path('scripts/main.js'), ['jquery'], null, true);
 
-  if( is_page('registration')) { 
-    wp_enqueue_script('registration', asset_path('scripts/register.js'), [], null, true);
-  }
-  
-  if( is_page('donate')) { 
-    wp_enqueue_script('donate', asset_path('scripts/donate.js'), [], null, true);
-  }
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);

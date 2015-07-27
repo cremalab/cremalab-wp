@@ -1,0 +1,10 @@
+.layout-box {
+  @extend %padding;
+  &.right {
+    text-align: right;
+  }
+}
+
+.layout-box-content {
+  text-align: left;
+}

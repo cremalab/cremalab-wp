@@ -18,6 +18,8 @@ $sage_includes = [
   'lib/assets.php',                // Scripts and stylesheets
   'lib/titles.php',                // Page titles
   'lib/extras.php',                // Custom functions
+  'lib/team.php',
+  'lib/careers.php',
 ];
 
 foreach ($sage_includes as $file) {

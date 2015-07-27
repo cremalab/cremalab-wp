@@ -1,82 +1,107 @@
-/* ========================================================================
- * DOM-based Routing
- * Based on http://goo.gl/EUTi53 by Paul Irish
- *
- * Only fires on body classes that match. If a body class contains a dash,
- * replace the dash with an underscore when adding it to the object below.
- *
- * .noConflict()
- * The routing is enclosed within an anonymous function so that you can
- * always reference jQuery with $, even when in .noConflict() mode.
- * ======================================================================== */
-
 (function($) {
 
-  // Use this variable to set up the common and page specific functions. If you
-  // rename this variable, you will also need to rename the namespace below.
-  var Sage = {
-    // All pages
-    'common': {
-      init: function() {
-        // JavaScript to be fired on all pages
-      },
-      finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
-      }
-    },
-    // Home page
-    'home': {
-      init: function() {
-        // JavaScript to be fired on the home page
-      },
-      finalize: function() {
-        // JavaScript to be fired on the home page, after the init JS
-      }
-    },
-    // About us page, note the change from about-us to about_us.
-    'about_us': {
-      init: function() {
-        // JavaScript to be fired on the about us page
-      }
-    }
-  };
+  var bindCancel, bindContactForm, bindSidebar, playVideo, setupScrollWatcher;
 
-  // The routing fires all common scripts, followed by the page specific scripts.
-  // Add additional events for more control over timing e.g. a finalize event
-  var UTIL = {
-    fire: function(func, funcname, args) {
-      var fire;
-      var namespace = Sage;
-      funcname = (funcname === undefined) ? 'init' : funcname;
-      fire = func !== '';
-      fire = fire && namespace[func];
-      fire = fire && typeof namespace[func][funcname] === 'function';
-
-      if (fire) {
-        namespace[func][funcname](args);
-      }
-    },
-    loadEvents: function() {
-      // Fire common init JS
-      UTIL.fire('common');
-
-      // Fire page-specific init JS, and then finalize JS
-      $.each(document.body.className.replace(/-/g, '_').split(/\s+/), function(i, classnm) {
-        UTIL.fire(classnm);
-        UTIL.fire(classnm, 'finalize');
+  setupScrollWatcher = function() {
+    if ($(".work-showcase").length) {
+      return $(".work-showcase").each(function(i, el) {
+        var $el;
+        $el = $(el);
+        if (!window.scrollWatcher) {
+          window.scrollWatcher = new ScrollWatcher();
+        }
+        return window.scrollWatcher.addItem($el.parent());
       });
-
-      // Fire common finalize JS
-      UTIL.fire('common', 'finalize');
     }
   };
 
-  // Load Events
-  $(document).ready(UTIL.loadEvents);
+  bindCancel = function() {
+    return $(".layout-main-wrapper.open").on('click', function(e) {
+      e.stopPropagation();
+      e.preventDefault();
+      $('.layout-main-wrapper').removeClass('open');
+      return $('.menu_bar, .sideBarToggle').removeClass('close');
+    });
+  };
 
-  document.addEventListener("DOMContentLoaded", function() {
-    angular.bootstrap(document, ["app"]);
+  bindSidebar = function() {
+    $('.layout-main-wrapper').bind('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', function(e) {
+      return $(window).trigger('nav-transition-done');
+    });
+    $(window).on('nav-transition-done', function() {
+      if ($('.layout-main-wrapper').hasClass('open')) {
+        return bindCancel();
+      } else {
+        return $(".layout-main-wrapper").off('click');
+      }
+    });
+    return $('.site_nav-list:not(.sub-social) a ').on('click', function(e) {
+      var href;
+      href = this.href;
+      //e.preventDefault();
+      $('.layout-main-wrapper').toggleClass('open');
+      $('button#sideBarToggle').toggleClass('close');
+      return $(window).on('nav-transition-done', function() {
+        $(window).off('nav-transition-done');
+        $(".layout-main-wrapper").off();
+      });
+    });
+  };
+
+  bindContactForm = function() {
+    var $form;
+    $form = $("#new_message");
+    return $form.on("ajax:success", function(e, data, status, xhr) {
+      var message_json, name;
+      $form.find(".form-errors").remove();
+      message_json = $.parseJSON(xhr.responseText);
+      name = message_json.name;
+      $form[0].reset();
+      return $form.prepend("<h4>Thanks for contacting us, " + name + ".</h4>");
+    }).bind("ajax:error", function(e, xhr, status, error) {
+      var $err_list, errs, j, len, markup, results;
+      errs = $.parseJSON(xhr.responseText);
+      $err_list = $form.find(".form-errors");
+      if ($form.find(".form-errors").length) {
+        $err_list.empty();
+      } else {
+        $err_list = $("<ul class='form-errors'></ul>");
+        $form.prepend($err_list);
+      }
+      results = [];
+      for (j = 0, len = errs.length; j < len; j++) {
+        error = errs[j];
+        markup = "<li>" + error + "</li>";
+        results.push($err_list.append(markup));
+      }
+      return results;
+    });
+  };
+
+  playVideo = function() {
+    if ($(".videoBackground").length) {
+      return $(".videoBackground video")[0].play();
+    }
+  };
+
+  $(document).on('ready', function() {
+    if (Modernizr.touch) {
+      $('body').addClass('touch');
+    }
+    playVideo();
+    //setupScrollWatcher();
+    $('pre code').each(function(i, e) {
+      return hljs.highlightBlock(e);
+    });
+    $('.sideBarToggle').on('click', function() {
+      $('.layout-main-wrapper').toggleClass('open');
+      return $('.menu_bar, .sideBarToggle').toggleClass('close');
+    });
+    bindContactForm();
+    $(window).off('nav-transition-done');
+    if (Modernizr.csstransitions) {
+      return bindSidebar();
+    }
   });
 
-
-})(jQuery); // Fully reference jQuery after this point.
+})(jQuery);

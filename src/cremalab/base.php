@@ -18,7 +18,13 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <?php include Wrapper\template_path(); ?>
+
+    <section class="layout-main-wrapper">
+
+      <?php include Wrapper\template_path(); ?>
+
+    </section>
+
     <?php
       do_action('get_footer');
       get_template_part('templates/footer');

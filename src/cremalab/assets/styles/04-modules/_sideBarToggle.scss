@@ -1,0 +1,34 @@
+.sideBarToggle {
+  @extend %transition;
+  font-size: unit(1.5);
+  color: #ccc;
+  display: inline-block;
+  &._sub-main {
+    color: rgba($white, 0.7);
+    &.close {
+      opacity: 0.1;
+      transform: translate(-260px,0);
+    }
+    &.sub-contrast {
+      color: $black;
+      z-index: -1;
+      &.close {
+        opacity: 1;
+        position: -webkit-sticky;
+      }
+    }
+  }
+  &.sub-sidebar {
+    opacity: 0;
+    color: $gray;
+    transform: scale(0.5);
+    &.close {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .icon-list {
+    display: inline-block;
+  }
+}

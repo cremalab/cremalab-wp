@@ -1,0 +1,35 @@
+.layout-main-wrapper {
+  @extend %transition;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: white;
+  z-index: 1;
+  overflow: hidden;
+
+  // STATE - Navigation Revealed
+  &.open {
+    transform: translate3d(-260px,0,0);
+    cursor: pointer;
+  }
+
+}
+
+.layout-main {
+  position: relative;
+  &.sub-blogs {
+    padding-bottom: unit(2.75);
+  }
+}
+
+
+body.home .layout-main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.layout-main-content {
+  width: 100%;
+  min-height: 100%;
+}

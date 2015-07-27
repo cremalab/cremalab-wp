@@ -17,6 +17,7 @@ var plumber      = require('gulp-plumber');
 var rev          = require('gulp-rev');
 var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
+var cssGlobbing  = require('gulp-css-globbing');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
 var symlink      = require('gulp-symlink');
@@ -83,7 +84,7 @@ var cssTasks = function(filename) {
       return gulpif(enabled.maps, sourcemaps.init());
     })
     .pipe(function() {
-      return gulpif('*.less', less());
+      return cssGlobbing({ extensions: ['.scss'] });
     })
     .pipe(function() {
       return gulpif('*.scss', sass({

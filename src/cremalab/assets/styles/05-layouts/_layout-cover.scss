@@ -1,0 +1,9 @@
+.layout-cover {
+  @extend .grid;
+  @extend .grid.cover;
+  border-spacing: unit(2);
+}
+
+.layout-cover-content {
+  vertical-align: middle;
+}
