@@ -20,6 +20,7 @@ $sage_includes = [
   'lib/extras.php',                // Custom functions
   'lib/team.php',
   'lib/careers.php',
+  'lib/acf.php',
 ];
 
 foreach ($sage_includes as $file) {
