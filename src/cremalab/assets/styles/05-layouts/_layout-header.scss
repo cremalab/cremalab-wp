@@ -10,8 +10,8 @@
   // Typography
   text-align: center;
   color: $white;
-  a { 
-    color: $white; 
+  a {
+    color: $white;
     text-decoration: underline;
   }
 
@@ -59,7 +59,7 @@
 
   &:hover {
     .sub-bg {
-      opacity: .4;      
+      opacity: .4;
     }
     .icon-arrow-right {
       left: 1em;
@@ -69,40 +69,40 @@
 }
 
 .layout-header, .sub-bg {
-  &.sub-blog {
+  .blog & {
     background-image:
       linear-gradient(rgba(black, 0.5), rgba(black, 0.5)),
       url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQIHWNgYGCoB2LiAHaVACruAP8af/BmAAAAAElFTkSuQmCC),
-      image-url("headers/bg-blog.jpg")
+      url("../images/headers/bg-blog.jpg")
   }
-  &.sub-contact {
+  .contact & {
     background-image:
       linear-gradient(rgba(black, 0.5), rgba(black, 0.5)),
       url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQIHWNgYGCoB2LiAHaVACruAP8af/BmAAAAAElFTkSuQmCC),
-      image-url("headers/bg-contact.jpg")
+      url("../images/headers/bg-contact.jpg")
   }
-  &.sub-process {
+  .approach & {
     background-image:
       linear-gradient(rgba(black, 0.5), rgba(black, 0.5)),
       url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQIHWNgYGCoB2LiAHaVACruAP8af/BmAAAAAElFTkSuQmCC),
-      image-url("headers/bg-approach.jpg")
+      url("../images/headers/bg-approach.jpg")
   }
-  &.sub-team {
+  .team & {
     background-image:
       linear-gradient(rgba(black, 0.5), rgba(black, 0.5)),
       url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQIHWNgYGCoB2LiAHaVACruAP8af/BmAAAAAElFTkSuQmCC),
-      image-url("headers/bg-team.jpg")
+      url("../images/headers/bg-team.jpg")
   }
-  &.sub-work {
+  .work & {
     background-image:
       linear-gradient(rgba(black, 0.5), rgba(black, 0.5)),
       url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQIHWNgYGCoB2LiAHaVACruAP8af/BmAAAAAElFTkSuQmCC),
-      image-url("headers/bg-work.jpg")
+      url("../images/headers/bg-work.jpg")
   }
-  &.sub-careers {
+  .careers & {
     background-image:
       linear-gradient(rgba(black, 0.5), rgba(black, 0.5)),
       url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQIHWNgYGCoB2LiAHaVACruAP8af/BmAAAAAElFTkSuQmCC),
-      image-url("headers/bg-careers.jpg")
+      url("../images/headers/bg-careers.jpg")
   }
 }

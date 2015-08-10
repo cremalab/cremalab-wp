@@ -112,8 +112,8 @@ div.work {
   width: 95%;
   background-repeat: no-repeat;
   &.sub-landscape {
-    &.sub-black { background-image: image-url("devices/ipad-black-landscape.png");}
-    &.sub-white { background-image: image-url("devices/ipad-white-landscape.png");}
+    &.sub-black { background-image: url("devices/ipad-black-landscape.png");}
+    &.sub-white { background-image: url("devices/ipad-white-landscape.png");}
     &:after {
       content: "";
       display: block;
@@ -145,7 +145,7 @@ div.work {
   width: 22%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  &.sub-black { background-image: image-url("devices/iphone-black.svg");}
+  &.sub-black { background-image: url("devices/iphone-black.svg");}
   &:after {
     content: "";
     display: block;
@@ -171,7 +171,7 @@ div.work {
   border-radius: 0.5em;
 }
 .browser-header {
-  background: image-url("devices/browser_bar.png") no-repeat;
+  background: url("devices/browser_bar.png") no-repeat;
   background-size: 100% 100%;
   background-position: center bottom;
   &:before {

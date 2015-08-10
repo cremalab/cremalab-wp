@@ -11,7 +11,8 @@
     <div class="layout-content sub-wide">
       <div class="layout-box-content">
         <div class="sub-centered">
-          <img alt="Talk think listen" src="/assets/approach/talk_think_listen-49ff0c20c3c3ab18e421dd4fd0dabb14.svg">
+
+          <img alt="Talk think listen" src="<?php image_path('approach/talk_think_listen.svg') ?>">
           <h4>Talk, Think &amp; Most Importantly – Listen.</h4>
           <p>We take time to understand the vision and nuances of your business. Our goal is to listen to you and your customers to gain a shared understanding of the strategic direction for product development. Our Discovery period provides us with everything needed to begin design and development.</p>
         </div>
@@ -21,7 +22,7 @@
   <div class="layout-content sub-wide">
     <div class="layout-box-content">
       <div class="sub-centered">
-        <img alt="Turning stones" src="/assets/approach/turning_stones-0d14cdd4eaf576c578e35f4879cdeefd.svg">
+        <img alt="Turning stones" src="<?php image_path('approach/turning_stones.svg') ?>">
         <h4>Turning Over Every Stone.</h4>
         <p>We get obsessed with understanding how and why a product is being built. We start by prototyping and wireframing at the beginning stages of product development in order to test and validate assumptions early on. Our iterative approach to development ensures we make data-driven decisions and together build a product that your users will love.</p>
       </div>
@@ -31,7 +32,7 @@
     <div class="layout-content sub-wide">
       <div class="layout-box-content">
         <div class="sub-centered">
-          <img alt="Get to work" src="/assets/approach/get_to_work-3e7a27c6d29c0aca5e10e0ac33c16fef.svg">
+          <img alt="Get to work" src="<?php image_path('approach/get_to_work.svg') ?>">
           <h4>Roll Up Our Sleeves &amp; Get To Work.</h4>
           <p>Our development team has serious technical chops. But what’s most important is that our technical team gets involved during the earliest stages of product development to advise on core features of the new product.</p>
           <p>Our team understands the context of every technical decision made over the course of Discovery before we start building. With regular team meetings and a collaborative development process, our team will craft and deliver an incredible product you can be proud of.</p>
@@ -42,7 +43,7 @@
   <div class="layout-content sub-wide sub-flushtop">
     <div class="layout-box-content">
       <div class="sub-centered">
-        <img alt="Golden layer" src="/assets/approach/golden_layer-94e1761eb19df5f412ed7636b1d6a11c.svg">
+        <img alt="Golden layer" src="<?php image_path('approach/golden_layer.svg') ?>">
         <h4>Arrive At The Golden Layer Together.</h4>
         <p>At this point, we’ve reached the golden layer of product development. The ‘crema’, if you will. The good stuff.</p>
         <p>Together, we’ve expertly crafted a product that your users will love, and now we’re ready to take your product to market. We work side-by-side to launch, monitor, and iterate on your original product to find product-market fit and scale. We view our success as an extension of yours - we’re partners after all!</p>

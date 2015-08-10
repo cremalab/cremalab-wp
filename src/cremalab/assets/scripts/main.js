@@ -35,17 +35,6 @@
         return $(".layout-main-wrapper").off('click');
       }
     });
-    return $('.site_nav-list:not(.sub-social) a ').on('click', function(e) {
-      var href;
-      href = this.href;
-      //e.preventDefault();
-      $('.layout-main-wrapper').toggleClass('open');
-      $('button#sideBarToggle').toggleClass('close');
-      return $(window).on('nav-transition-done', function() {
-        $(window).off('nav-transition-done');
-        $(".layout-main-wrapper").off();
-      });
-    });
   };
 
   bindContactForm = function() {
