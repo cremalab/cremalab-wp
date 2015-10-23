@@ -6,3 +6,4 @@ wordpress
 .vagrant
 npm-debug.log
 .ey_local_data
+.idea
