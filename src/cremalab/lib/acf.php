@@ -1,10 +1,11 @@
 <?php
 
+add_filter('acf/helpers/get_dir', 'my_acf_settings_dir');
+
 // 1. customize ACF path
 add_filter('acf/settings/path', 'my_acf_settings_path');
 
 function my_acf_settings_path( $path ) {
-
     // update path
     $path = get_stylesheet_directory() . '/acf/';
 

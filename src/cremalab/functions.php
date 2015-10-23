@@ -21,6 +21,7 @@ $sage_includes = [
   'lib/team.php',
   'lib/careers.php',
   'lib/acf.php',
+  'lib/fields.php',
 ];
 
 foreach ($sage_includes as $file) {
