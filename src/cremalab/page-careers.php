@@ -1,3 +1,11 @@
+<?php
+/**
+ * Template Name: Career
+ */
+?>
+
+
+<?php get_header(); ?>
 <main class="layout-main-content">
 
   <header class="layout-header sub-careers">
@@ -219,7 +227,6 @@
       <a name="openings"></a>
     </div>
   </div>
-
   <?php
   $args = array( 'post_type' => 'career', 'posts_per_page' => 30 );
   $loop = new WP_Query( $args );
@@ -227,4 +234,6 @@
     get_template_part('templates/career', 'list');
   endwhile;
   ?>
+
 </main>
+<?php get_footer(); ?>

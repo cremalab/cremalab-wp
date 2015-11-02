@@ -1,3 +1,9 @@
+<?php
+/**
+ * Template Name: Team
+ */
+?>
+
 <main class="layout-main-content">
 
   <header class="layout-header sub-team">

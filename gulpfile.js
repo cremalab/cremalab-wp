@@ -249,6 +249,7 @@ gulp.task('watch', function() {
   gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
   gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
   gulp.watch([path.source + 'images/**/*'], ['images']);
+  gulp.watch('../crema/**/*/*.php', browserSync.stream());
   gulp.watch(['bower.json', 'assets/manifest.json'], ['build']);
 });
 

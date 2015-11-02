@@ -4,7 +4,7 @@
     <a href="http://facebook.com/kcareskidswalk">Facebook</a>
     <a href="http://twitter.com/kcaresforkids">Twitter</a>
     <a href="http://cremalab.com/">Experience by Cremalab</a>
-    <!--<?php dynamic_sidebar('sidebar-footer'); ?>-->
+    <?php dynamic_sidebar('sidebar-footer'); ?>
   </div>
 </footer>
 

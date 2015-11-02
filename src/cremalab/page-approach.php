@@ -1,3 +1,10 @@
+<?php
+/**
+ * Template Name: Approach
+ */
+?>
+
+
 <main class="layout-main-content">
 
   <header class="layout-header sub-process">
