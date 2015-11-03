@@ -8,7 +8,8 @@
 
 
 <div class="Cremalab__Homepage-titleWrapper">
-  <h1 class="Cremalab__Homepage--TitleLogo">Crema</h1>
+  <!-- <h1 class="Cremalab__Homepage--TitleLogo">Crema</h1> -->
+  <img src="../wp-content/themes/cremalab/assets/images/Crema_WordLogoWhite.svg" class="Cremalab__Homepage--TitleLogo" alt="CREMA LOGO">
 </div>
 
 
