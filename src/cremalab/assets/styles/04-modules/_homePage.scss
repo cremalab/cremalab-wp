@@ -1,0 +1,31 @@
+.Cremalab__Homepage--pageWrapper{
+  background:url('http://placehold.it/1440x723') repeat top center fixed;
+  height: 85vh;
+  position: relative;
+}
+
+.Cremalab__Homepage-titleWrapper{
+  bottom:0px;
+  height:100%;
+  position: absolute;
+
+  vertical-align: bottom;
+  width:100%;
+}
+
+// .Cremalab__Homepage--TitleLogo{
+//   bottom:0px;
+//   color:#ffffff;
+//   font-size:32.8vw;
+//   line-height:0.5;
+//   position: absolute;
+// }
+
+
+.Cremalab__Homepage--TitleLogo{
+  bottom:-13px;
+  color:#ffffff;
+  width:100%;
+
+  position: absolute;
+}
