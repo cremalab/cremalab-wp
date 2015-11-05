@@ -1,31 +1,39 @@
 .Cremalab__Homepage--pageWrapper{
-  background:url('http://placehold.it/1440x723') repeat top center fixed;
-  height: 85vh;
+  // background:url('http://placehold.it/1440x723') repeat top center fixed;
+  height:100vh;
   position: relative;
 }
 
-.Cremalab__Homepage-titleWrapper{
-  bottom:0px;
-  height:100%;
-  position: absolute;
+.Cremalab__Homepage--videoBackgroundWrapper{
+  position:relative;
+  top:-55px;
 
-  vertical-align: bottom;
+}
+
+.Cremalab__Homepage-titleWrapper{
   width:100%;
+  position: absolute;
+  bottom:-11px;
 }
 
 // .Cremalab__Homepage--TitleLogo{
 //   bottom:0px;
+//   left:0px;
 //   color:#ffffff;
 //   font-size:32.8vw;
-//   line-height:0.5;
+//   line-height:0.85;
 //   position: absolute;
 // }
 
 
 .Cremalab__Homepage--TitleLogo{
-  bottom:-13px;
-  color:#ffffff;
-  width:100%;
+  width:100vw;
+  bottom:0px;
+  left:0px;
+}
 
-  position: absolute;
+.Cremalab__Homepage-videoBackground{
+  width:100vw;
+  min-width:1200px;
+  top:-55px;
 }

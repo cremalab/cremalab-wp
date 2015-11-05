@@ -1,0 +1,85 @@
+.Cremalab__Navbar{
+  font-family: AvenirNext-Bold;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  position:relative;
+  top: 0px;
+  left:0px;
+  height:85px;
+  z-index:999;
+}
+
+.Cremalab__Nav-navItems, .Cremalab__Navbar-logoImage{
+
+}
+
+.Cremalab__Navbar-logoImageContainer{
+  display:inline;
+  height:48px;
+  width:65px;
+  margin-left:45px;
+  position: relative;
+  width:120px;
+  color:#FFFFFF;
+}
+
+.Cremalab__Navbar-logoImageContainer:hover{
+  .Cremalab__Navbar-logoImage{
+    height:24px;
+  }
+
+  .Cremalab__Nabar-logoTitle{
+    display:inline;
+  }
+}
+
+.Cremalab__Navbar-logoImage{
+  display:inline;
+  height: 48px;
+  position: absolute;
+  right: 60px;
+  text-align: center;
+  top: 15px;
+  vertical-align: middle;
+}
+
+
+
+.Cremalab__Nabar-logoTitle{
+  display:none;
+  font-size:19px;
+  left:47px;
+  position:absolute;
+  top:22px;
+  z-index:999;
+}
+
+
+
+
+.Cremalab__Nav-navItems{
+  color:#FFFFFF;
+  display:inline;
+  font-size:16px;
+  height:65px;
+  text-align: right;
+  width:100%;
+  li{
+    padding:0 64px 0 0;
+  }
+  li:last-child{
+    padding:0 55px 0 0;
+  }
+}
+
+.page_item{
+  display:inline;
+  list-style-type: none;
+    a{
+      text-decoration: none;
+      font-size: 16px;
+      font-weight:600;
+    }
+}

@@ -1,3 +1,9 @@
+<?php
+/**
+ * Template Name: Work
+ */
+?>
+
 <main class="layout-main-content">
 
   <header class="layout-header sub-work">
@@ -193,3 +199,5 @@
   </a>
 
 </main>
+
+
