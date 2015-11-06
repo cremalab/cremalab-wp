@@ -1,29 +1,32 @@
 .Cremalab__Homepage--pageWrapper{
   // background:url('http://placehold.it/1440x723') repeat top center fixed;
-  height:100vh;
+  height: 100vh;
   position: relative;
+}
+
+.Cremalab__Homepage--videoBackgroundRelativeWrapper{
+  position:absolute;
+}
+
+
+
+.Cremalab__Homepage-titleWrapper{
+
+  position:absolute;
+  bottom:74px;
+}
+
+.Cremalab__Homepage--TitleLogo{
+  width:100vw;
 }
 
 .Cremalab__Homepage--videoBackgroundWrapper{
   position:relative;
   top:-85px;
-
-}
-
-.Cremalab__Homepage-titleWrapper{
-  width:100%;
-  position: absolute;
-  bottom:-12px;
-}
-
-.Cremalab__Homepage--TitleLogo{
-  width:100vw;
-  bottom:0px;
-  left:0px;
 }
 
 .Cremalab__Homepage-videoBackground{
   width:100vw;
-  min-width:1200px;
   top:-85px;
+  position:relative;
 }
