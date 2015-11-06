@@ -3,9 +3,10 @@
  * Template Name: Career
  */
 ?>
+<div class="Cremalab__Navbar-BlackHeader">
+  <?php get_header(); ?>
+</div>
 
-
-<?php get_header(); ?>
 
   <?php
   $args = array( 'post_type' => 'career', 'posts_per_page' => 30 );

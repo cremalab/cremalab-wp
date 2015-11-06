@@ -23,7 +23,7 @@ function custom_post_type_career() {
 		'label'               => __( 'career', 'text_domain' ),
 		'description'         => __( 'Career Description', 'text_domain' ),
 		'labels'              => $labels,
-		'supports'            => array( 'title', 'excerpt', ),
+		'supports'            => array( 'title', 'excerpt', 'thumbnail'),
 		'hierarchical'        => true,
 		'public'              => true,
 		'show_ui'             => true,

@@ -37,11 +37,11 @@
 
 .Cremalab__Navbar-logoImage{
   display:inline;
-  height: 48px;
+  height: 32px;
   position: absolute;
   right: 60px;
   text-align: center;
-  top: 15px;
+  top: 23px;
   vertical-align: middle;
 }
 
@@ -67,7 +67,7 @@
   text-align: right;
   width:100%;
   li{
-    padding:0 64px 0 0;
+    padding:0 48px 0 0;
   }
   li:last-child{
     padding:0 55px 0 0;
@@ -79,7 +79,20 @@
   list-style-type: none;
     a{
       text-decoration: none;
-      font-size: 16px;
+      font-size: 14px;
       font-weight:600;
     }
+}
+
+
+.Cremalab__Navbar-BlackHeader{
+  .Cremalab__Nav-navItems{
+    color:#000000;
+  }
+  .Cremalab__Navbar-logoImage{
+    img{
+      color:#000000;
+    }
+
+  }
 }

@@ -1,5 +1,5 @@
 <div class="teamMember">
-  <div class="picture sub-cover" style="background-image: url(https://cremalab.s3.amazonaws.com/uploads/profile/avatar/7/display_Michael.png)"><img src="https://cremalab.s3.amazonaws.com/uploads/profile/avatar/7/display_Michael.png"></div>
+
   <div class="teamMember-size">
     <div class="teamMember-size-info">
       <div class="teamMember-size-info-content">
@@ -10,6 +10,7 @@
             <?php if ( get_field('twitter_link') ): ?>
               <a class="icon-twitter-circle" href="<?php the_field('twitter_link'); ?>">
                 <span class="hiddenText">Twitter</span>
+                
               </a>
             <?php endif; ?>
             <?php if ( get_field('dribbble_link') ): ?>

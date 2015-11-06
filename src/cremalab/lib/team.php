@@ -1,7 +1,7 @@
 <?php
 
 // Register Custom Post Type
-function custom_post_type() {
+function custom_post_type_team() {
 
 	$labels = array(
 		'name'                => _x( 'Team', 'Post Type General Name', 'text_domain' ),
@@ -43,6 +43,6 @@ function custom_post_type() {
 }
 
 // Hook into the 'init' action
-add_action( 'init', 'custom_post_type', 0 );
+add_action( 'init', 'custom_post_type_team', 0 );
 
 ?>

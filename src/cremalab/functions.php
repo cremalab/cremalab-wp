@@ -19,6 +19,7 @@ $sage_includes = [
   'lib/titles.php',                // Page titles
   'lib/extras.php',                // Custom functions
   'lib/team.php',
+  'lib/work.php',
   'lib/careers.php',
   'lib/acf.php',
   'lib/fields.php',

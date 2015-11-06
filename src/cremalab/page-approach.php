@@ -3,7 +3,9 @@
  * Template Name: Approach
  */
 ?>
-
+<div class="Cremalab__Navbar-BlackHeader">
+  <?php get_header(); ?>
+</div>
 
 <main class="layout-main-content">
 
