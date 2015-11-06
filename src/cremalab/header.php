@@ -7,18 +7,8 @@
   </a>
 
   <div class="Cremalab__Nav-navItems">
+       <?php wp_nav_menu() ?>
 
-    <ul>
-      <?php $args = array
-      (
-          'title_li' => '',
-          'depth' => 1,
-          'exclude' => '2',
-          'sort_order' => 'ASC'
-      )
-      ?>
-      <?php wp_list_pages($args); ?>
-    </ul>
   </div>
 
 </div>
