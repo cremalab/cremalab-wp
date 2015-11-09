@@ -72,11 +72,15 @@
 
 @font-face {
   font-family: 'AvenirNext-Bold';
-  font-weight: normal;
+  font-weight: bold;
   src: url('../fonts/AvenirNext-Bold.ttf');
-
 }
 
+@font-face {
+  font-family: 'AvenirNext-Regular';
+  font-weight: normal;
+  src: url('../fonts/AvenirNext-Regular.ttf');
+}
 
 
 // @font-face {font-family: 'AvenirLTCom-Roman';src: font-url('25CABB_9_0.eot');src: font-url('25CABB_9_0.eot?#iefix') format('embedded-opentype'),font-url('25CABB_9_0.woff') format('woff'),font-url('25CABB_9_0.ttf') format('truetype');}

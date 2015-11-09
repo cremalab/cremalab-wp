@@ -1,42 +1,13 @@
-<div class="teamMember">
 
-  <div class="teamMember-size">
-    <div class="teamMember-size-info">
-      <div class="teamMember-size-info-content">
-        <h2><?php the_title() ?></h2>
-        <div class="teamMember-size-info-content-links">
-          <div class="socialLinks sub-team">
+<?php
+  $image = get_field('team_member_photo');
+?>
 
-            <?php if ( get_field('twitter_link') ): ?>
-              <a class="icon-twitter-circle" href="<?php the_field('twitter_link'); ?>">
-                <span class="hiddenText">Twitter</span>
-                
-              </a>
-            <?php endif; ?>
-            <?php if ( get_field('dribbble_link') ): ?>
-              <a class="icon-dribbble-circle" href="<?php the_field('dribbble_link'); ?>">
-                <span class="hiddenText">dribbble</span>
-              </a>
-            <?php endif; ?>
-            <?php if ( get_field('rdio_link') ): ?>
-              <a class="icon-rdio-circle" href="<?php the_field('rdio_link'); ?>">
-                <span class="hiddenText">Rdio</span>
-              </a>
-            <?php endif; ?>
-            <?php if ( get_field('linkedin_link') ): ?>
-              <a class="icon-linked_in-circle" href="<?php the_field('linkedin_link'); ?>">
-                <span class="hiddenText">LinkedIn</span>
-              </a>
-            <?php endif; ?>
-            <?php if ( get_field('website') ): ?>
-              <a class="icon-website-circle" href="<?php the_field('website'); ?>">
-                <span class="hiddenText">Website</span>
-              </a>
-            <?php endif; ?>
-
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="Cremalab__teamMemberWrapper">
+        <img src="<?php echo $image['url'] ?>" alt="" class="Cremalab__teamMemberPhoto">
+        <h3 class="Cremalab__teamMemberName"><?php the_field('employee_name') ?></h3>
+        <p class="Cremalab__teamMemberTitle"><?php the_field('title') ?></p>
   </div>
-</div>
+
+
+

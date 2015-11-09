@@ -11,13 +11,7 @@
 <h1>THIS IS THE WORK PAGE</h1>
 
 
-<?php $args = array
-(
-    'title_li' => '',
-    'depth' => 0,
-    'child_of' => '33'
-)
-?>
+
 
 
 <?php

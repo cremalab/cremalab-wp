@@ -1,0 +1,71 @@
+.Cremalab__teamPageWrapper{
+  position: relative;
+}
+
+.Cremalab__teamPageWrapper--pageHeader{
+  color:$cremaWhite;
+  display:block;
+  font-size:64px;
+  text-align: center;
+}
+
+.Cremalab__teamContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items:center;
+  max-width:1200px;
+  margin:38px auto 150px auto;
+}
+
+.Cremalab__teamMemberWrapper{
+  width:299px;
+  height:450px;
+
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+
+  margin:0 0 21px 21px;
+}
+
+.Cremalab__teamMemberPhoto{
+  height: 371px;
+}
+
+.Cremalab__teamMemberName{
+  font-size:18px;
+  padding: 5px 0 0 15px;
+  margin: 0;
+}
+.Cremalab__teamMemberTitle{
+  font-size:14px;
+  padding: 0 0 0 15px;
+  margin:0;
+}
+
+
+
+.Cremalab__lowerWhiteBackground{
+  background-color:white;
+}
+
+.Cremalab__BlueBackground{
+  background-color:$cremaBlue;
+  height:371px;
+  width:100%;
+  position:absolute;
+  z-index:-999;
+
+  &--upper{
+    @extend .Cremalab__BlueBackground;
+    top:0px;
+  }
+
+  &--lower{
+    @extend .Cremalab__BlueBackground;
+    bottom:0px;
+  }
+}
+
