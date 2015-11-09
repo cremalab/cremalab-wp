@@ -52,23 +52,47 @@
   text-align:center;
 }
 
-.Cremalab_workHardPlayHardInnerWrapper{
-  line-height: 0;
-  margin:0 auto;
+// .Cremalab_workHardPlayHardInnerWrapper{
+//   line-height: 0;
+//   margin:0 auto;
+//   max-width:1200px;
+//   -webkit-column-count: 3;
+//   -webkit-column-gap:   21px;
+//   -moz-column-count:    3;
+//   -moz-column-gap:      21px;
+//   column-count:         3;
+//   column-gap:           21px;
+
+//   img{
+//     margin: 0 0 22px 0;
+//     border: 1px solid black;
+//     width: 100% !important;
+//     height: auto !important;
+//   }
+// }
+
+.Cremalab__workHardPlayHardInnerWrapper{
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  -ms-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vw;
+  font-size: 0;
   max-width:1200px;
-  -webkit-column-count: 3;
-  -webkit-column-gap:   21px;
-  -moz-column-count:    3;
-  -moz-column-gap:      21px;
-  column-count:         3;
-  column-gap:           21px;
-  img{
-    margin: 0 0 22px 0;
-    border: 1px solid black;
-    width: 100% !important;
-    height: auto !important;
-  }
+  margin:0 auto;
+
 }
+.Cremalab__workHardPlayHardImage{
+  border:1px solid black;
+  margin: 0 21px 22px 0px;
+  width:33.3%;
+}
+
+//http://www.sketchingwithcss.com/samplechapter/cheatsheet.html
+
+
 
 .Cremalab__lowerWhiteBackground{
   background-color:white;

@@ -28,20 +28,22 @@
 
   <div class="Cremalab__workHardPlayHardWrapper">
     <h1 class="Cremalab__workHardPlayHard--header">Work Hard, play hard</h1>
-    <div class="Cremalab_workHardPlayHardInnerWrapper">
+    <div class="Cremalab__workHardPlayHardInnerWrapper">
 
-      <img src="http://placehold.it/299x200" alt="">
-      <img src="http://placehold.it/299x200" alt="">
-      <img src="http://placehold.it/299x200" alt="">
-      <img src="http://placehold.it/299x400" alt="">
-      <img src="http://placehold.it/299x400" alt="">
-      <img src="http://placehold.it/299x200" alt="">
-      <img src="http://placehold.it/299x200" alt="">
-      <img src="http://placehold.it/299x200" alt="">
-      <img src="http://placehold.it/299x200" alt="">
-      <img src="http://placehold.it/299x400" alt="">
-      <img src="http://placehold.it/299x200" alt="">
-      <img src="http://placehold.it/299x200" alt="">
+      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage" alt="">
+
+      <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+
+      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
     </div>
   </div>
 
