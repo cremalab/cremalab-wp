@@ -45,7 +45,30 @@
   margin:0;
 }
 
+.Cremalab__workHardPlayHard--header{
+  color: $cremaBlack;
+  display:block;
+  font-size:64px;
+  text-align:center;
+}
 
+.Cremalab_workHardPlayHardInnerWrapper{
+  line-height: 0;
+  margin:0 auto;
+  max-width:1200px;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   21px;
+  -moz-column-count:    3;
+  -moz-column-gap:      21px;
+  column-count:         3;
+  column-gap:           21px;
+  img{
+    margin: 0 0 22px 0;
+    border: 1px solid black;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
 
 .Cremalab__lowerWhiteBackground{
   background-color:white;

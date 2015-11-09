@@ -27,20 +27,22 @@
   </div>
 
   <div class="Cremalab__workHardPlayHardWrapper">
-    <h1>Picture Things here</h1>
-    <ul>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li>
-    <li>Picture</li></ul>
+    <h1 class="Cremalab__workHardPlayHard--header">Work Hard, play hard</h1>
+    <div class="Cremalab_workHardPlayHardInnerWrapper">
+
+      <img src="http://placehold.it/299x200" alt="">
+      <img src="http://placehold.it/299x200" alt="">
+      <img src="http://placehold.it/299x200" alt="">
+      <img src="http://placehold.it/299x400" alt="">
+      <img src="http://placehold.it/299x400" alt="">
+      <img src="http://placehold.it/299x200" alt="">
+      <img src="http://placehold.it/299x200" alt="">
+      <img src="http://placehold.it/299x200" alt="">
+      <img src="http://placehold.it/299x200" alt="">
+      <img src="http://placehold.it/299x400" alt="">
+      <img src="http://placehold.it/299x200" alt="">
+      <img src="http://placehold.it/299x200" alt="">
+    </div>
   </div>
 
 <div class="Cremalab__BlueBackground--lower"></div>
