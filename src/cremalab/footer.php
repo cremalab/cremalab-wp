@@ -17,7 +17,7 @@
     <h3 class="Cremalab__footerHeader">Follow Us</h3>
   </div>
   <div class="Cremalab__footerHireUsContainer">
-    <h3 class="Cremalab__footerHeader">Hire Us</h3>
+    <h3 class="Cremalab__footerHeader"><a href="/contact">Hire Us</a></h3>
   </div>
 </div>
 

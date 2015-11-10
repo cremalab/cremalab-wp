@@ -83,15 +83,12 @@
 // }
 
 .Cremalab__workHardPlayHardInnerWrapper{
-  // display: -ms-flexbox;
-  // -ms-flex-direction: column;
-  // -ms-flex-wrap: wrap;
-  // display: flex;
-  // flex-direction: column;
-  // flex-wrap: wrap;
-  // height: 100vw;
-  font-size: 0;
-  max-width:1200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  max-width:950px;
+  max-height:1200px;
   margin:0 auto;
   text-align:center;
 
@@ -99,7 +96,7 @@
 .Cremalab__workHardPlayHardImage{
   border:1px solid black;
   margin: 0 21px 21px 0px;
-  // width:33.3%;
+  width:299px;
 }
 
 //http://www.sketchingwithcss.com/samplechapter/cheatsheet.html
