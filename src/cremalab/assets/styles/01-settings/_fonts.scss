@@ -70,16 +70,25 @@
        url('../fonts/25CABB_8_0.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'AvenirNext-Bold';
-  font-weight: bold;
-  src: url('../fonts/AvenirNext-Bold.ttf');
-}
+
 
 @font-face {
   font-family: 'AvenirNext-Regular';
   font-weight: normal;
   src: url('../fonts/AvenirNext-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'AvenirNext-Medium';
+  font-weight: bold;
+  src: url('../fonts/AvenirNext-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  font-weight: bold;
+  src: url('../fonts/AvenirNext-Bold.ttf');
 }
 
 

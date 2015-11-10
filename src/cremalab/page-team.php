@@ -28,30 +28,40 @@
 
   <div class="Cremalab__workHardPlayHardWrapper">
     <h1 class="Cremalab__workHardPlayHard--header">Work Hard, play hard</h1>
-    <div class="Cremalab__workHardPlayHardInnerWrapper">
+    <div class="Cremalab__workHardPlayHardInnerWrapper js-masonry"
+      data-masonry-options='{
+        "itemSelector": ".Cremalab__workHardPlayHardImage",
+        "columnWidth" : ".grid-sizer"
 
-      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage" alt="">
+      }'>
+
+      <img src="http://placehold.it/299x200" class="Cremalab__workHardPlayHardImage grid-sizer" alt="">
+      <img src="http://placehold.it/299x200" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x200" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage " alt="">
 
       <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x200" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x200" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x200" class="Cremalab__workHardPlayHardImage" alt="">
 
-      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x200" class="Cremalab__workHardPlayHardImage" alt="">
       <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x175" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x200" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="http://placehold.it/299x200" class="Cremalab__workHardPlayHardImage" alt="">
     </div>
   </div>
 
-<div class="Cremalab__BlueBackground--lower"></div>
+<div class="Cremalab__BlueBackground--lower">
+  <h1 class="Cremalab__pageHeaderTwo Cremalab__teamPage--joinHeader" >Want to join the team?</h1>
+  <a href="/careers" class=" Cremalab__linkCopy Cremalab__teamPage--joinAction">Check out our openings</a>
+</div>
 
-<?php get_footer(); ?>
+
 
 </div>
+
+<?php get_footer(); ?>
 
 
 

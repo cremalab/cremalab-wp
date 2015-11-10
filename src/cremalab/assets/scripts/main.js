@@ -1,7 +1,7 @@
 (function($) {
 
   var bindCancel, bindContactForm, bindSidebar, playVideo, setupScrollWatcher;
-
+  console.log('Main JS up and running');
   setupScrollWatcher = function() {
     if ($(".work-showcase").length) {
       return $(".work-showcase").each(function(i, el) {

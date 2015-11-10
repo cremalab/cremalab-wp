@@ -6,6 +6,9 @@
       ],
       "main": true
     },
+    "masonry.js":{
+      "files":["./scripts/masonry.js"]
+    },
     "modernizr.js": {
       "bower": ["modernizr"]
     },

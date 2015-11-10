@@ -21,3 +21,6 @@ while ( $loop->have_posts() ) : $loop->the_post();
   get_template_part('templates/work', 'list');
 endwhile;
 ?>
+
+
+<?php get_footer(); ?>
