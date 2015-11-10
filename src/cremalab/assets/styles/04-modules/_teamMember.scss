@@ -24,9 +24,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  justify-content: center;
-  align-items:center;
-  max-width:1200px;
+  justify-content: flex-start;
+  max-width:960px;
   margin:38px auto 150px auto;
 }
 
@@ -195,6 +194,15 @@
     column-width: 299px;
   }
 
+  .Cremalab__teamContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    max-width:640px;
+    margin:38px auto 150px auto;
+  }
+
 }
 
 @media screen and (max-width:640px){
@@ -211,5 +219,14 @@
     -webkit-column-width: 299px;
     column-count: 1;
     column-width: 299px;
+  }
+
+  .Cremalab__teamContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    max-width:320px;
+    margin:38px auto 150px auto;
   }
 }
