@@ -56,11 +56,17 @@ p{
 .Cremalab__teamQuestionsCopy{
   font-size:12px;
   text-transform: uppercase;
+  font-family:"AvenirNext-Bold";
+  margin-top:10px!important;
 }
 
 .Cremalab__teamAnswersCopy{
+  color:grey;
   font-family:'MerriWeather-Regular';
   font-size:12px;
+
+  text-transform:none;
+
 }
 
 .Cremalab__linkCopy{

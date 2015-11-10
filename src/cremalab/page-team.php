@@ -30,20 +30,20 @@
     <h1 class="Cremalab__workHardPlayHard--header">Work Hard, play hard</h1>
     <div class="Cremalab__workHardPlayHardInnerWrapper">
 
-      <img src="http://placehold.it/299x210" class="Cremalab__workHardPlayHardImage grid-sizer" alt="">
-      <img src="http://placehold.it/299x210" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x210" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage " alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH1.jpg" class="Cremalab__workHardPlayHardImage grid-sizer" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH2.jpg" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH3.jpg" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH4.jpg" class="Cremalab__workHardPlayHardImage " alt="">
 
-      <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x210" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x210" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x210" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH5.jpg" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH62.jpg" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH7.jpg" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH8.jpg" class="Cremalab__workHardPlayHardImage" alt="">
 
-      <img src="http://placehold.it/299x210" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x400" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x210" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="http://placehold.it/299x210" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH9.jpg" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH10.jpg" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH11.jpg" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="/wp-content/uploads/2015/11/WHPH12.jpg" class="Cremalab__workHardPlayHardImage" alt="">
     </div>
   </div>
 
