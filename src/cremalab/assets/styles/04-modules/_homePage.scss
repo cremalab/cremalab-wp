@@ -18,15 +18,16 @@
 
 .Cremalab__Homepage--TitleLogo{
   width:100vw;
+  position:absolute;
+  bottom:0px;
 }
 
 .Cremalab__Homepage--videoBackgroundWrapper{
-  position:relative;
-  top:-85px;
+
 }
 
 .Cremalab__Homepage-videoBackground{
-  width:100vw;
-  top:-85px;
-  position:relative;
+  position:absolute;
+  height:100vh;
+  bottom:0px;
 }
