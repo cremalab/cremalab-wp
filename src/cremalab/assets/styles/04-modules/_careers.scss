@@ -1,19 +1,8 @@
-.career-pillars {
-  background: whitesmoke
+.Cremalab__CareersPageWrapper{
+  position: relative;
 }
 
-.career_listing {
-  &:nth-child(odd) {
-    .grid {
-      direction: rtl;
-      > * {
-        direction: ltr;
-      }
-    }
-  }
+.Cremalab__CareersIntroContainer{
+  max-width:940px;
+  margin: 0 auto;
 }
-
-.career_listing-image {
-  width: unit(10);
-}
-.career_listing-content {}
