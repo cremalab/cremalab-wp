@@ -16,6 +16,7 @@
         <p class="Cremalab__teamQuestionsCopy">WHat you wanted to be when you grew up: <span class="Cremalab__teamAnswersCopy"><?php the_field('be_when_grow_up') ?></span></p>
         <p class="Cremalab__teamQuestionsCopy">What would your super power be: <span class="Cremalab__teamAnswersCopy"><?php the_field('super_power') ?></span></p>
         <p class="Cremalab__teamQuestionsCopy">Also involved in: <span class="Cremalab__teamAnswersCopy"><?php the_field('also_involved_in') ?></span></p>
+        <div class="Cremalab__teamMemberInfo--greyHightlightBar"></div>
     </div>
 
 
