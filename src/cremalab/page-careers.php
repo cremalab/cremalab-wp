@@ -60,15 +60,23 @@
 
 </div>
 
+<div class="Cremalab__CareersListWrapper">
+  <div class="Cremalab__CareersListContainer">
+  <h1 class="Cremalab__pageHeaderOne Cremalab__CareersListHeader">We're growing, so<br>come on board!</h1>
 
-
-    <?php
+  <?php
       $args = array( 'post_type' => 'career', 'posts_per_page' => 30 );
       $loop = new WP_Query( $args );
       while ( $loop->have_posts() ) : $loop->the_post();
         get_template_part('templates/career', 'list');
       endwhile;
     ?>
+  </div>
+
+
+</div>
+
+
 
 </div>
 
