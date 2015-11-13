@@ -10,7 +10,7 @@
 
 <div class="Cremalab__BlueBackground--upper"></div>
 
-<div class="Cremalab__lowerWhiteBackground"></div>
+
 
 <div class="Cremalab__teamPageWrapper">
 
