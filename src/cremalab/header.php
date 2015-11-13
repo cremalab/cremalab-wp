@@ -1,6 +1,6 @@
+<?php $pageID = get_the_ID(); ?>
 
       <?php
-        $pageID = get_the_ID();
         if($pageID == '20'){
           echo '<div class="Cremalab__Navbar--careers">';
         }else{
@@ -15,8 +15,6 @@
     <a href="/" class="Cremalab__Navbar-logoImageContainer">
 
       <?php
-        $pageID = get_the_ID();
-
         if($pageID == '2'){
           echo '<img class="Cremalab__Navbar-logoImage" src="../wp-content/themes/cremalab/assets/images/cremalab_logo.svg" alt="" />';
         }
@@ -28,8 +26,14 @@
       <span class="Cremalab__Nabar-logoTitle">Crema</span>
   </a>
 
-  <div class="Cremalab__Nav-navItems">
-       <?php wp_nav_menu() ?>
+  <?php
+    if($pageID == '2'){
+      echo '<div class="Cremalab__Nav-navItems--frontPage">';
+    } else {
+      echo '<div class="Cremalab__Nav-navItems">';
+    }
+  ?>
+  <?php wp_nav_menu() ?>
 
   </div>
 
