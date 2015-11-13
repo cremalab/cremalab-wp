@@ -16,8 +16,8 @@
       <div class="Cremalab__CareersIntroFeatures--smallImage"><img src="http://placehold.it/313x210" alt=""></div>
       <div class="Cremalab__CareersIntroFeatures--wideCopy">Wide Copy</div>
       <div class="Cremalab__CareersIntroFeatures--smallCopy">Small Copy</div>
-      <div class="Cremalab__CareersIntroFeatures--wideImage"><img src="http://placehold.it/313x210" alt=""></div>
-      <div class="Cremalab__CareersIntroFeatures--smallImage"><img src="http://placehold.it/627x210" alt=""></div>
+      <div class="Cremalab__CareersIntroFeatures--wideImage"><img src="http://placehold.it/627x210" alt=""></div>
+      <div class="Cremalab__CareersIntroFeatures--smallImage"><img src="http://placehold.it/313x210" alt=""></div>
       <div class="Cremalab__CareersIntroFeatures--smallCopy">Small Copy</div>
       <div class="Cremalab__CareersIntroFeatures--smallImage"><img src="http://placehold.it/313x210" alt=""></div>
       <div class="Cremalab__CareersIntroFeatures--smallCopy">Small Copy</div>
@@ -30,11 +30,11 @@
 
 
     <?php
-    $args = array( 'post_type' => 'career', 'posts_per_page' => 30 );
-    $loop = new WP_Query( $args );
-    while ( $loop->have_posts() ) : $loop->the_post();
-      get_template_part('templates/career', 'list');
-    endwhile;
+      $args = array( 'post_type' => 'career', 'posts_per_page' => 30 );
+      $loop = new WP_Query( $args );
+      while ( $loop->have_posts() ) : $loop->the_post();
+        get_template_part('templates/career', 'list');
+      endwhile;
     ?>
 
 </div>

@@ -3,6 +3,35 @@
 }
 
 .Cremalab__CareersIntroContainer{
-  max-width:940px;
+  max-width:945px;
   margin: 0 auto;
+}
+
+.Cremalab__CareersIntroFeatures{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  max-width: 945px;
+  margin: 0 auto;
+}
+
+.Cremalab__CareersIntroFeatures--smallImage{
+  height:210px;
+}
+.Cremalab__CareersIntroFeatures--wideImage{
+  height:210px;
+}
+
+.Cremalab__CareersIntroFeatures--wideCopy{
+  width:627px;
+  height:210px;
+  background-color:yellow;
+}
+
+.Cremalab__CareersIntroFeatures--smallCopy{
+  height:210px;
+  width:313px;
+  background-color:yellow;
 }
