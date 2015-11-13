@@ -10,40 +10,43 @@
 }
 
 .Cremalab__teamPage--joinHeader{
-  text-align: center;
   color:$cremaWhite;
+  text-align: center;
 }
 
 .Cremalab__teamPage--joinAction{
-  display:block;
   color:$cremaWhite;
+  display:block;
   text-align:center;
 }
 
 .Cremalab__teamContainer{
   display: flex;
+
   flex-direction: row;
   flex-wrap:wrap;
+
   justify-content: flex-start;
-  max-width:960px;
+
   margin:38px auto;
+  max-width:960px;
+
 }
 
 .Cremalab__teamMemberWrapper{
-  width:299px;
-  height:450px;
-  position:relative;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+  height:450px;
   margin:0 0 21px 21px;
+  position:relative;
+  width:299px;
   z-index:4;
 }
 
 .Cremalab__teamMemberPhoto{
   height: 371px;
   z-index:1;
-
 }
 
 .Cremalab__teamMemberName{
@@ -54,29 +57,28 @@
 }
 .Cremalab__teamMemberTitle{
   font-size:14px;
-  padding: 0 0 0 15px;
   margin:0;
-
+  padding: 0 0 0 15px;
 }
 
 .Cremalab__teamMemberNameTitle{
-    z-index: 3;
-    position: absolute;
-    background-color:$cremaWhite;
-    width: 100%;
-    bottom: 0;
-    height: 80px;
+  background-color:$cremaWhite;
+  bottom: 0;
+  height: 80px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
 }
 
 .Cremalab__teamMemberInfo{
+  background-color:$cremaWhite;
+  bottom:79px;
   height:0px;
+  overflow:hidden;
   padding-left:20px;
   padding-right:20px;
-  background-color:$cremaWhite;
-  width:100%;
-  overflow:hidden;
   position:absolute;
-  bottom:79px;
+  width:100%;
   z-index:2;
 }
 
@@ -86,18 +88,18 @@
 
 .Cremalab__teamMemberInfo--greyHightlightBar{
   display:none;
-  width:100%;
   height:5px;
+  width:100%;
 }
 
 .Cremalab__teamMemberInfo--greyHightlightBar:after{
-    content:"";
-    height:1px;
-    width:90%;
-    position: absolute;
     border-bottom:1px solid $cremaFooterSpacerLine;
     bottom:5px;
+    content:"";
+    height:1px;
     left:5%;
+    position: absolute;
+    width:90%;
 }
 
 .Cremalab__workHardPlayHard--header{
@@ -114,19 +116,18 @@
 
 
 .Cremalab__workHardPlayHardInnerWrapper{
-    position:relative;
-    top:20px;
-    z-index:1;
-
-    width:100%;
-    width:939px;
-    margin:0 auto;
     -moz-column-count:3;
     -moz-column-width: 299px;
     -webkit-column-count:3;
     -webkit-column-width: 299px;
     column-count: 3;
     column-width: 299px;
+    margin:0 auto;
+    position:relative;
+    top:20px;
+    width:100%;
+    width:939px;
+    z-index:1;
 }
 
 .Cremalab__workHardPlayHardImage{
@@ -140,23 +141,19 @@
 
 .Cremalab__BlueBackground{
   background-color:$cremaBlue;
-
-  width:100%;
   position:absolute;
-
-
+  width:100%;
   &--upper{
     @extend .Cremalab__BlueBackground;
-    top:0px;
     height:371px;
+    top:0px;
   }
-
   &--lower{
     @extend .Cremalab__BlueBackground;
-    padding-top:95px;
-    position:relative;
     bottom:0px;
     height:273px;
+    padding-top:95px;
+    position:relative;
   }
 }
 
@@ -165,18 +162,18 @@
 @media screen and (max-width:960px){
 
   .Cremalab__workHardPlayHardInnerWrapper{
-    position:relative;
-    top:50px;
-    z-index:1;
-    width:100%;
-    max-width:620px;
-    margin:0 auto;
     -moz-column-count:2;
     -moz-column-width: 299px;
     -webkit-column-count:2;
     -webkit-column-width: 299px;
     column-count: 2;
     column-width: 299px;
+    margin:0 auto;
+    max-width:620px;
+    position:relative;
+    top:50px;
+    width:100%;
+    z-index:1;
   }
 
   .Cremalab__teamContainer{
@@ -184,26 +181,26 @@
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: flex-start;
-    max-width:640px;
     margin:38px auto 150px auto;
+    max-width:640px;
   }
 
 }
 
 @media screen and (max-width:640px){
   .Cremalab__workHardPlayHardInnerWrapper{
-    position:relative;
-    top:50px;
-    z-index:1;
-    width:100%;
-    max-width:320px;
-    margin:0 auto;
     -moz-column-count:1;
     -moz-column-width: 299px;
     -webkit-column-count:1;
     -webkit-column-width: 299px;
     column-count: 1;
     column-width: 299px;
+    margin:0 auto;
+    max-width:320px;
+    position:relative;
+    top:50px;
+    width:100%;
+    z-index:1;
   }
 
   .Cremalab__teamContainer{
@@ -211,7 +208,7 @@
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: flex-start;
-    max-width:320px;
     margin:38px auto 150px auto;
+    max-width:320px;
   }
 }
