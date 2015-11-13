@@ -64,9 +64,7 @@ p{
   color:grey;
   font-family:'MerriWeather-Regular';
   font-size:12px;
-
   text-transform:none;
-
 }
 
 .Cremalab__linkCopy{
@@ -107,59 +105,7 @@ p{
 }
 
 
-span.subHeading {
-  display: block;
-  font-family: "AvenirLTCom-Light";
-  font-size: 77%;
-  text-transform: none;
-}
 
-a {
-  color: inherit;
-  text-decoration: underline;
-}
 
-.sub-centered {
-  text-align: center;
-}
-
-.sub-uppercase {
-  text-transform: uppercase;
-}
-
-.sub-bottomline {
-  position: relative;
-  &:after {
-    content: '';
-    display: block;
-    height: 3px;
-    background: $black-light;
-    width: 3em;
-    border-radius: .2em;
-    margin-top: .3em;
-  }
-}
-
-strong {
-  font-family: "AvenirLTCom-Black";
-}
-
-.large {
-  font-size: 1.5em;
-}
-
-ul {
-  &.sub-plain {
-    list-style: none;
-    padding: 0;
-    > * {
-
-    }
-  }
-}
-
-li {
-  @extend %verticalSpacing.half
-}
 
 
