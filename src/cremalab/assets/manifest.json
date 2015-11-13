@@ -9,6 +9,14 @@
     "modernizr.js": {
       "bower": ["modernizr"]
     },
+    "velocity.js":{
+      "bower":["velocity"]
+    },
+    "custom.js":{
+      "files": [
+        "scripts/custom.js"
+      ]
+    },
     "main.css": {
       "files": [
         "styles/main.scss"

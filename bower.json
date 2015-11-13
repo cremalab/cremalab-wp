@@ -7,13 +7,13 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "modernizr": "~2.8.3"
+    "modernizr": "~2.8.3",
+    "velocity": "~1.2.3"
   },
   "overrides": {
     "modernizr": {
-      "main": [
+      "main":
         "modernizr.js"
-      ]
     }
   }
 }

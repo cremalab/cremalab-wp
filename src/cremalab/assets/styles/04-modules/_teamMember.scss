@@ -36,24 +36,66 @@
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
-
   margin:0 0 21px 21px;
+  z-index:4;
 }
 
 .Cremalab__teamMemberPhoto{
   height: 371px;
+  z-index:1;
+
 }
 
 .Cremalab__teamMemberName{
   font-size:18px;
   padding: 5px 0 0 15px;
   margin: 0;
+
 }
 .Cremalab__teamMemberTitle{
   font-size:14px;
   padding: 0 0 0 15px;
   margin:0;
+
 }
+
+.Cremalab__teamMemberNameTitle{
+    z-index: 3;
+    position: absolute;
+    background-color:$cremaWhite;
+    width: 100%;
+    bottom: 0;
+    height: 80px;
+
+}
+
+.Cremalab__teamMemberInfo{
+  height:0px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:$cremaWhite;
+  width:100%;
+  overflow:hidden;
+  position:absolute;
+  bottom:79px;
+  z-index:2;
+}
+
+.Cremalab__teamAnswersCopy{
+  display:inline;
+}
+
+.Cremalab__teamMemberInfo:after{
+    content:"";
+    height:1px;
+    width:90%;
+    position: absolute;
+
+    bottom:5px;
+    left:5%;
+
+
+  }
 
 .Cremalab__workHardPlayHard--header{
   color: $cremaBlack;
@@ -65,35 +107,6 @@
 .Cremalab__workHardPlayHardWrapper{
   position:relative;
 }
-
-// .Cremalab__workHardPlayHardInnerWrapper{
-//     position:relative;
-//     top:50px;
-//     z-index:1;
-//     max-height:1350px;
-
-
-//     display: -ms-flexbox;
-//     display: -webkit-flex;
-//     display: flex;
-//     -webkit-flex-direction: column;
-//     -ms-flex-direction: column;
-//     flex-direction: column;
-//     -webkit-flex-wrap: wrap;
-//     -ms-flex-wrap: wrap;
-//     flex-wrap: wrap;
-//     -webkit-justify-content: flex-start;
-//     -ms-flex-pack: start;
-//     justify-content: flex-start;
-//     -webkit-align-content: center;
-//     -ms-flex-line-pack: center;
-//     align-content: center;
-//     -webkit-align-items: flex-start;
-//     -ms-flex-align: start;
-//     align-items: flex-start;
-
-//     margin:0 auto;
-// }
 
 
 .Cremalab__workHardPlayHardInnerWrapper{
@@ -142,41 +155,7 @@
     height:273px;
   }
 }
-.Cremalab__teamMemberNameTitle{
 
-}
-
-.Cremalab__teamMemberInfo{
-  display:none;
-  padding:20px;
-  background-color:$cremaWhite;
-  width:100%;
-  height:82.5%;
-  position:absolute;
-  top:0px;
-}
-
-.Cremalab__teamAnswersCopy{
-  display:inline;
-}
-
-.Cremalab__teamMemberInfo:after{
-    content:"";
-    height:1px;
-    width:90%;
-    position: absolute;
-    border-bottom:1px solid $cremaLightGrey;
-    bottom:5px;
-    left:5%;
-
-  }
-
-.Cremalab__teamMemberWrapper:hover{
-  .Cremalab__teamMemberInfo{
-    display:block;
-  }
-
-}
 
 
 @media screen and (max-width:960px){
