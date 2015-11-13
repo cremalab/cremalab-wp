@@ -69,7 +69,7 @@
 
 
 .Cremalab__Nav-navItems{
-  color:#FFFFFF;
+  color:#$cremaWhite;
   display:inline;
   font-size:16px;
   height:65px;
@@ -80,6 +80,12 @@
   }
   li:last-child{
     padding:0 55px 0 0;
+  }
+}
+
+.menu{
+  li.menu-item a{
+    color:$cremaBlack;
   }
 }
 
@@ -94,20 +100,16 @@
 }
 
 
+
 .Cremalab__Navbar-BlackHeader{
   .Cremalab__Nav-navItems{
     color:#000000;
-  }
-  .Cremalab__Navbar-logoImage{
-    g {
-      fill:#000000;
-    }
-
   }
 }
 
 
 .Cremalab__Navbar--careers{
+  @extend .Cremalab__Navbar;
   background-color: $cremaGreen;
 }
 
