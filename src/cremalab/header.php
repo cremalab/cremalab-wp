@@ -3,7 +3,10 @@
       <?php
         if($pageID == '20'){
           echo '<div class="Cremalab__Navbar--careers">';
-        }else{
+        }elseif($pageID == '42'){
+          echo '<div class="Cremalab__Navbar--contact">';
+        }
+        else{
           echo '<div class="Cremalab__Navbar">';
         }
       ?>
@@ -22,8 +25,6 @@
          echo '<img class="Cremalab__Navbar-logoImage" src="../wp-content/themes/cremalab/assets/images/cremalab_icon.svg" alt="" />';
         }
       ?>
-
-      <span class="Cremalab__Nabar-logoTitle">Crema</span>
   </a>
 
   <?php

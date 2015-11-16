@@ -3,17 +3,23 @@
   text-align:center;
   color:$cremaWhite;
   background-color:$cremaRed;
+  height:100%;
 }
 .contact-icons{
   color:$cremaWhite;
+  font-size:33px;
 }
 
 .Cremalab__ContactPage-contactlist{
   list-style-type:none;
   padding:0;
   display: block;
-  margin:0 auto;
+  margin-bottom:150px;
   li{
     display:inline;
   }
+}
+
+.Cremalab__ContactPage--spacer{
+  margin: 50px 0 50px 0;
 }
