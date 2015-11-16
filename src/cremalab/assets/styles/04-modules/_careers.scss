@@ -7,6 +7,12 @@ h1.Cremalab__CareersHeader{
   width:100%;
 }
 
+.Cremalab__Careers--listHeader{
+  font-family:'AvenirNext-Bold';
+  font-size:48px;
+}
+
+
 .Cremalab__CareersIntroContainer{
   max-width:945px;
   margin: 0 auto;
@@ -54,6 +60,9 @@ h1.Cremalab__CareersHeader{
   height:210px;
   width:313px;
 }
+#Cremalab__Careers--secondaryImage{
+  display:none;
+}
 
 .Cremalab__CareersIntroFeatures-text{
   color:$black;
@@ -80,6 +89,8 @@ h1.Cremalab__CareersHeader{
 
 .Cremalab__CareersListWrapper{
   background-color:$cremaGreen;
+  height:100%;
+  position: relative;
 }
 
 .Cremalab__CareersListContainer{
@@ -93,7 +104,33 @@ h1.Cremalab__CareersHeader{
   color:$cremaWhite;
   display:block;
   text-align:right;
+}
 
+.Cremalab__Careers-listItem{
+  position: relative;
+  background-color:$cremaWhite;
+  height:280px;
+  margin-bottom:50px;
+  padding:25px;
+
+  p{
+    font-family:'MerriWeather-Regular';
+    font-size:16px;
+    color:$cremaGrey;
+    line-height:1.7;
+  }
+}
+.Cremalab__Careers-listItem:last-child{
+  margin-bottom:150px;
+}
+
+.Cremalab__Careeers--link{
+  position: absolute;
+  bottom:25px;
+  right:35px;
+  font-family:'AvenirNext-Medium';
+  font-size:18px;
+  color:$cremaBlack;
 }
 
 @media screen and (max-width:960px){
@@ -132,11 +169,49 @@ h1.Cremalab__CareersHeader{
     font-size:48px;
     text-align:center;
   }
+}
 
-  h1.Cremalab__CareersHeader{
+@media screen and (max-width:625px){
 
+  .flex-1{
+    order:1;
+  }
+  .flex-2{
+    order:3;
+  }
+  .flex-3{
+    order:2;
+  }
+  .flex-4{
+    order:4;
+  }
+  .flex-5{
+    order:6;
+  }
+  .flex-6{
+    order:5;
+  }
+  .flex-7{
+    order:8;
+  }
+  .flex-8{
+    order:7;
+  }
+  .flex-9{
+    order:10;
+  }
+  .flex-10{
+    order:9;
   }
 
-
+  .flex-2, .flex-4{
+    max-width:313px;
+  }
+  #Cremalab__Careers--secondaryImage{
+    display:flex;
+  }
+  #Cremalab__Careers--primaryImage{
+    display:none;
+  }
 
 }

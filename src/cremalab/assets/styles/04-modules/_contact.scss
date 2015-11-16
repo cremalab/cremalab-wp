@@ -1,0 +1,19 @@
+.Cremalab__ContactPageWrapper{
+  position: relative;
+  text-align:center;
+  color:$cremaWhite;
+  background-color:$cremaRed;
+}
+.contact-icons{
+  color:$cremaWhite;
+}
+
+.Cremalab__ContactPage-contactlist{
+  list-style-type:none;
+  padding:0;
+  display: block;
+  margin:0 auto;
+  li{
+    display:inline;
+  }
+}
