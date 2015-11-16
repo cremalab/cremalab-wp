@@ -29,7 +29,7 @@
         </p>
       </div>
       <div class="Cremalab__CareersIntroFeatures--wideImage flex-4" id="Cremalab__Careers--primaryImage"><img src="http://placehold.it/626x210?text=FLEX-4" alt=""></div>
-      <div class="Cremalab__CareersIntroFeatures--wideImage flex-4" id="Cremalab__Careers--secondaryImage"><img src="http://placehold.it/313x210?text=FLEX-4" alt=""></div>
+
       <div class="Cremalab__CareersIntroFeatures--smallImage flex-5"><img src="http://placehold.it/313x210?text=FLEX-5" alt=""></div>
       <div class="Cremalab__CareersIntroFeatures--smallCopy background-grey flex-6">
         <h3 class="Cremalab__CareersIntroFeatures-Header--green">In the heart of kansas city</h3>

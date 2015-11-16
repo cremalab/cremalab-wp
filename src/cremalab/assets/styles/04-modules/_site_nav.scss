@@ -31,6 +31,15 @@
   vertical-align: middle;
 }
 
+.current-menu-item, .current_page_item{
+  a{
+    border-bottom:2px solid white;
+  }
+
+
+
+}
+
 .Cremalab__Nav-navItems{
 
   display:inline;

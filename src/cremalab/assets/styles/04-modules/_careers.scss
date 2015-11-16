@@ -7,14 +7,14 @@ h1.Cremalab__CareersHeader{
   width:100%;
 }
 
-.Cremalab__Careers--listHeader{
+.Cremalab__Careers--itemHeader{
   font-family:'AvenirNext-Bold';
   font-size:48px;
 }
 
 
 .Cremalab__CareersIntroContainer{
-  max-width:945px;
+  max-width:940px;
   margin: 0 auto;
   padding-top:55px;
 }
@@ -95,7 +95,7 @@ h1.Cremalab__CareersHeader{
 
 .Cremalab__CareersListContainer{
   padding-top:55px;
-  max-width:945px;
+  max-width:940px;
   margin:0 auto;
 }
 
@@ -124,7 +124,7 @@ h1.Cremalab__CareersHeader{
   margin-bottom:150px;
 }
 
-.Cremalab__Careeers--link{
+.Cremalab__Careers--link{
   position: absolute;
   bottom:25px;
   right:35px;
@@ -133,18 +133,20 @@ h1.Cremalab__CareersHeader{
   color:$cremaBlack;
 }
 
-@media screen and (max-width:960px){
+@media screen and (max-width:939px){
   .flex-1{
     order:1;
   }
   .flex-2{
-    order:3;
+    order:2;
+    width:313px;
   }
   .flex-3{
-    order:2;
+    order:3;
   }
   .flex-4{
     order:4;
+    width:313px;
   }
   .flex-5{
     order:5;
@@ -163,6 +165,14 @@ h1.Cremalab__CareersHeader{
   }
   .flex-10{
     order:10;
+  }
+
+  .Cremalab__Careers-listItem{
+    margin:0 15px 50px 15px;
+  }
+
+  h1.Cremalab__CareersHeader{
+    width:626px;
   }
 
   h1.Cremalab__CareersListHeader{
@@ -171,47 +181,52 @@ h1.Cremalab__CareersHeader{
   }
 }
 
-@media screen and (max-width:625px){
+@media screen and (max-width:624px){
 
   .flex-1{
     order:1;
   }
   .flex-2{
-    order:3;
-  }
-  .flex-3{
     order:2;
   }
-  .flex-4{
+  .flex-3{
     order:4;
   }
-  .flex-5{
-    order:6;
+  .flex-4{
+    order:3;
   }
-  .flex-6{
+  .flex-5{
     order:5;
   }
+  .flex-6{
+    order:6;
+  }
   .flex-7{
-    order:8;
+    display:none;
   }
   .flex-8{
-    order:7;
+    display:none;
   }
   .flex-9{
-    order:10;
+    display:none;
   }
   .flex-10{
-    order:9;
+    display:none;
   }
 
-  .flex-2, .flex-4{
-    max-width:313px;
+  .Cremalab__Careers--itemHeader{
+    text-align: center;
   }
-  #Cremalab__Careers--secondaryImage{
-    display:flex;
+  .Cremalab__Careers-listItem{
+    p{display:none;}
+
   }
-  #Cremalab__Careers--primaryImage{
-    display:none;
+  .Cremalab__Careers--link{
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    display: block;
+    text-align: center;
   }
 
 }
