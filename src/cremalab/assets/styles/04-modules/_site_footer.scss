@@ -1,0 +1,68 @@
+.Cremalab__footerWrapper{
+  background-color:$cremaFooterBackground;
+  height:450px;
+  position: relative;
+  bottom:0px;
+  width:100vw;
+}
+
+
+.Cremalab__footerTitle{
+  @extend .Cremalab__pageHeaderTwo;
+  color:$cremaWhite;
+  text-align:center;
+  position: relative;
+}
+
+.Cremalab__footerUpperContainer{
+  padding-top:61px;
+}
+.Cremalab__footerBreakLine{
+  margin: 50px 0 50px 0;
+}
+.Cremalab__footerBreakLine:after{
+  content:"";
+  height:0px;
+  position: absolute;
+  border-top:1px solid $cremaFooterSpacerLine;
+  left:5vw;
+  width:90vw;
+}
+
+.Cremalab__footerLowerContainer{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  padding-top:50px;
+  bottom:0px;
+  width:100vw;
+}
+
+.Cremalab__footerContactContainer,.Cremalab__footerSocialContainer,.Cremalab__footerHireUsContainer{
+
+  display: inline-block;
+  width:30%;
+  height:100%;
+}
+
+.Cremalab__footerContactContainer{
+  text-align: left;
+  padding-left:15%;
+}
+
+.Cremalab__footerSocialContainer{
+  text-align: center;
+}
+
+.Cremalab__footerHireUsContainer{
+  text-align: center;
+  h3{
+    text-decoration: underline;
+  }
+}
+
+
+
+.address{
+  line-height:0px;
+}
