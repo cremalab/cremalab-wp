@@ -30,7 +30,19 @@
     <h1 class="Cremalab__workHardPlayHard--header">Work Hard, play hard</h1>
     <div class="Cremalab__workHardPlayHardInnerWrapper">
 
-      <img src="/wp-content/uploads/2015/11/WHPH1.jpg" class="Cremalab__workHardPlayHardImage grid-sizer" alt="">
+
+
+      <?php
+        $image = get_field('image12');
+
+
+        echo '<pre>';
+            var_dump( $image );
+        echo '</pre>';
+
+        ?>
+        <img src="<?php echo $url; ?>" alt="" />
+
       <img src="/wp-content/uploads/2015/11/WHPH2.jpg" class="Cremalab__workHardPlayHardImage" alt="">
       <img src="/wp-content/uploads/2015/11/WHPH3.jpg" class="Cremalab__workHardPlayHardImage" alt="">
       <img src="/wp-content/uploads/2015/11/WHPH4.jpg" class="Cremalab__workHardPlayHardImage " alt="">

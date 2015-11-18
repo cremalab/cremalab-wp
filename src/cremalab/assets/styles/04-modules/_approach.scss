@@ -1,0 +1,80 @@
+.Cremalab__ApproachPageWrapper{
+  position: relative;
+
+
+}
+
+.Cremalab__ApproachPage-HeroWrapper{
+  height:725px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+  bottom:85px;
+  background:url("/wp-content/uploads/2015/11/Approach_Hero.jpg") center  no-repeat;
+  background-size: cover;
+
+
+}
+.Cremalab__ApproachPageHeading{
+  font-size:8.5vw;
+  line-height:1.25;
+  color:$cremaWhite;
+  text-align:center;
+  position: relative;
+  display:block;
+  margin:0 auto;
+  //top:18%;
+}
+
+.Cremalab__ApproachHeroImage{
+
+}
+
+
+.Cremalab__ApproachPage-StartupHeader{
+  width:100vw;
+  line-height:1;
+  font-size:5.5vw;
+  margin:0 0 66px 20px;
+}
+
+.Cremalab__ApproachPage-StartupTeamWrapper{
+  margin:0 auto;
+  position: relative;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content: center;
+  max-width:940px;
+
+}
+
+.Cremalab__ApproachPage-StartupTeam--subItem{
+  height:215px;
+  width:300px;
+  h3{
+    font-family:"AvenirNext-Bold";
+    font-size:24px;
+  }
+  p{
+    font-family:"MerriWeather-Regular";
+    font-size:16px;
+    margin:0;
+    line-height: 1.7;
+    color:$cremaGrey;
+  }
+}
+
+.Cremalab__ApproachPage-ProcessWrapper{
+  background-color:$cremaLightGrey;
+  display:block;
+  margin:0 auto;
+  
+}
+.CremalabApproachPage--ProcessHeader{
+  width:100vw;
+  line-height:1;
+  font-size:5.5vw;
+  margin:0 0 66px 75px;
+}

@@ -25,7 +25,6 @@
       <p class="Cremalab__teamMemberTitle"><?php the_field('title') ?></p>
     </div>
 
-
   </div>
 
 
