@@ -33,11 +33,50 @@
   position: relative;
   height:465px;
   overflow:hidden;
-
 }
 
 .Cremalab__Work-HeaderImage{
-
   width:100%;
+}
 
+.Cremalab__Work-HoverContainer{
+  display:none;
+  position: absolute;
+  height:100%;
+  width:100%;
+  bottom:0px;
+  background-color:rgba(245,245,245, 0.85);
+  p{
+    font-family:'MerriWeather-Regular';
+    font-size:18px;
+    width:100%;
+    text-align:center;
+    margin:0;
+  }
+}
+.Cremalab__WorkSubheader--Hover{
+  font-family:"AvenirNext-Bold";
+  text-align:center;
+  font-size:48px;
+  display:block;
+  margin:0 auto 0 auto;
+  text-decoration:none;
+  &:visited{
+    color:$cremaBlack;
+  }
+}
+
+.Cremalab__WorkSubheader--caseLink{
+  display:block;
+  font-family:"AvenirNext-Regular";
+  font-weight:600;
+  margin:0 auto;
+  text-align:center;
+  &:visited{
+    color: $cremaBlack;
+  }
+}
+
+.Cremalab__Work-HoverContainer--contentContainer{
+  padding-top:13%;
 }

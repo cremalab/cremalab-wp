@@ -8,11 +8,14 @@
   </div>
 
 
-<!--  <div class="Cremalab__Work-HoverContainer">-->
-<!--    <h3 class="Cremalab__WorkSubheader--Hover"><a href="#">--><?php //the_title() ?><!--</a></h3>-->
-<!--    <p>--><?php //the_excerpt() ?><!--</p>-->
-<!--    <a class="" href="--><?php //the_field('work_link') ?><!--">Case Study</a>-->
-<!--  </div>-->
+  <div class="Cremalab__Work-HoverContainer">
+    <div class="Cremalab__Work-HoverContainer--contentContainer">
+      <h3><a class="Cremalab__WorkSubheader--Hover" href="#"><?php the_title() ?></a></h3>
+      <p><?php the_excerpt() ?></p>
+      <a class="Cremalab__WorkSubheader--caseLink" href="<?php the_field('work_link') ?>">Case Study</a>
+    </div>
+
+  </div>
 
 
 </div>
