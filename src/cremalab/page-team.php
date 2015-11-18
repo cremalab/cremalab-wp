@@ -33,29 +33,34 @@
 
 
       <?php
-        $image = get_field('image12');
+      $image1 = get_field('workhardimage1', 27);
+      $image2 = get_field('workhardimage2', 27);
+      $image3 = get_field('workhardimage3', 27);
+      $image4 = get_field('workhardimage4', 27);
+      $image5 = get_field('workhardimage5', 27);
+      $image6 = get_field('workhardimage6', 27);
+      $image7 = get_field('workhardimage7', 27);
+      $image8 = get_field('workhardimage8', 27);
+      $image9 = get_field('workhardimage9', 27);
+      $image10 = get_field('workhardimage10', 27);
+      $image11 = get_field('workhardimage11', 27);
+      $image12 = get_field('workhardimage12', 27);
+      ?>
 
+      <img src="<?php echo $image1['url']; ?>" alt="Image1" class="Cremalab__workHardPlayHardImage">
+      <img src="<?php echo $image2['url']; ?>" alt="Image1" class="Cremalab__workHardPlayHardImage">
+      <img src="<?php echo $image3['url']; ?>" alt="Image1" class="Cremalab__workHardPlayHardImage">
+      <img src="<?php echo $image4['url']; ?>" alt="Image1" class="Cremalab__workHardPlayHardImage">
 
-        echo '<pre>';
-            var_dump( $image );
-        echo '</pre>';
+      <img src="<?php echo $image5['url']; ?>" alt="Image1" class="Cremalab__workHardPlayHardImage">
+      <img src="<?php echo $image6['url']; ?>" alt="Image1"  class="Cremalab__workHardPlayHardImage">
+      <img src="<?php echo $image7['url']; ?>" alt="Image1" class="Cremalab__workHardPlayHardImage">
+      <img src="<?php echo $image8['url']; ?>" alt="Image1" class="Cremalab__workHardPlayHardImage">
 
-        ?>
-        <img src="<?php echo $url; ?>" alt="" />
-
-      <img src="/wp-content/uploads/2015/11/WHPH2.jpg" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="/wp-content/uploads/2015/11/WHPH3.jpg" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="/wp-content/uploads/2015/11/WHPH4.jpg" class="Cremalab__workHardPlayHardImage " alt="">
-
-      <img src="/wp-content/uploads/2015/11/WHPH5.jpg" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="/wp-content/uploads/2015/11/WHPH62.jpg" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="/wp-content/uploads/2015/11/WHPH7.jpg" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="/wp-content/uploads/2015/11/WHPH8.jpg" class="Cremalab__workHardPlayHardImage" alt="">
-
-      <img src="/wp-content/uploads/2015/11/WHPH9.jpg" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="/wp-content/uploads/2015/11/WHPH10.jpg" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="/wp-content/uploads/2015/11/WHPH11.jpg" class="Cremalab__workHardPlayHardImage" alt="">
-      <img src="/wp-content/uploads/2015/11/WHPH12.jpg" class="Cremalab__workHardPlayHardImage" alt="">
+      <img src="<?php echo $image9['url']; ?>" alt="Image1" class="Cremalab__workHardPlayHardImage">
+      <img src="<?php echo $image10['url']; ?>" alt="Image1"  class="Cremalab__workHardPlayHardImage">
+      <img src="<?php echo $image11['url']; ?>" alt="Image1"  class="Cremalab__workHardPlayHardImage">
+      <img src="<?php echo $image12['url']; ?>" alt="Image1"  class="Cremalab__workHardPlayHardImage">
     </div>
   </div>
 

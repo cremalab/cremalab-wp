@@ -66,6 +66,9 @@
     <div class="Cremalab__ApproachPage--processHeaderContainer">
       <h1 class="CremalabApproachPage--ProcessHeader">Our process is not linear</h1>
     </div>
+    <div class="Cremalab__ApproachPage-ProcessAnimationWrapper">
+      <h1>Crazy Animated Hoo Ha Here</h1>
+    </div>
 
   </div>
 
