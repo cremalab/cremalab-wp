@@ -15,6 +15,16 @@
   </div>
   <div class="Cremalab__footerSocialContainer">
     <h3 class="Cremalab__footerHeader">Follow Us</h3>
+      <div class="Cremalab__footerSocialIconsWrap">
+        <span class="contact-icons icon-facebook-circle"></span>
+        <span class="contact-icons icon-twitter-circle"></span>
+        <span class="contact-icons icon-instagram"></span>
+        <span class="contact-icons icon-linked_in-circle"></span>
+        <span class="contact-icons icon-dribbble-circle"></span>
+        <span class="contact-icons icon-github-circle"></span>
+      </div>
+
+    </ul>
   </div>
   <div class="Cremalab__footerHireUsContainer">
     <h3 class="Cremalab__footerHeader"><a href="/contact">Hire Us</a></h3>
