@@ -31,14 +31,11 @@
   vertical-align: middle;
 }
 
-.current-menu-item, .current_page_item{
-  a{
-    border-bottom:2px solid white;
-  }
 
 
 
-}
+
+
 
 .Cremalab__Nav-navItems{
 
@@ -103,7 +100,11 @@
 
 
 .Cremalab__Navbar-BlackHeader{
-
+  .current-menu-item, .current_page_item {
+    a {
+      border-bottom: 2px solid $cremaBlack;
+    }
+  }
 }
 
 
@@ -111,9 +112,20 @@
 .Cremalab__Navbar--careers{
   @extend .Cremalab__Navbar;
   background-color: $cremaGreen;
+  > .current-menu-item, .current_page_item {
+    a {
+      border-bottom: 2px solid white;
+    }
+  }
 }
 
 .Cremalab__Navbar--contact{
   @extend .Cremalab__Navbar;
   background-color: $cremaRed;
+
+  > .current-menu-item, .current_page_item {
+    a {
+      border-bottom: 2px solid white;
+    }
+  }
 }

@@ -4,13 +4,13 @@
 
 <div class="Cremalab__ContactPageWrapper">
   <h1 class="Cremalab__pageHeaderOne">Work with us</h1>
-  <p class="Cremalab__linkCopy">Want to work with us?  Fill out <span>this form</span></p>
+  <p class="Cremalab__linkCopy">Want to work with us?  Fill out <span class="Cremalab__ContactPage--underline">this form.</span></p>
   <?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); } ?>
 
   <div class="Cremalab__ContactPage--spacer"></div>
 
   <h1 class="Cremalab__pageHeaderOne">Join Us</h1>
-  <p class="Cremalab__linkCopy">We're hiring.  <span>Learn more</span></p>
+  <p class="Cremalab__linkCopy">We're hiring.  <span class="Cremalab__ContactPage--underline">Learn more.</span></p>
 
   <div class="Cremalab__ContactPage--spacer"></div>
 
