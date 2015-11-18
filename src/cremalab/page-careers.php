@@ -3,6 +3,29 @@
  * Template Name: Career
  */
 ?>
+
+<?php
+
+    $joinUsImage1 = get_field('join_us_image_1', 20);
+    $joinUsImage2 = get_field('join_us_image_2', 20);
+    $joinUsImage3 = get_field('join_us_image_3', 20);
+    $joinUsImage4 = get_field('join_us_image_4', 20);
+    $joinUsImage5 = get_field('join_us_image_5', 20);
+
+    $joinUsHeader1 = get_field('join_us_text_header_1', 20);
+    $joinUsHeader2 = get_field('join_us_text_header_2', 20);
+    $joinUsHeader3 = get_field('join_us_text_header_3', 20);
+    $joinUsHeader4 = get_field('join_us_text_header_4', 20);
+    $joinUsHeader5 = get_field('join_us_text_header_5', 20);
+
+    $joinUsText1 = get_field('join_us_text_content_1', 20);
+    $joinUsText2 = get_field('join_us_text_content_2', 20);
+    $joinUsText3 = get_field('join_us_text_content_3', 20);
+    $joinUsText4 = get_field('join_us_text_content_4', 20);
+    $joinUsText5 = get_field('join_us_text_content_5', 20);
+
+?>
+
 <div class="Cremalab__Navbar-BlackHeader">
   <?php get_header(); ?>
 </div>
@@ -14,48 +37,47 @@
 
   <div class="Cremalab__CareersIntroFeatures">
       <h1 class="Cremalab__pageHeaderOne Cremalab__CareersHeader">Together, we create <br> experiences that <br> people love</h1>
-      <div class="Cremalab__CareersIntroFeatures--smallImage flex-1"><img src="http://placehold.it/313x210?text=FLEX-1" alt=""></div>
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-1">
+
+          <img src="<?php echo $joinUsImage1['url']; ?>" alt="">
+      </div>
       <div class="Cremalab__CareersIntroFeatures--wideCopy background-green flex-2">
-        <h3 class="Cremalab__CareersIntroFeatures-Header--white ">Results Based Culture</h3>
+        <h3 class="Cremalab__CareersIntroFeatures-Header--white "><?php echo $joinUsHeader1?></h3>
         <p class="Cremalab__CareersIntroFeatures-text">
-          We leverage our team's own creative instincts to empower them to work when and where they need to in order to
-          deliver the highest results, on time. FLEX-2
+          <?php echo $joinUsText1 ?>
           </p>
       </div>
       <div class="Cremalab__CareersIntroFeatures--smallCopy background-grey flex-3">
-        <h3 class="Cremalab__CareersIntroFeatures-Header--blue">Ever-flowing Coffee</h3>
+        <h3 class="Cremalab__CareersIntroFeatures-Header--blue"><?php echo $joinUsHeader2?></h3>
         <p class="Cremalab__CareersIntroFeatures-text">
-          Because we all need it FLEX-3
+            <?php echo $joinUsText2 ?>
         </p>
       </div>
-      <div class="Cremalab__CareersIntroFeatures--wideImage flex-4" id="Cremalab__Careers--primaryImage"><img src="http://placehold.it/626x210?text=FLEX-4" alt=""></div>
+      <div class="Cremalab__CareersIntroFeatures--wideImage flex-4" id="Cremalab__Careers--primaryImage"><img src="<?php echo $joinUsImage2['url']; ?>" alt=""></div>
 
-      <div class="Cremalab__CareersIntroFeatures--smallImage flex-5"><img src="http://placehold.it/313x210?text=FLEX-5" alt=""></div>
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-5"><img src="<?php echo $joinUsImage3['url']; ?>" alt=""></div>
       <div class="Cremalab__CareersIntroFeatures--smallCopy background-grey flex-6">
-        <h3 class="Cremalab__CareersIntroFeatures-Header--green">In the heart of kansas city</h3>
+        <h3 class="Cremalab__CareersIntroFeatures-Header--green"><?php echo $joinUsHeader3?></h3>
         <p class="Cremalab__CareersIntroFeatures-text">
-          We're located in the Crossroads District of Kansas City, footsteps away from some of the city's best coffee shops,
-          events, and culture. FLEX-6
+            <?php echo $joinUsText3 ?>
         </p>
       </div>
-      <div class="Cremalab__CareersIntroFeatures--smallImage flex-7"><img src="http://placehold.it/313x210?text=FLEX-7" alt=""></div>
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-7"><img src="<?php echo $joinUsImage4['url']; ?>" alt=""></div>
       <div class="Cremalab__CareersIntroFeatures--smallCopy background-blue flex-8">
         <h3 class="Cremalab__CareersIntroFeatures-Header--white">
-          Ongoing Learning FLEX-8
+            <?php echo $joinUsHeader4?>
         </h3>
         <p class="Cremalab__CareersIntroFeatures-text">
-          We want to provide an environment that allows us to exercise our minds, learn new skills, and create amazing experiences,
-          together.
+            <?php echo $joinUsText4 ?>
         </p>
       </div>
-      <div class="Cremalab__CareersIntroFeatures--smallImage flex-9"><img src="http://placehold.it/313x210?text=FLEX-9" alt=""></div>
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-9"><img src="<?php echo $joinUsImage5['url']; ?>" alt=""></div>
       <div class="Cremalab__CareersIntroFeatures--smallCopy background-green flex-10">
         <h3 class="Cremalab__CareersIntroFeatures-Header--white">
-          Team Happy Hours
+            <?php echo $joinUsHeader5?>
         </h3>
         <p class="Cremalab__CareersIntroFeatures-text">
-          Part of having a thriving team is enjoying your teammates.  And for that reason we like to get out and enjoy one another's company
-          every once in a while. FLEX-10
+            <?php echo $joinUsText5 ?>
         </p>
       </div>
   </div>

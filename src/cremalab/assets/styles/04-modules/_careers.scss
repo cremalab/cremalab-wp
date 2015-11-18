@@ -5,6 +5,7 @@
 h1.Cremalab__CareersHeader{
   align-self:flex-start;
   width:100%;
+  line-height:1.4;
 }
 
 .Cremalab__Careers--itemHeader{
@@ -40,12 +41,18 @@ h1.Cremalab__CareersHeader{
 }
 
 .Cremalab__CareersIntroFeatures--smallImage{
-
+  width:313px;
   height:210px;
+  img{
+    width:100%;
+  }
 }
 .Cremalab__CareersIntroFeatures--wideImage{
-
+  width:627px;
   height:210px;
+  img{
+    width:100%;
+  }
 }
 
 .Cremalab__CareersIntroFeatures--wideCopy{
