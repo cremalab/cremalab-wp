@@ -67,14 +67,24 @@
 }
 
 .Cremalab__ApproachPage-ProcessWrapper{
-  background-color:$cremaLightGrey;
+  background-color:$cremaSmoke;
+  position:relative;
+
+  display:block;
+  height:100%;
+  margin:0 auto;
+
+}
+.Cremalab__ApproachPage--processHeaderContainer{
+  max-width:940px;
   display:block;
   margin:0 auto;
-  
 }
+
 .CremalabApproachPage--ProcessHeader{
   width:100vw;
   line-height:1;
   font-size:5.5vw;
-  margin:0 0 66px 75px;
+  margin:0 0 66px 0;
+  padding-top:35px;
 }

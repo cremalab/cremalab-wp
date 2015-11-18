@@ -63,7 +63,10 @@
     </div>
   </div>
   <div class="Cremalab__ApproachPage-ProcessWrapper">
-    <h1 class="CremalabApproachPage--ProcessHeader">Our process is not linear</h1>
+    <div class="Cremalab__ApproachPage--processHeaderContainer">
+      <h1 class="CremalabApproachPage--ProcessHeader">Our process is not linear</h1>
+    </div>
+
   </div>
 
 </div>
