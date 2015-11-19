@@ -4,8 +4,6 @@
     <?php get_header('blog'); ?>
 </div>
 
-
-
 <article id="post-<?php the_ID(); ?>" >
 
 
