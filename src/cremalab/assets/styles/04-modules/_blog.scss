@@ -1,4 +1,13 @@
 .Cremalab__BlogIndexPageWrapper{
+  background-color:$cremaSmoke;
+}
+.Cremalab__BlogItemLinkBlock{
+  text-decoration: none;
+  color:black;
+}
+.Cremalab__BlogItemLinkBlock:visited{
+  text-decoration: none;
+  color:black;
 }
 
 .Cremalab__YellowBackground{
@@ -10,6 +19,7 @@
 }
 
 .Cremalab__BlogItemsContainer{
+
   position: relative;
   width:100%;
   margin:0 auto;
@@ -22,15 +32,18 @@
 
 .Cremalab__BlogItemWrapper{
   position: relative;
-  border:1px solid black;
+  background-color:$cremaWhite;
   width:300px;
   margin:0 20px 20px 0;
 }
 
 .Cremalab__BlogItem--indexImage{
   position: relative;
+  height:301px;
+  width:300px;
 }
 .Cremalab__BlogItem--TitleContainer{
+
   position: relative;
   height:77px;
   padding:10px;
@@ -38,6 +51,7 @@
 }
 
 .Cremalab__BlogItemTitle{
+  font-family:"AvenirNext-Bold";
   font-size:18px;
   text-transform:uppercase;
   margin:0;
@@ -90,4 +104,20 @@
 .Cremalab__BlogItemCategory--hotPink{
   @extend .Cremalab__BlogItemCategory;
   background-color:$cremaHotPink;
+}
+
+.Cremalab__BlogItem--videoIndicator{
+  position: absolute;
+  z-index: 999;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  left: 40%;
+  top: 34%;
+}
+
+.Cremalab__BlogPost--HeaderImage{
+  width:100%;
+
+  overflow:hidden;
 }

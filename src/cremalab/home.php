@@ -9,12 +9,18 @@
 
   <div class="Cremalab__BlogItemsContainer">
     <?php while (have_posts()) : the_post(); ?>
-
+    <a class="Cremalab__BlogItemLinkBlock" href="<?php the_permalink() ?>">
       <div class="Cremalab__BlogItemWrapper">
 
+        <?php $format = get_post_format( $post_id );
+        if($format == 'video'){
+          echo '<img class="Cremalab__BlogItem--videoIndicator" src="../wp-content/themes/cremalab/assets/images/videoIndicator.svg" alt="" />';
+        }
+        ?>
 
-          <img class="Cremalab__BlogItem--indexImage" src="http://placehold.it/300x301">
-
+        <!--<img class="Cremalab__BlogItem--indexImage" src="http://placehold.it/300x301">-->
+        <?php $postHeaderImage = get_field('post_intro_image') ?>
+        <img class="Cremalab__BlogItem--indexImage" src="<?php  echo $postHeaderImage['url'] ?>" alt="">
 
         <?php  $category = get_the_category(); ?>
 
@@ -34,10 +40,11 @@
             echo '<div class="Cremalab__BlogItemCategory">';
           }
         ?>
-
-
           <p><?php echo esc_html($category[0]->name) ?></p>
         </div>
+
+
+
 
 
         <div class="Cremalab__BlogItem--TitleContainer">
@@ -48,6 +55,7 @@
         </div>
 
       </div>
+  </a>
     <?php endwhile; ?>
   </div>
 
