@@ -8,15 +8,27 @@
 
 <article id="post-<?php the_ID(); ?>" >
 
+
     <?php $postHeaderImage = get_field('post_intro_image') ?>
-    <img class="Cremalab__BlogPost--HeaderImage" src="<?php  echo $postHeaderImage['url'] ?>" alt="">
-    <p>ID: <?php echo $post->ID; ?></p>
-    <header class="entry-header">
-        <p>Title:</p><?php the_title(); ?>
-    </header>
-<?php echo $post->post_content ?>
+
+
+    <div class="Cremalab__BlogPost--HeaderImage">
+        <img  src="<?php  echo $postHeaderImage['url'] ?>" alt="">
+    </div>
+        <h1 class="Cremalab__BlogPost--Title"><?php the_title(); ?></h1>
+    <?php
+    $id= get_the_ID();
+    $post=get_post($id);
+    $content = $post->post_content;
+    $authorID = $post->post_author;
+    $content_text = apply_filters('the_content', $content);
+    ?>
+
+    <p>Written by: <?php echo get_the_author_meta('first_name', $authorID); ?></p>
+
+    <?php echo $content_text ?>
 
 
 
 
-</article><!-- #post-## -->
+</article>

@@ -7,9 +7,13 @@
   <div class="Cremalab__YellowBackground"></div>
 
 
+
+
+
+
   <div class="Cremalab__BlogItemsContainer">
     <?php while (have_posts()) : the_post(); ?>
-    <a class="Cremalab__BlogItemLinkBlock" href="<?php the_permalink() ?>">
+
       <div class="Cremalab__BlogItemWrapper">
 
         <?php $format = get_post_format( $post_id );
@@ -51,11 +55,11 @@
 
           <h1 class="Cremalab__BlogItemTitle"><?php the_title(); ?></h1>
           <p class="Cremalab__BlogItemAuthor"><?= get_the_author(); ?></p>
-<!--          <a href="--><?php //the_permalink() ?><!--">Read More</a>-->
+          <a href="<?php the_permalink() ?>">Read More</a>
         </div>
 
       </div>
-  </a>
+
     <?php endwhile; ?>
   </div>
 
