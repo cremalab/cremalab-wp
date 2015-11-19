@@ -1,10 +1,12 @@
 <?php $pageID = get_the_ID(); ?>
-
+<?php //echo $pageID ?>
       <?php
         if($pageID == '20'){
           echo '<div class="Cremalab__Navbar--careers">';
         }elseif($pageID == '42'){
           echo '<div class="Cremalab__Navbar--contact">';
+        }elseif($pageID == '138'){
+          echo '<div class="Cremalab__Navbar--blog">';
         }
         else{
           echo '<div class="Cremalab__Navbar">';

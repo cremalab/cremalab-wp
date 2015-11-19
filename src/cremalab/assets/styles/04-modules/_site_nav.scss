@@ -114,7 +114,7 @@
   background-color: $cremaGreen;
   > .current-menu-item, .current_page_item {
     a {
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid $cremaWhite;
     }
   }
 }
@@ -125,7 +125,21 @@
 
   > .current-menu-item, .current_page_item {
     a {
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid $cremaWhite;
+    }
+  }
+}
+
+
+
+
+.Cremalab__Navbar--blog{
+  @extend .Cremalab__Navbar;
+  background-color: $cremaYellow;
+
+  > .current-menu-item, .current_page_item {
+    a {
+      border-bottom: 2px solid $cremaBlack;
     }
   }
 }
