@@ -25,7 +25,6 @@ teamMember.on({
 //Case Study Mouseover Action
   caseStudyCover.on({
     mouseenter:function(e){
-      console.log("EVENT:" ,e)
       var hideHeader = $(e.currentTarget.children[0].children[1]);
       var caseStudyHoverContainer = $(e.currentTarget.children[1]);
       caseStudyHoverContainer.velocity("fadeIn", {duration:250});
