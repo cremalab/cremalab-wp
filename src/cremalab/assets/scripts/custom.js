@@ -3,6 +3,8 @@
   console.log('customjs');
 var teamMember = $('.Cremalab__teamMemberWrapper');
 var caseStudyCover = $('.Cremalab__Work-EntryWrapper');
+var blogVideoPlayButton = $('.Cremalab__BlogPost--videoIndicator');
+var videoContainer =  $('.Cremalab__BlogPost-VideoOverlay');
 
 
 //Team Member info card slide-up
@@ -38,5 +40,14 @@ teamMember.on({
 
     }
   })
+
+//Start video playback on video blogposts
+blogVideoPlayButton.on({
+    click:function(e){
+        console.log('Play Button Clicked');
+        videoContainer.velocity({height:"100%"}, {duration:1000})
+    }
+})
+
 
 })(jQuery);
