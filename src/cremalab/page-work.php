@@ -1,8 +1,12 @@
+<?php
+/**
+ * Template Name: Work
+ */
+?>
 
 <div class="Cremalab__Navbar-BlackHeader">
   <?php get_header(); ?>
 </div>
-
 
 <h1 class="Cremalab__WorkHeader">Check out our work</h1>
 <?php
@@ -15,3 +19,5 @@
 
 
 <?php get_footer(); ?>
+
+

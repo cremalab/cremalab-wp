@@ -8,7 +8,7 @@
 
   <?php
   // Start the loop.
-  while ( have_posts() ) : the_post();
+
 
     /*
      * Include the Post-Format-specific template for the content.
@@ -18,7 +18,7 @@
     get_template_part( 'content', get_post_format() );
 
     // End the loop.
-  endwhile;
+
 
 
 
