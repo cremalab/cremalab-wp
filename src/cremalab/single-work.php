@@ -48,8 +48,16 @@
 </div>
 
 
-
-
+<div class="Cremalab__ContentNavContainer">
+    <?php $posts = query_posts($query_string); if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <div class="Cremalab__contentNavPrevious">
+        <?php previous_post_link( ' %link '); ?>
+    </div>
+    <div class="Cremalab__contentNavNext">
+        <?php next_post_link('  %link  '); ?>
+    </div>
+    <?php endwhile; endif; ?>
+</div>
 
 
 

@@ -56,6 +56,7 @@
 }
 .Cremalab__WorkSubheader--Hover{
   font-family:"AvenirNext-Bold";
+  color:$cremaBlack;
   text-align:center;
   font-size:48px;
   display:block;
@@ -72,6 +73,7 @@
   font-weight:600;
   margin:0 auto;
   text-align:center;
+  color:$cremaBlack;
   &:visited{
     color: $cremaBlack;
   }
@@ -80,3 +82,4 @@
 .Cremalab__Work-HoverContainer--contentContainer{
   padding-top:13%;
 }
+

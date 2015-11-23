@@ -92,10 +92,10 @@
 
 
     <div class="Cremalab__BlogItem--navLinksWrapper">
-<?php $posts = query_posts($query_string); if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <?php previous_post_link( '<div class="Cremalab__BlogItem--navLink previous">%link</div>'); ?>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <?php next_post_link('<div class="Cremalab__BlogItem--navLink next">  %link </div> '); ?>
-<?php endwhile; endif; ?>
+<?php //$posts = query_posts($query_string); if (have_posts()) : while (have_posts()) : the_post(); ?>
+<!--        --><?php //previous_post_link( '<div class="Cremalab__BlogItem--navLink previous">%link</div>'); ?>
+<!--        &nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--        --><?php //next_post_link('<div class="Cremalab__BlogItem--navLink next">  %link </div> '); ?>
+<?php //endwhile; endif; ?>
     </div>
 <?php get_footer(); ?>

@@ -30,7 +30,7 @@
 .Cremalab__caseStudyTextContainer{
   display:block;
   margin:50px auto 50px auto;
-  max-width:1100px;
+  max-width:940px;
   h1, h2, h3, h4, h5, h6{
     font-size:48px;
     margin-top:25px;
@@ -43,6 +43,109 @@
   }
 }
 
+.Cremalab__caseStudyLink{
+  font-family:"AvenirNext-Medium";
+  font-size:18px;
+
+  color:$cremaBlack;
+}
+.Cremalab__caseStudyLink:visited{
+  color:$cremaBlack
+}
+
+.soliloquy-pager{
+  display:none;
+}
+
+.soliloquy-prev{
+
+  top:85% !important;
+  left:44% !important;
+  height:67px !important;
+  width:67px !important;
+  background-color: $cremaSmoke !important;
+
+}
+.soliloquy-prev:after{
+  color:$cremaBlack;
+
+  font-size:32px;
+  display:block;
+  height:50px;
+  width:50px;
+  text-align:center;
+  //content:"\2039";
+}
+
+.soliloquy-next{
+  color:$cremaBlack !important;
+  top:85%!important;
+  right:44% !important;
+  height:67px !important;
+  width:67px !important;
+  background-color: $cremaSmoke !important;
+}
+.soliloquy-next:after{
+  color:$cremaBlack;
+  //content:'>';
+}
+
 .Cremalab__caseStudy--fullWidthImage{
   width:100%;
+}
+
+.Cremalab__contentNavPrevious{
+  height:100px;
+  width:50%;
+  min-width:50%;
+  display:inline-block;
+  border-right:2px solid $cremaGrey;
+  a{
+    font-family:"AvenirNext-Bold";
+    font-size:16px;
+    position: absolute;
+    left:45px;
+    top:40px;
+    text-decoration:none;
+    height:100px;
+    &:before{
+      font-size:16px;
+      color:$cremaBlack;
+      content:"\2039";
+    }
+    &:visited{
+      color:$cremaBlack;
+    }
+  }
+}
+
+.Cremalab__contentNavNext{
+  width:50%;
+  min-width:50%;
+  border-left:2px solid $cremaGrey;
+  text-decoration:none;
+  display:inline-block;
+  height:100px;
+  a{
+    font-family:"AvenirNext-Bold";
+    font-size:16px;
+    position: absolute;
+    right:45px;
+    top:40px;
+    text-decoration:none;
+    height:100px;
+    &:after{
+      color:$cremaBlack;\
+      content:"\203A"
+    }
+    &:visited{
+      color:$cremaBlack;
+    }
+  }
+}
+.Cremalab__ContentNavContainer{
+  position: relative;
+  width:100%;
+  border:solid 2px $cremaGrey;
+  height:100px;
 }
