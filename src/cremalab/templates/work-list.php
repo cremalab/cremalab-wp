@@ -2,8 +2,10 @@
 
 <div class="Cremalab__Work-EntryWrapper">
   <div class="Cremalab__Work-MainContainer">
-    <img src=" <?php echo $headerImage['url'] ?>" alt="" class="Cremalab__Work-HeaderImage">
-    <h3 class="Cremalab__WorkSubheader"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
+    <div class="content">
+      <img src=" <?php echo $headerImage['url'] ?>" alt="" class="Cremalab__Work-HeaderImage">
+      <h3 class="Cremalab__WorkSubheader"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
+    </div>
   </div>
 
 
