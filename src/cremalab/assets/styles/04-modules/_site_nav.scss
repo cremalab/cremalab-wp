@@ -142,3 +142,16 @@
     }
   }
 }
+
+//really awful hack to get around wp not assigning active class to the work page :( Sorry!
+
+.Cremalab__Navbar--work{
+  @extend .Cremalab__Navbar;
+  background-color: $cremaWhite;
+
+  > .Cremalab__Nav-navItems > .menu-navbar-container > ul > li:first-child{
+    a {
+      border-bottom: 2px solid $cremaBlack;
+    }
+  }
+}

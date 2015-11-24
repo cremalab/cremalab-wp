@@ -3,8 +3,8 @@
 <div class="Cremalab__Navbar-BlackHeader">
     <?php get_header(); ?>
 </div>
-
 <h1 class="Cremalab__WorkHeader">Check out our work</h1>
+
 <?php
 
     $args = array( 'post_type' => 'work', 'posts_per_page' => 10 );

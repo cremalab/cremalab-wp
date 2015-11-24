@@ -6,6 +6,8 @@
           echo '<div class="Cremalab__Navbar--contact">';
         }elseif($pageID == '40'){
           echo '<div class="Cremalab__Navbar--blog">';
+        }elseif($pageID == '180'){
+          echo '<div class="Cremalab__Navbar--work">';
         }
         else{
           echo '<div class="Cremalab__Navbar">';
