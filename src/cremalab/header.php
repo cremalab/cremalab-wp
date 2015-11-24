@@ -25,7 +25,7 @@
         }
       ?>
   </a>
-<?php echo get_the_ID(); ?>
+
   <?php
     if($pageID == '2'){
       echo '<div class="Cremalab__Nav-navItems--frontPage">';
