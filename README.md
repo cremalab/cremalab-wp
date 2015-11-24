@@ -1,4 +1,4 @@
-# KCares for Kids Walk
+# Cremalab.com Wordpress Repo
 
 This project combines the ideas of *VagrantPress* and openshift-wordpress-quickstart to get a wordpress blog running on the openshift cloud as well as a local vagrant vm development environment.
 
