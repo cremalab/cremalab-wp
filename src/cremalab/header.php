@@ -26,6 +26,8 @@
       ?>
   </a>
 
+
+
   <?php
     if($pageID == '2'){
       echo '<div class="Cremalab__Nav-navItems--frontPage">';
@@ -36,5 +38,15 @@
   <?php wp_nav_menu() ?>
 
   </div>
+
+
+<button class="c-hamburger c-hamburger--htx">
+  <span class="Cremalab__Navbar--hamburger">toggle menu
+</button>
+<span class="Cremalab__NavbarMoreLabel">More</span>
+
+<div class="Cremalab__Navbar--mobile">
+  <?php wp_nav_menu() ?>
+</div>
 
 </div>

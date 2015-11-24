@@ -50,4 +50,21 @@ blogVideoPlayButton.on({
 })
 
 
+//Mobile Menu Toggle
+  var toggles = $(".c-hamburger");
+  var mobileMenu = $('.Cremalab__Navbar--mobile');
+
+  for (var i = toggles.length - 1; i >= 0; i--) {
+    var toggle = toggles[i];
+    toggleHandler(toggle);
+  };
+
+  function toggleHandler(toggle) {
+    toggle.addEventListener( "click", function(e) {
+      e.preventDefault();
+      (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+      (this.classList.contains("is-active") === true) ? mobileMenu.velocity("fadeIn",{duration:150}) :  mobileMenu.velocity("fadeOut",{duration:150})
+    });
+  }
+
 })(jQuery);

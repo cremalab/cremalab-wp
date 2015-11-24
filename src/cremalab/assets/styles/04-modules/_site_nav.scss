@@ -158,12 +158,174 @@
 
 
 
-@media screen and (max-width:814px){
-  .Cremalab__Nav-navItems{
-    font-size:15px;
-    li{
-      padding-right:20px;
-    }
-  }
+.c-hamburger {
+  display: none;
+  position: absolute;
+  top:0;
+  right:0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
+.c-hamburger:focus {
+  outline: none;
+}
+
+.c-hamburger span.Cremalab__Navbar--hamburger {
+  display: block;
+  position: absolute;
+  top: 24px;
+  left: 14px;
+  right: 14px;
+  height: 3px;
+  width:25px;
+  background: white;
+}
+
+.c-hamburger span.Cremalab__Navbar--hamburger::before,
+.c-hamburger span.Cremalab__Navbar--hamburger::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  content: "";
+}
+
+.c-hamburger span.Cremalab__Navbar--hamburger::before {
+  top: -10px;
+}
+
+.c-hamburger span.Cremalab__Navbar--hamburger::after {
+  bottom: -10px;
+}
+
+.c-hamburger--htx {
+  background-color: transparent;
+}
+
+.c-hamburger--htx span.Cremalab__Navbar--hamburger {
+  transition: background 0s 0.3s;
+}
+
+.c-hamburger--htx span.Cremalab__Navbar--hamburger::before,
+.c-hamburger--htx span.Cremalab__Navbar--hamburger::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger--htx span.Cremalab__Navbar--hamburger::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--htx span.Cremalab__Navbar--hamburger::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+  background-color: transparent;
+}
+
+.c-hamburger--htx.is-active span.Cremalab__Navbar--hamburger {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span.Cremalab__Navbar--hamburger::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span.Cremalab__Navbar--hamburger::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span.Cremalab__Navbar--hamburger::before,
+.c-hamburger--htx.is-active span.Cremalab__Navbar--hamburger::after {
+  transition-delay: 0s, 0.3s;
+}
+
+.Cremalab__NavbarMoreLabel{
+  display:none;
+  font-size:11px;
+  position:absolute;
+  right:9px;
+  top:37px;
+  color:$cremaWhite;
+}
+
+.Cremalab__Navbar--mobile{
+  display:none;
+}
+
+@media screen and (max-width:872px){
+  .Cremalab__Navbar-logoImage{
+    height:25px;
+    top:12px;
+  }
+
+  .Cremalab__Navbar{
+    height:50px;
+  }
+  .Cremalab__Nav-navItems--frontPage,.Cremalab__Nav-navItems{
+    display:none;
+  }
+
+
+
+  .c-hamburger{
+    display:block;
+    z-index:9999;
+  }
+
+  .Cremalab__Navbar--mobile{
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100vw;
+    background-color:rgba(0, 0, 0, 0.8)
+  }
+
+  div.menu-navbar-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+  }
+  .Cremalab__NavbarMoreLabel{
+    display:block;
+  }
+
+  #menu-navbar-1{
+    text-align:center;
+    display:block;
+    margin:0 auto;
+    li{
+      a{
+        font-size:10vw;
+        color:$cremaWhite;
+        text-decoration:none;
+      }
+      a:visited{
+        color:$cremaWhite;
+      }
+    }
+  }
+
+}
