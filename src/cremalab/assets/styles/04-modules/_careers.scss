@@ -3,6 +3,7 @@
 }
 
 h1.Cremalab__CareersHeader{
+  font-size:6vw;
   align-self:flex-start;
   width:100%;
   line-height:1.4;
@@ -17,7 +18,7 @@ h1.Cremalab__CareersHeader{
 .Cremalab__CareersIntroContainer{
   max-width:940px;
   margin: 0 auto;
-  padding-top:55px;
+  padding-top:15px;
 }
 
 .Cremalab__CareersIntroFeatures{
@@ -27,7 +28,7 @@ h1.Cremalab__CareersHeader{
   justify-content: center;
   align-items:center;
 
-  margin: 55px auto;
+  margin: 10px auto;
 }
 
 .background-green{
@@ -239,6 +240,10 @@ h1.Cremalab__CareersHeader{
     left: 10%;
     display: block;
     text-align: center;
+  }
+
+  h1.Cremalab__CareersHeader{
+    width:313px;
   }
 
 }

@@ -36,7 +36,7 @@
 
 
   <div class="Cremalab__CareersIntroFeatures">
-      <h1 class="Cremalab__pageHeaderOne Cremalab__CareersHeader">Together, we create <br> experiences that <br> people love</h1>
+      <h1 class="Cremalab__CareersHeader">Together, we create <br> experiences that <br> people love</h1>
       <div class="Cremalab__CareersIntroFeatures--smallImage flex-1">
 
           <img src="<?php echo $joinUsImage1['url']; ?>" alt="">
