@@ -18,7 +18,8 @@
   font-size:48px;
   text-align: center;
   position: absolute;
-  bottom:35px;
+  bottom:0;
+  margin:0;
   left:40px;
   a{
     color:$cremaWhite;
@@ -37,6 +38,8 @@
 
 .Cremalab__Work-HeaderImage{
   width:100%;
+  height:100%;
+
 }
 
 .Cremalab__Work-HoverContainer{
