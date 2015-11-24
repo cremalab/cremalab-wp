@@ -73,12 +73,11 @@
 .Cremalab__teamMemberInfo{
   background-color:$cremaWhite;
   bottom:79px;
-  height:0px;
+  height:0;
   overflow:hidden;
   padding-left:20px;
   padding-right:20px;
   position:absolute;
-  width:100%;
   z-index:2;
 }
 
