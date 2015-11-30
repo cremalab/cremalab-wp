@@ -2,6 +2,13 @@
 // @import "compass/css3";
 // @import "compass/css3/transform";
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 // Local Imports (Order Dependant)
 @import "01-settings/**/*";
 @import "02-extends/**/*";

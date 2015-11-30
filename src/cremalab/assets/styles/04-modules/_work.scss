@@ -1,3 +1,6 @@
+
+
+
 @mixin aspect-ratio($width, $height) {
   position: relative;
   &:before {
@@ -17,11 +20,36 @@
 
 
 .Cremalab__Work-EntryWrapper{
-  position: relative;
-  display:block;
-  margin:0 auto 15px auto;
-  width:98%;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+.Cremalab__Work-ImageContainer{
+
+  position: relative;
+  width:50%;
+  height:400px;
+}
+
+.Cremalab__Work-TitleContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  padding-left:50px;
+  padding-right:50px;
+  width:50%;
+  background-color:rgba(245,245,245, 1);
+  p{
+    font-family:'MerriWeather-Regular';
+    line-height: 1.9;
+    font-size:18px;
+    width:100%;
+    margin:0 0 5px 0;
+
+  }
 }
 
 .Cremalab__WorkHeader{
@@ -29,79 +57,71 @@
   text-align:center;
   line-height:1;
   margin-bottom:38px;
+
 }
 
-.Cremalab__WorkSubheader{
-  font-family:"AvenirNext-Bold";
-  font-size:48px;
-  text-align: center;
-  position: absolute;
-  bottom:0;
-  margin:0;
-  left:40px;
-  a{
-    color:$cremaWhite;
-    text-decoration: none;
-    &:visited{
-      color: $cremaWhite;;
-    }
-  }
-}
 
-.Cremalab__Work-MainContainer{
-  position: relative;
-  height:465px;
-  overflow:hidden;
-  @include aspect-ratio(16,9);
-}
 
 .Cremalab__Work-HeaderImage{
-  min-height:100%;
-  min-width:100%;
-
-}
-
-.Cremalab__Work-HoverContainer{
-  display:none;
-  position: absolute;
   height:100%;
   width:100%;
-  bottom:0px;
-  background-color:rgba(245,245,245, 1);
-  p{
-    font-family:'MerriWeather-Regular';
-    font-size:18px;
-    width:100%;
-    text-align:center;
-    margin:0;
-  }
 }
-.Cremalab__WorkSubheader--Hover{
-  font-family:"AvenirNext-Bold";
-  color:$cremaBlack;
-  text-align:center;
-  font-size:48px;
-  display:block;
-  margin:0 auto 0 auto;
-  text-decoration:none;
-  &:visited{
-    color:$cremaBlack;
+
+.Cremalab__Work-TitleContainer--header {
+  font-family: "AvenirNext-Bold";
+  color: $cremaBlack;
+  text-align: left;
+  font-size: 48px;
+  text-decoration: none;
+  margin:0 0 15px 0;
+  &:hover{
+    color: $cremaPurple;
+  }
+
+  a {
+    color: $cremaBlack;
+    text-decoration: none;
+    margin:0;
+    &:visited {
+      color: $cremaBlack;
+    }
+    &:hover{
+      color: $cremaPurple;
+    }
+
   }
 }
 
-.Cremalab__WorkSubheader--caseLink{
+.Cremalab___Work-TitleContainer--caseLink{
   display:block;
   font-family:"AvenirNext-Regular";
-  font-weight:600;
-  margin:0 auto;
-  text-align:center;
+  font-weight:900;
+  margin-top:15px;
   color:$cremaBlack;
-  &:visited{
-    color: $cremaBlack;
+  text-decoration: none;
+  &:hover{
+    color: $cremaPurple;
+  }
+
+}
+
+
+.Cremalab-Work-Clients{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  flex-direction:row;
+  flex-wrap:wrap;
+
+  img{
+    width:25%;
   }
 }
 
-.Cremalab__Work-HoverContainer--contentContainer{
-  padding-top:13%;
+.Cremalab__Work--underline{
+  padding-bottom:5px;
+  border-bottom:2px solid $cremaBlack;
+  &:hover{
+    border-bottom:2px solid $cremaPurple;
+  }
 }
-

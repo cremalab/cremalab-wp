@@ -25,21 +25,21 @@ teamMember.on({
 });
 
 //Case Study Mouseover Action
-  caseStudyCover.on({
-    mouseenter:function(e){
-      var hideHeader = $(e.currentTarget.children[0].children[1]);
-      var caseStudyHoverContainer = $(e.currentTarget.children[1]);
-      caseStudyHoverContainer.velocity("fadeIn", {duration:250});
-      hideHeader.velocity("fadeOut", {duration:250});
-    },
-    mouseleave:function(e){
-      var hideHeader = $(e.currentTarget.children[0].children[1]);
-      var caseStudyHoverContainer = $(e.currentTarget.children[1]);
-      caseStudyHoverContainer.velocity("fadeOut", {duration:250})
-      hideHeader.velocity("fadeIn", {duration:250});
-
-    }
-  })
+//  caseStudyCover.on({
+//    mouseenter:function(e){
+//      var hideHeader = $(e.currentTarget.children[0].children[1]);
+//      var caseStudyHoverContainer = $(e.currentTarget.children[1]);
+//      caseStudyHoverContainer.velocity("fadeIn", {duration:250});
+//      hideHeader.velocity("fadeOut", {duration:250});
+//    },
+//    mouseleave:function(e){
+//      var hideHeader = $(e.currentTarget.children[0].children[1]);
+//      var caseStudyHoverContainer = $(e.currentTarget.children[1]);
+//      caseStudyHoverContainer.velocity("fadeOut", {duration:250})
+//      hideHeader.velocity("fadeIn", {duration:250});
+//
+//    }
+//  })
 
 //Start video playback on video blogposts
 blogVideoPlayButton.on({
