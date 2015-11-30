@@ -1,62 +1,50 @@
 .Cremalab__Homepage--pageWrapper{
   background:url('/wp-content/themes/cremalab/assets/images/CremaBG1_laptopDesk.jpg') no-repeat top center;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   position: relative;
 }
 
-.Cremalab__Homepage--heroWrapper{
-  position: absolute;
-  top:0;
-  height:100vh;
-  width:100vw;
+.Cremalab__Homepage-Approach{
+  height:275px;
 }
 
-.Cremalab__Homepage--relativeWrapper{
-  position:relative;
-}
-.Cremalab__Homepage-titleWrapper{
-  position:absolute;
-  bottom:74px;
-}
-
-.Cremalab__Homepage--TitleLogo{
-  width:100vw;
-  position:absolute;
-  bottom:0;
-}
-
-.Cremalab__Homepage--heroImage{
-  position: relative;
-  top:-85px;
-
-}
-
-.Cremalab__Homepage-videoBackground{
-  position:absolute;
-  height:100vh;
-  bottom:0px;
-}
-
-.Cremalab__WorkHeader--home{
+.Cremalab__Homepage-Approach--header{
   font-size:64px;
   text-align:center;
-  line-height:1;
-  margin-bottom:38px;
-  margin-top:50px;
-
+  margin:65px 0 0 0;
 }
 
+.Cremalab__Homepage-Approach--subheader{
+  font-family:'MerriWeather-Regular';
+  font-size:22px;
+  color:$cremaGrey;
+  text-align:center;
+  margin:0 0 0 0;
+}
+
+.Cremalab__Homepage-Approach--byline{
+  font-family:"AvenirNext-Bold";
+  position:relative;
+  font-size:18px;
+  display:block;
+  text-decoration: none;
+  text-align:center;
+  font-weight:900;
+  text-align:center;
+  margin:25px auto 0 auto;
+  color:$cremaBlack;
+
+  &:visited{
+    color: $cremaBlack;
+  }
+}
+
+.Cremalab__Homepage-Approach--underline{
+  border-bottom:2px solid $cremaBlack;
+}
+
+
 @media screen and (max-width:624px){
-  .Cremalab__Homepage--heroImage{
-    height:100%;
-    width:100vw;
-  }
 
-
-  .Cremalab__Homepage--TitleLogo{
-    width:100vw;
-    position:absolute;
-    bottom:0
-  }
 }

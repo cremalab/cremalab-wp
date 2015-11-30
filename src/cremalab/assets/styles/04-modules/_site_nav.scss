@@ -11,25 +11,27 @@
   z-index:999;
 }
 
-.Cremalab__Navbar-logoImageContainer{
-  display:inline;
-  height:48px;
-  width:65px;
-  margin-left:45px;
+.Cremalab__Navbar-brandTitle--Container{
+  text-decoration:none;
   position: relative;
-  width:120px;
-  color:#FFFFFF;
+  margin-left:3rem;
+
+  &:visited{
+    color:$cremaWhite;
+  }
 }
 
-.Cremalab__Navbar-logoImage{
-  display:inline;
-  height: 32px;
-  position: absolute;
-  right: 60px;
-  text-align: center;
-  top: 23px;
-  vertical-align: middle;
+
+.Cremalab__Navbar-brandTitle{
+  color: $cremaBlack;
+
 }
+
+
+.Cremalab__Navbar-brandTitle--homepage{
+  color:$cremaWhite;
+}
+
 
 
 
@@ -285,8 +287,6 @@
     display:none;
   }
 
-
-
   .c-hamburger{
     display:block;
     z-index:9999;
@@ -328,5 +328,11 @@
       }
     }
   }
+
+  //.c-hamburger-black span.Cremalab__Navbar--hamburger-black{
+  //  @extend .c-hamburger span.Cremalab__Navbar--hamburger;
+  //  background:$cremaBlack;
+  //}
+
 
 }

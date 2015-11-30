@@ -14,16 +14,13 @@
         }
       ?>
 
-    <a href="/" class="Cremalab__Navbar-logoImageContainer">
+    <a href="/" class="Cremalab__Navbar-brandTitle--Container">
 
-      <?php
-        if($pageID == '2'){
-          echo '<img class="Cremalab__Navbar-logoImage" src="../wp-content/themes/cremalab/assets/images/cremalab_logo.svg" alt="" />';
-        }
-        else {
-         echo '<img class="Cremalab__Navbar-logoImage" src="../wp-content/themes/cremalab/assets/images/cremalab_icon.svg" alt="" />';
-        }
-      ?>
+      <?php if($pageID == '2'): ?>
+        <h1 class="Cremalab__Navbar-brandTitle--homePage">Crema</h1>
+      <?php else: ?>
+        <h1 class="Cremalab__Navbar-brandTitle">Crema</h1>
+      <?php  endif; ?>
   </a>
 
 
@@ -35,15 +32,20 @@
       echo '<div class="Cremalab__Nav-navItems">';
     }
   ?>
+
   <?php wp_nav_menu() ?>
 
   </div>
 
+<!--$pageID =='180' or $pageID == '24' or $pageID == '27' or $pageID == '138' or $pageID == '20')-->
 
 <button class="c-hamburger c-hamburger--htx">
   <span class="Cremalab__Navbar--hamburger">toggle menu
 </button>
 <span class="Cremalab__NavbarMoreLabel">More</span>
+
+
+
 
 <div class="Cremalab__Navbar--mobile">
   <?php wp_nav_menu() ?>
