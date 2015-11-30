@@ -63,11 +63,11 @@
   left:44% !important;
   height:5.5vw !important;
   width:5.5vw !important;
-  background-color: $cremaSmoke !important;
+  background-color: transparent !important;
 
 }
 .soliloquy-prev:after{
-  color:$cremaBlack;
+  color:$cremaWhite !important;
 
   font-size:32px;
   display:block;
@@ -78,15 +78,15 @@
 }
 
 .soliloquy-next{
-  color:$cremaBlack !important;
+
   top:85%!important;
   right:44% !important;
   height:5.5vw !important;
   width:5.5vw !important;
-  background-color: $cremaSmoke !important;
+  background-color: transparent !important;
 }
 .soliloquy-next:after{
-  color:$cremaBlack;
+  color:$cremaWhite !important;
   //content:'>';
 }
 
@@ -110,11 +110,11 @@
     height:100px;
     &:before{
       font-size:16px;
-      color:$cremaBlack;
+      color:$cremaWhite !important;
       content:"\2039";
     }
     &:visited{
-      color:$cremaBlack;
+      color:$cremaWhite !important;
     }
   }
 }
@@ -135,11 +135,11 @@
     text-decoration:none;
     height:100px;
     &:after{
-      color:$cremaBlack;
+      color:$cremaWhite !important;
       content:"\203A";
     }
     &:visited{
-      color:$cremaBlack;
+      color:$cremaWhite !important;
     }
   }
 }
@@ -149,32 +149,3 @@
   border:solid 2px $cremaGrey;
   height:100px;
 }
-//
-//
-//@media screen and (max-width:1200px){
-//  .soliloquy-prev{
-//    //left:43% !important;
-//    height:60px !important;
-//    width:60px !important;
-//  }
-//
-//  .soliloquy-next{
-//    //right:43% !important;
-//    height:60px !important;
-//    width:60px !important;
-//  }
-//}
-//
-//@media screen and (max-width:1100px){
-//  .soliloquy-prev{
-//    //left:43% !important;
-//    height:53px !important;
-//    width:53px !important;
-//  }
-//
-//  .soliloquy-next{
-//    //right:43% !important;
-//    height:53px !important;
-//    width:53px !important;
-//  }
-//}

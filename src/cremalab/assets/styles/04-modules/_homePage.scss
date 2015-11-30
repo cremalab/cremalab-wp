@@ -44,6 +44,104 @@
   border-bottom:2px solid $cremaBlack;
 }
 
+.Cremalab__HomepageCaseStudyList{
+  width:100%;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+}
+.Cremalab__Work-EntryWrapper--Homepage{
+  width:50%;
+  position: relative;
+}
+
+.Cremalab__Work-ImageContainer--Homepage{
+
+  height:400px;
+}
+
+.Cremalab__Work-TitleContainer--Homepage{
+  display:none;
+  position: absolute;
+  top:0;
+  left:0;
+  padding-left:50px;
+  padding-right:50px;
+  width:100%;
+  height:400px;
+  background-color:$cremaPurple;
+  z-index:9999;
+  color:$cremaWhite;
+  p{
+    font-family:'MerriWeather-Regular';
+    line-height: 1.9;
+    font-size:18px;
+    width:100%;
+    margin:0 0 5px 0;
+    color:$cremaWhite;
+  }
+}
+
+.Cremalab__Work-TitleContainer--HomepageFlex{
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+.Cremalab__Work-TitleContainer--header--Homepage{
+  font-family: "AvenirNext-Bold";
+  color: $cremaWhite;
+  text-align: left;
+  font-size: 48px;
+  text-decoration: none;
+  margin:0 0 15px 0;
+  &:hover{
+    color: $cremaPurple;
+  }
+
+  a {
+    color: $cremaWhite;
+    text-decoration: none;
+    margin:0;
+    &:visited {
+      color: $cremaWhite;
+    }
+    &:hover{
+      color: $cremaPurple;
+    }
+
+  }
+}
+
+
+.Cremalab___Work-TitleContainer--caseLink--Homepage{
+  display:block;
+  font-family:"AvenirNext-Regular";
+  font-weight:900;
+  margin-top:15px;
+  color:$cremaWhite;
+  text-decoration: none;
+  &:hover{
+    color: $cremaPurple;
+  }
+}
+
+.Cremalab__Work--underline--Homepage{
+  padding-bottom:5px;
+  border-bottom:2px solid $cremaWhite;
+  &:hover{
+    border-bottom:2px solid $cremaPurple;
+  }
+}
+
+.Cremalab__WorkItem--homepage{
+  position: relative;
+}
+
 
 @media screen and (max-width:624px){
 

@@ -2,7 +2,7 @@
 (function($){
   console.log('customjs');
 var teamMember = $('.Cremalab__teamMemberWrapper');
-var caseStudyCover = $('.Cremalab__Work-EntryWrapper');
+var homePageCaseItem = $('.Cremalab__Work-EntryWrapper--Homepage');
 var blogVideoPlayButton = $('.Cremalab__BlogPost--videoIndicator');
 var videoContainer =  $('.Cremalab__BlogPost-VideoOverlay');
 
@@ -25,21 +25,21 @@ teamMember.on({
 });
 
 //Case Study Mouseover Action
-//  caseStudyCover.on({
-//    mouseenter:function(e){
-//      var hideHeader = $(e.currentTarget.children[0].children[1]);
-//      var caseStudyHoverContainer = $(e.currentTarget.children[1]);
-//      caseStudyHoverContainer.velocity("fadeIn", {duration:250});
-//      hideHeader.velocity("fadeOut", {duration:250});
-//    },
-//    mouseleave:function(e){
-//      var hideHeader = $(e.currentTarget.children[0].children[1]);
-//      var caseStudyHoverContainer = $(e.currentTarget.children[1]);
-//      caseStudyHoverContainer.velocity("fadeOut", {duration:250})
-//      hideHeader.velocity("fadeIn", {duration:250});
-//
-//    }
-//  })
+  homePageCaseItem.on({
+    mouseenter:function(e){
+      console.log('e', e);
+      var imageFade = $(e.currentTarget.children[0]);
+      var contentIn = $(e.currentTarget.children[1]);
+      //imageFade.velocity("fadeOut", {duration:"50"});
+      contentIn.velocity("fadeIn", {duration:"150"});
+
+    },
+    mouseleave:function(e){
+      var contentOut = $(e.currentTarget.children[1]);
+      contentOut.velocity("fadeOut", {duration:"150"});
+
+    }
+  });
 
 //Start video playback on video blogposts
 blogVideoPlayButton.on({
