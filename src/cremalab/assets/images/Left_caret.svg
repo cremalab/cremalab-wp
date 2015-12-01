@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="50px" viewBox="0 0 32 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,0 L50,0 L50,50 L0,50"></path>
+    </defs>
+    <g id="Updates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Page-1-Copy-3" sketch:type="MSLayerGroup" transform="translate(-9.000000, 0.000000)">
+            <mask id="mask-2" sketch:name="Clip 2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M14.5541667,24.9979167 L40.0270833,3.68125 C40.9083333,2.94166667 41.025,1.62916667 40.2875,0.745833333 C39.5479167,-0.1375 38.2333333,-0.252083333 37.3520833,0.483333333 L9.96875,23.4 C9.49583333,23.7958333 9.225,24.3833333 9.225,25 C9.225,25.6166667 9.49791667,26.2 9.96875,26.6 L37.3520833,49.516665 C37.7416667,49.8395817 38.2166667,50 38.6895833,50 C39.2833333,50 39.8729167,49.7458317 40.2895833,49.254165 C41.0270833,48.372915 40.9104167,47.0583312 40.0291667,46.3187479 L14.5541687,24.9979167" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
