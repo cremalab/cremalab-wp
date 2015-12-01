@@ -34,15 +34,23 @@
   text-align:center;
   margin:25px auto 0 auto;
   color:$cremaBlack;
+}
 
-  &:visited{
-    color: $cremaBlack;
+//nested so that the entire element triggers the hover state
+.Cremalab__Homepage-Approach--byline:hover{
+  > .Cremalab__Homepage-Approach--underline{
+    border-bottom:2px solid $cremaPurple;
   }
 }
+
+
 
 .Cremalab__Homepage-Approach--underline{
   border-bottom:2px solid $cremaBlack;
 }
+
+
+
 
 .Cremalab__HomepageCaseStudyList{
   width:100%;

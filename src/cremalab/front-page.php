@@ -8,7 +8,7 @@
 <div class="Cremalab__Homepage-Approach">
     <h1 class="Cremalab__Homepage-Approach--header">What we do</h1>
     <h3 class="Cremalab__Homepage-Approach--subheader">We create the best solutions that solve problems and better lives</h3>
-    <a class="Cremalab__Homepage-Approach--byline" href="/work"><span class="Cremalab__Homepage-Approach--underline"><span>Check out our approach</span></span></a>
+    <a class="Cremalab__Homepage-Approach--byline" href="/approach"><span class="Cremalab__Homepage-Approach--underline"><span>Check out our approach</span></span></a>
 </div>
 
 

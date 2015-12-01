@@ -55,169 +55,110 @@
   ?>
 
 
-<!--  <div class="Cremalab__CareersIntroContainer">-->
-<!---->
-<!--    <h1 class="Cremalab__CareersHeader">Together, we solve problems <br>that better lives</h1>-->
-<!---->
-<!--    <div class="CremalabCareersIntroFirstRow">-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--smallImage">-->
-<!--        <img src="--><?php //echo $joinUsImage1['url']; ?><!--" alt="">-->
-<!--      </div>-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--wideCopy background-green flex-2">-->
-<!--        <h3 class="Cremalab__CareersIntroFeatures-Header--white ">--><?php //echo $joinUsHeader1?><!--</h3>-->
-<!--        <p class="Cremalab__CareersIntroFeatures-text">-->
-<!--          --><?php //echo $joinUsText1 ?>
-<!--        </p>-->
-<!--      </div>-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--wideImage flex-4" id="Cremalab__Careers--primaryImage"><img src="--><?php //echo $joinUsImage2['url']; ?><!--" alt=""></div>-->
-<!---->
-<!--    </div>-->
-<!---->
-<!---->
-<!--    <div class="CremalabCareersIntroSecondRow">-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--smallCopy background-grey flex-3">-->
-<!--        <h3 class="Cremalab__CareersIntroFeatures-Header--blue">--><?php //echo $joinUsHeader2?><!--</h3>-->
-<!--        <p class="Cremalab__CareersIntroFeatures-text">-->
-<!--          --><?php //echo $joinUsText2 ?>
-<!--        </p>-->
-<!--      </div>-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--smallImage flex-5"><img src="--><?php //echo $joinUsImage3['url']; ?><!--" alt=""></div>-->
-<!---->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--smallCopy background-grey flex-6">-->
-<!--        <h3 class="Cremalab__CareersIntroFeatures-Header--green">--><?php //echo $joinUsHeader3?><!--</h3>-->
-<!--        <p class="Cremalab__CareersIntroFeatures-text">-->
-<!--          --><?php //echo $joinUsText3 ?>
-<!--        </p>-->
-<!--      </div>-->
-<!---->
-<!--    </div>-->
-<!---->
-<!---->
-<!--    <div class="CremalabCareersIntroThirdRow">-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--smallImage flex-7"><img src="--><?php //echo $joinUsImage4['url']; ?><!--" alt=""></div>-->
-<!---->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--smallCopy background-blue flex-8">-->
-<!--        <h3 class="Cremalab__CareersIntroFeatures-Header--white">-->
-<!--          --><?php //echo $joinUsHeader4?>
-<!--        </h3>-->
-<!--        <p class="Cremalab__CareersIntroFeatures-text">-->
-<!--          --><?php //echo $joinUsText4 ?>
-<!--        </p>-->
-<!--      </div>-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--smallImage flex-9"><img src="--><?php //echo $joinUsImage5['url']; ?><!--" alt=""></div>-->
-<!---->
-<!---->
-<!--    </div>-->
-<!---->
-<!--    <div class="CremalabCareersIntroFourthRow">-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--smallCopy background-green flex-10">-->
-<!--        <h3 class="Cremalab__CareersIntroFeatures-Header--white">-->
-<!--          --><?php //echo $joinUsHeader5?>
-<!--        </h3>-->
-<!--        <p class="Cremalab__CareersIntroFeatures-text">-->
-<!--          --><?php //echo $joinUsText5 ?>
-<!--        </p>-->
-<!--      </div>-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--smallImage flex-9"><img src="--><?php //echo $joinUsImage6['url']; ?><!--" alt=""></div>-->
-<!---->
-<!--      <div class="Cremalab__CareersIntroFeatures--wideCopy background-green flex-2">-->
-<!--        <h3 class="Cremalab__CareersIntroFeatures-Header--white ">--><?php //echo $joinUsHeader6?><!--</h3>-->
-<!--        <p class="Cremalab__CareersIntroFeatures-text">-->
-<!--          --><?php //echo $joinUsText6 ?>
-<!--        </p>-->
-<!--      </div>-->
-<!---->
-<!---->
-<!---->
-<!--    </div>-->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!--    </div>-->
+  <div class="Cremalab__CareersIntroContainer">
+    <h1 class="Cremalab__CareersHeader">Together, we solve problems <br>that better lives</h1>
+    <div class="CremalabCareersIntroFirstRow">
+      <div class="Cremalab__CareersIntroFeatures--smallImage"
+           style="background: url( <?php echo $joinUsImage1['url']?>) no-repeat top center;
+           background-size:cover;">
+
+      </div>
+      <div class="Cremalab__CareersIntroFeatures--wideCopy  flex-2">
+        <h3 class="Cremalab__CareersIntroFeatures-Header"><?php echo $joinUsHeader1?></h3>
+        <p class="Cremalab__CareersIntroFeatures-text">
+          <?php echo $joinUsText1 ?>
+        </p>
+      </div>
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-4"
+           style="background: url( <?php echo $joinUsImage2['url']?>) no-repeat top center;
+           background-size:cover;">
+      </div>
+    </div>
+
+
+    <div class="CremalabCareersIntroSecondRow">
+      <div class="Cremalab__CareersIntroFeatures--smallCopy flex-3">
+        <h3 class="Cremalab__CareersIntroFeatures-Header"><?php echo $joinUsHeader2?></h3>
+        <p class="Cremalab__CareersIntroFeatures-text">
+          <?php echo $joinUsText2 ?>
+        </p>
+      </div>
+      <div class="Cremalab__CareersIntroFeatures--wideImage flex-5"
+           style="background: url( <?php echo $joinUsImage3['url']?>) no-repeat top center;
+           background-size:cover;">
+
+      </div>
+
+
+      <div class="Cremalab__CareersIntroFeatures--smallCopy flex-6">
+        <h3 class="Cremalab__CareersIntroFeatures-Header"><?php echo $joinUsHeader3?></h3>
+        <p class="Cremalab__CareersIntroFeatures-text">
+          <?php echo $joinUsText3 ?>
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="CremalabCareersIntroThirdRow">
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-7"
+           style="background: url( <?php echo $joinUsImage4['url']?>) no-repeat top center;
+           background-size:cover;">
+      </div>
+      <div class="Cremalab__CareersIntroFeatures--smallCopy flex-8">
+        <h3 class="Cremalab__CareersIntroFeatures-Header">
+          <?php echo $joinUsHeader4?>
+        </h3>
+        <p class="Cremalab__CareersIntroFeatures-text">
+          <?php echo $joinUsText4 ?>
+        </p>
+      </div>
+      <div class="Cremalab__CareersIntroFeatures--wideImage flex-9"
+           style="background: url( <?php echo $joinUsImage5['url']?>) no-repeat top center;
+           background-size:cover;">
+    </div>
+
+
+    </div>
+
+    <div class="CremalabCareersIntroFourthRow">
+      <div class="Cremalab__CareersIntroFeatures--smallCopy flex-10">
+        <h3 class="Cremalab__CareersIntroFeatures-Header">
+          <?php echo $joinUsHeader5?>
+        </h3>
+        <p class="Cremalab__CareersIntroFeatures-text">
+          <?php echo $joinUsText5 ?>
+        </p>
+      </div>
+
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-9"
+           style="background: url( <?php echo $joinUsImage6['url']?>) no-repeat top center;
+           background-size:cover;">
+      </div>
+
+      <div class="Cremalab__CareersIntroFeatures--wideCopy flex-2">
+        <h3 class="Cremalab__CareersIntroFeatures-Header"><?php echo $joinUsHeader6?></h3>
+        <p class="Cremalab__CareersIntroFeatures-text">
+          <?php echo $joinUsText6 ?>
+        </p>
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    </div>
 
   </div>
 
-<table>
-  <tr>
-    <td class="Cremalab__CareersIntroFeatures--smallImage">
-      <img src="<?php echo $joinUsImage1['url']; ?>" alt=""></td>
-    <td class="Cremalab__CareersIntroFeatures--wideCopy">
-      <h3 class=""><?php echo $joinUsHeader1?></h3>
-      <p class="">
-        <?php echo $joinUsText1 ?>
-      </p>
-    </td>
-    <td class="Cremalab__CareersIntroFeatures--smallImage">
-      <img src="<?php echo $joinUsImage2['url']; ?>" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td class="Cremalab__CareersIntroFeatures--smallCopy">
-      <h3 class=""><?php echo $joinUsHeader2?></h3>
-      <p class="">
-        <?php echo $joinUsText2 ?>
-      </p>
-    </td>
-    <td class="Cremalab__CareersIntroFeatures--wideImage">
-      <img src="<?php echo $joinUsImage3['url']; ?>" alt="">
-    </td>
-    <td class="Cremalab__CareersIntroFeatures--smallCopy">
-      <h3 class=""><?php echo $joinUsHeader3?></h3>
-      <p class="">
-        <?php echo $joinUsText3 ?>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td><img src="<?php echo $joinUsImage4['url']; ?>" alt=""></td>
-    <td class="Cremalab__CareersIntroFeatures--smallCopy">
-      <h3 class="">
-        <?php echo $joinUsHeader4?>
-      </h3>
-      <p class="">
-        <?php echo $joinUsText4 ?>
-      </p>
-    </td>
-    <td class="Cremalab__CareersIntroFeatures--wideImage">
-      <img src="<?php echo $joinUsImage5['url']; ?>" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td class="Cremalab__CareersIntroFeatures--smallCopy" >
-      <h3 class="">
-        <?php echo $joinUsHeader5?>
-      </h3>
-      <p class="">
-        <?php echo $joinUsText5 ?>
-      </p>
-    </td>
-    <td class="Cremalab__CareersIntroFeatures--smallImage">
-      <img src="<?php echo $joinUsImage6['url']; ?>" alt="">
-    </td>
-    <td class="Cremalab__CareersIntroFeatures--wideCopy">
-      <h3 class=" "><?php echo $joinUsHeader6?></h3>
-      <p class="">
-        <?php echo $joinUsText6 ?>
-      </p>
-    </td>
-  </tr>
-</table>
+
 
 
 
