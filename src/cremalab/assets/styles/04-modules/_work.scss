@@ -31,6 +31,7 @@
   position: relative;
   width:50%;
   height:400px;
+
 }
 
 .Cremalab__Work-TitleContainer{
@@ -123,5 +124,21 @@
   border-bottom:2px solid $cremaBlack;
   &:hover{
     border-bottom:2px solid $cremaPurple;
+  }
+}
+
+@media screen and (max-width: 769px){
+  .Cremalab__Work-EntryWrapper{
+
+    .Cremalab__Work-ImageContainer{
+      width:100%;
+      order:1
+    }
+    .Cremalab__Work-TitleContainer{
+      width:100%;
+      padding-bottom:50px;
+      order:2;
+    }
+
   }
 }

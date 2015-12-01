@@ -1,18 +1,6 @@
 <?php $pageID = get_the_ID(); ?>
-      <?php
-        if($pageID == '20'){
-          echo '<div class="Cremalab__Navbar--careers">';
-        }elseif($pageID == '42'){
-          echo '<div class="Cremalab__Navbar--contact">';
-        }elseif($pageID == '40'){
-          echo '<div class="Cremalab__Navbar--blog">';
-        }elseif($pageID == '180'){
-          echo '<div class="Cremalab__Navbar--work">';
-        }
-        else{
-          echo '<div class="Cremalab__Navbar">';
-        }
-      ?>
+      <div class="Cremalab__Navbar">
+
 
     <a href="/" class="Cremalab__Navbar-brandTitle--Container">
 

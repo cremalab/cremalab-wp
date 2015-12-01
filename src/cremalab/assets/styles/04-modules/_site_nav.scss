@@ -57,6 +57,9 @@
     a{
       text-decoration: none;
       color:$cremaBlack;
+      &:hover{
+        color:$cremaPurple;
+      }
     }
   }
 }
@@ -102,6 +105,7 @@
 
 
 .Cremalab__Navbar-BlackHeader{
+  height:85px;
   .current-menu-item, .current_page_item {
     a {
       border-bottom: 2px solid $cremaPurple;

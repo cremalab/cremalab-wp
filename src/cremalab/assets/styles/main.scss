@@ -2,12 +2,7 @@
 // @import "compass/css3";
 // @import "compass/css3/transform";
 
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+
 
 // Local Imports (Order Dependant)
 @import "01-settings/**/*";
@@ -16,6 +11,19 @@ html {
 @import "04-modules/**/*";
 @import "05-layouts/**/*";
 @import "06-helpers/**/*";
+
+a:hover{
+  color:$cremaPurple;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 
 //@import "ace-github";
 //@import "highlight-github";

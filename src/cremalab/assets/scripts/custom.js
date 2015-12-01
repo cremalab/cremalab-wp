@@ -8,36 +8,31 @@ var videoContainer =  $('.Cremalab__BlogPost-VideoOverlay');
 
 
 //Team Member info card slide-up
-teamMember.on({
-  mouseenter:function(e){
-    console.log(e);
-    var slideUpContainer = $(e.currentTarget.children[1]);
-    var line = $(e.currentTarget.children[1].children[8]);
-    slideUpContainer.velocity({height:"371px"}, {duration:175});
-    line.velocity("fadeIn" , {duration:500});
-    },
-  mouseleave:function(e){
-    var slideUpContainer = $(e.currentTarget.children[1]);
-    var line = $(e.currentTarget.children[1].children[8]);
-    line.velocity("fadeOut" , {duration:50});
-    slideUpContainer.velocity({height:"0"}, {duration:175});
-  }
-});
+//teamMember.on({
+//  mouseenter:function(e){
+//    console.log(e);
+//    var slideUpContainer = $(e.currentTarget.children[1]);
+//    var line = $(e.currentTarget.children[1].children[8]);
+//    slideUpContainer.velocity({height:"371px"}, {duration:175});
+//    line.velocity("fadeIn" , {duration:500});
+//    },
+//  mouseleave:function(e){
+//    var slideUpContainer = $(e.currentTarget.children[1]);
+//    var line = $(e.currentTarget.children[1].children[8]);
+//    line.velocity("fadeOut" , {duration:50});
+//    slideUpContainer.velocity({height:"0"}, {duration:175});
+//  }
+//});
 
 //Case Study Mouseover Action
   homePageCaseItem.on({
     mouseenter:function(e){
-      console.log('e', e);
-      var imageFade = $(e.currentTarget.children[0]);
       var contentIn = $(e.currentTarget.children[1]);
-      //imageFade.velocity("fadeOut", {duration:"50"});
-      contentIn.velocity("fadeIn", {duration:"150"});
-
+      contentIn.velocity("fadeIn", {duration:"350"});
     },
     mouseleave:function(e){
       var contentOut = $(e.currentTarget.children[1]);
-      contentOut.velocity("fadeOut", {duration:"150"});
-
+      contentOut.velocity("fadeOut", {duration:"350"});
     }
   });
 
@@ -47,7 +42,7 @@ blogVideoPlayButton.on({
         console.log('Play Button Clicked');
         videoContainer.velocity({height:"100%"}, {duration:1000})
     }
-})
+});
 
 
 //Mobile Menu Toggle
