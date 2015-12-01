@@ -11,6 +11,7 @@
   z-index:999;
 }
 
+
 .Cremalab__Navbar-brandTitle--Container{
   text-decoration:none;
   position: relative;
@@ -113,6 +114,12 @@
       color: $cremaPurple;
     }
   }
+}
+
+
+.Cremalab__Navbar--contact{
+  @extend .Cremalab__Navbar-BlackHeader;
+  background-color: $cremaSmoke;
 }
 
 #menu-navbar-1 {

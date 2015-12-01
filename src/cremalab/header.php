@@ -1,5 +1,8 @@
 <?php $pageID = get_the_ID(); ?>
 
+
+
+
   <div class="Cremalab__Navbar">
 
 
@@ -7,6 +10,7 @@
       <?php if($pageID == '2'): ?>
 
         <h1 class="Cremalab__Navbar-brandTitle--homePage">Crema</h1>
+
       <?php else: ?>
         <h1 class="Cremalab__Navbar-brandTitle">Crema</h1>
       <?php  endif; ?>
@@ -20,6 +24,7 @@
     } else {
       echo '<div class="Cremalab__Nav-navItems">';
     }
+
   ?>
 
   <?php wp_nav_menu() ?>

@@ -77,4 +77,16 @@ blogVideoPlayButton.on({
     });
   }
 
+//Footer Form Show/Hide
+  var showForm = $('.Cremalab__footerUnderline')
+  var welcomeContent = $('.Cremalab__footerWelcomeContainer');
+  var formContainer = $('.Cremalab__footerFormContainer');
+  showForm.on({
+    click:function(e){
+      console.log('Form show clicked', e);
+      welcomeContent.velocity("fadeOut", {duration:150});
+      formContainer.velocity("fadeIn", {duration:150});
+    }
+  })
+
 })(jQuery);

@@ -1,8 +1,8 @@
 .Cremalab__footerWrapper{
   background-color:$cremaBlack;
-  min-height:250px;
+  height:300px;
   position: relative;
-  bottom:0px;
+
   width:100vw;
 }
 
@@ -28,12 +28,61 @@
   text-align:center;
   position: relative;
 }
+.Cremalab__footerWelcomeContainer{
 
-.Cremalab__footerUpperContainer{
-  padding-top:61px;
 }
-.Cremalab__footerBreakLine{
+.Cremalab__footerFormContainer{
+  display:none;
+  height:100%;
+  background-color:$cremaWhite;
+}
+
+#ninja_forms_form_5_cont{
+  display:block;
+  margin:0 auto;
+  width:85%;
+}
+
+label{
+  text-align:center;
+}
+
+input.ninja-forms-field{
+  color: $cremaBlue;
+  font-size:18px;
+  width:30% !important;
+  height:50px !important;
+  display:block;
+  margin:0 auto;
+  border:none;
+  border-bottom: 2px solid $cremaPurple
+}
+
+input.ninja-forms-field:focus{
+  outline:none;
+  border-bottom: 2px solid $cremaPurple;
+}
+
+#ninja_forms_form_5_progress_bar{
+  position: absolute;
+  height:10%;
+  border-radius:0;
+  width:100%;
+  bottom:0;
+}
+
+input.ninja-forms-mp-next{
+  position:absolute;
+  right:0;
+  width:35px;
+  height:25px;
+  color:red;
+  background-color: $cremaPurple;
+}
+
+.Cremalab__footerUnderline{
   border-bottom:1px solid $cremaWhite;
+  cursor: pointer;
 }
 
 
