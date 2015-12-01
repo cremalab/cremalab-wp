@@ -117,44 +117,6 @@
 
 
 
-.Cremalab__Navbar--careers{
-  @extend .Cremalab__Navbar;
-  background-color: $cremaGreen;
-  > .current-menu-item, .current_page_item {
-    a {
-      border-bottom: 2px solid $cremaPurple;
-      font-size:16px;
-      color: $cremaPurple;
-    }
-  }
-}
-
-.Cremalab__Navbar--contact{
-  @extend .Cremalab__Navbar;
-  background-color: $cremaRed;
-
-  > .current-menu-item, .current_page_item {
-    a {
-      border-bottom: 2px solid $cremaPurple;
-      font-size:16px;
-      color: $cremaPurple;
-    }
-  }
-}
-
-
-.Cremalab__Navbar--blog{
-  @extend .Cremalab__Navbar;
-  background-color: $cremaYellow;
-
-  > .current-menu-item, .current_page_item {
-    a {
-      border-bottom: 2px solid $cremaPurple;
-      font-size:16px;
-      color: $cremaPurple;
-    }
-  }
-}
 
 //really awful hack to get around wp not assigning active class to the work page :( Sorry!
 
@@ -252,6 +214,9 @@
 /* active state, i.e. menu open */
 .c-hamburger--htx.is-active {
   background-color: transparent;
+  .Cremalab__NavbarMoreLabel--black{
+
+  }
 }
 
 .c-hamburger--htx.is-active span.Cremalab__Navbar--hamburger {
@@ -261,11 +226,13 @@
 .c-hamburger--htx.is-active span.Cremalab__Navbar--hamburger::before {
   top: 0;
   transform: rotate(45deg);
+  background-color:$cremaWhite;
 }
 
 .c-hamburger--htx.is-active span.Cremalab__Navbar--hamburger::after {
   bottom: 0;
   transform: rotate(-45deg);
+  background-color:$cremaWhite;
 }
 
 .c-hamburger--htx.is-active span.Cremalab__Navbar--hamburger::before,
