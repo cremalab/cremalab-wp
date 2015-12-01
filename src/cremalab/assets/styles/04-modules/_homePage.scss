@@ -143,6 +143,18 @@
 }
 
 
-@media screen and (max-width:624px){
+@media screen and (max-width: 769px){
+
+  .Cremalab__HomepageCaseStudyList{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .Cremalab__Work-EntryWrapper--Homepage{
+    width:100%;
+    position: relative;
+  }
 
 }
