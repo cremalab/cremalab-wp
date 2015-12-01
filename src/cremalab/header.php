@@ -1,9 +1,11 @@
 <?php $pageID = get_the_ID(); ?>
-      <div class="Cremalab__Navbar">
+
+  <div class="Cremalab__Navbar">
 
 
     <a href="/" class="Cremalab__Navbar-brandTitle--Container">
       <?php if($pageID == '2'): ?>
+
         <h1 class="Cremalab__Navbar-brandTitle--homePage">Crema</h1>
       <?php else: ?>
         <h1 class="Cremalab__Navbar-brandTitle">Crema</h1>
@@ -30,10 +32,10 @@
   <button class="c-hamburger c-hamburger--black c-hamburger--htx">
     <span class="Cremalab__Navbar--hamburger">toggle menu</span>
   </button>
-  <span class="Cremalab__NavbarMoreLabel--black">More</span>
+  <span class="Cremalab__NavbarMoreLabel--black">More <?php echo $pageID ?></span>
 <?php else: ?>
   <button class="c-hamburger c-hamburger--htx">
-  <span class="Cremalab__Navbar--hamburger">toggle menu</span>
+  <span class="Cremalab__Navbar--hamburger">toggle menu <?php echo $pageID ?></span>
   </button>
   <span class="Cremalab__NavbarMoreLabel">More</span>
 <?php endif; ?>

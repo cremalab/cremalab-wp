@@ -1,6 +1,6 @@
 
 
-<div class="Cremalab__Navbar-BlackHeader">
+<div class="Cremalab__Navbar--work">
     <?php get_header(); ?>
 </div>
 
