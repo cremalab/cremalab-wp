@@ -62,4 +62,19 @@ blogVideoPlayButton.on({
     });
   }
 
+//Non Homepage Toggles
+  var togglesBlack = $(".c-hamburger-black");
+  for (var i = togglesBlack.length - 1; i >= 0; i--) {
+    var togglesB = togglesBlack[i];
+    toggleHandler(togglesB);
+  };
+
+  function toggleHandler(togglesB) {
+    togglesB.addEventListener( "click", function(e) {
+      e.preventDefault();
+      (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+      (this.classList.contains("is-active") === true) ? mobileMenu.velocity("fadeIn",{duration:150}) :  mobileMenu.velocity("fadeOut",{duration:150})
+    });
+  }
+
 })(jQuery);

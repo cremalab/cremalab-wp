@@ -282,6 +282,70 @@
   color:$cremaWhite;
 }
 
+
+.c-hamburger--black {
+  display: none;
+  position: absolute;
+  top:0;
+  right:0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.c-hamburger--black:focus {
+  outline: none;
+}
+
+.c-hamburger--black span.Cremalab__Navbar--hamburger{
+  display: block;
+  position: absolute;
+  top: 24px;
+  left: 14px;
+  right: 14px;
+  height: 3px;
+  width:25px;
+  background: $cremaBlack;
+}
+
+.c-hamburger--black span.Cremalab__Navbar--hamburger::before,
+.c-hamburger--black span.Cremalab__Navbar--hamburger::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: $cremaBlack;
+  content: "";
+}
+
+.c-hamburger--black span.Cremalab__Navbar--hamburger::before {
+  top: -10px;
+}
+
+.c-hamburger--black span.Cremalab__Navbar--hamburger::after {
+  bottom: -10px;
+}
+
+.Cremalab__NavbarMoreLabel--black{
+  display:none;
+  font-size:11px;
+  position:absolute;
+  right:9px;
+  top:37px;
+  color: $cremaBlack;
+}
+
 .Cremalab__Navbar--mobile{
   display:none;
 }
@@ -301,6 +365,10 @@
   }
 
   .c-hamburger{
+    display:block;
+    z-index:9999;
+  }
+  .c-hamburger--black{
     display:block;
     z-index:9999;
   }
@@ -326,6 +394,10 @@
     display:block;
   }
 
+  .Cremalab__NavbarMoreLabel--black{
+    display:block;
+  }
+
   #menu-navbar-1{
     text-align:center;
     display:block;
@@ -342,10 +414,7 @@
     }
   }
 
-  //.c-hamburger-black span.Cremalab__Navbar--hamburger-black{
-  //  @extend .c-hamburger span.Cremalab__Navbar--hamburger;
-  //  background:$cremaBlack;
-  //}
+
 
 
 }
