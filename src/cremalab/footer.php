@@ -1,34 +1,12 @@
 <div class="Cremalab__footerWrapper">
 
-<div class="Cremalab__footerUpperContainer">
-  <h1 class="Cremalab__footerTitle">Crema</h1>
-  <div class="Cremalab__footerBreakLine"></div>
+<div class="Cremalab__footerWelcomeContainer">
+<h1 class="Cremalab__footer--header">Work with us</h1>
+  <p class="Cremalab__footer--text">Want to work with us?  Fill out <span class="Cremalab__footerBreakLine">this form</span></p>
 </div>
 
-<div class="Cremalab__footerLowerContainer">
-  <div class="Cremalab__footerContactContainer">
-    <h3 class="Cremalab__footerHeader">Get In Touch</h3>
-    <p class="Cremalab__footerCopy"><a href="mailto:info@cremalab.com">info@cremalab.com</a></p>
-    <p class="Cremalab__footerCopy">913.735.9864</p>
-    <p class="Cremalab__footerCopy address">1815 Central St.</p>
-    <p class="Cremalab__footerCopy address">Kansas City, MO 64108</p>
-  </div>
-  <div class="Cremalab__footerSocialContainer">
-    <h3 class="Cremalab__footerHeader">Follow Us</h3>
-      <div class="Cremalab__footerSocialIconsWrap">
-        <span class="contact-icons icon-facebook-circle"></span>
-        <span class="contact-icons icon-twitter-circle"></span>
-        <span class="contact-icons icon-instagram"></span>
-        <span class="contact-icons icon-linked_in-circle"></span>
-        <span class="contact-icons icon-dribbble-circle"></span>
-        <span class="contact-icons icon-github-circle"></span>
-      </div>
-
-    </ul>
-  </div>
-  <div class="Cremalab__footerHireUsContainer">
-    <h3 class="Cremalab__footerHeader"><a href="/contact">Hire Us</a></h3>
-  </div>
+<div class="Cremalab__footerFormContainer">
+  <?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); } ?>
 </div>
 
 

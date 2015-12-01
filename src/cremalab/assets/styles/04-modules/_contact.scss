@@ -1,12 +1,15 @@
 .Cremalab__ContactPageWrapper{
   position: relative;
   text-align:center;
-  color:$cremaWhite;
-  background-color:$cremaRed;
+  color:$cremaBlack;
+  background-color:$cremaWhite;
   height:100%;
+  p{
+    font-family:"MerriWeather-Bold"
+  }
 }
 .contact-icons{
-  color:$cremaWhite;
+  color:$cremaBlack;
   font-size:33px;
 }
 
@@ -28,7 +31,7 @@
   border-bottom:2px solid black;
   a{
     text-decoration:none;
-    color:$cremaWhite;
+    color: $cremaBlack;
   }
 }
 
@@ -40,4 +43,20 @@
 
 .Cremalab__ContactPage--socialLink{
   text-decoration:none;
+}
+
+.Cremalab__ContactPage--email{
+  font-family:"MerriWeather-Bold";
+  text-decoration:none;
+  &:visited{
+    color:$cremaBlack;
+  }
+}
+.Cremalab__ContactPage--phone{
+
+
+}
+.Cremalab__ContactPage--address{
+
+  margin:0;
 }

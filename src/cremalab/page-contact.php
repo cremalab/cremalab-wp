@@ -3,12 +3,13 @@
 </div>
 
 <div class="Cremalab__ContactPageWrapper">
-  <h1 class="Cremalab__pageHeaderOne">Work with us</h1>
 
-  <div class="Cremalab__ContactPage-FormWrapper">
-    <p class="Cremalab__linkCopy">Want to work with us?  Fill out <span class="Cremalab__ContactPage--underline">this form.</span></p>
-    <?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); } ?>
-  </div>
+  <h1 class="Cremalab__pageHeaderOne">Contact us</h1>
+  <a class="Cremalab__ContactPage--email" href="#">info@cremalab.com</a>
+  <p class="Cremalab__ContactPage--phone"> 913.735.9864</p>
+  <p class="Cremalab__ContactPage--address">1815 Central St.</p>
+  <p class="Cremalab__ContactPage--address">Kansas City, MO 64108</p>
+
 
 
   <div class="Cremalab__ContactPage--spacer"></div>
