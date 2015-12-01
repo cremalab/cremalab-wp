@@ -115,7 +115,14 @@
   }
 }
 
-
+#menu-navbar-1 {
+  li.current-menu-item{
+    a {
+      border-bottom: 2px solid $cremaPurple;
+      color: $cremaPurple;
+    }
+  }
+}
 
 
 //really awful hack to get around wp not assigning active classes to pages  :( Sorry!
@@ -129,6 +136,20 @@
     a {
       border-bottom: 2px solid $cremaPurple;
       font-size:16px;
+      color: $cremaPurple;
+    }
+  }
+}
+
+.Cremalab__Navbar--work{
+  @extend .Cremalab__Navbar-BlackHeader;
+  background-color: $cremaWhite;
+
+  > .Cremalab__Navbar > .Cremalab__Navbar--mobile > .menu-navbar-container > ul#menu-navbar-1 > li:first-child{
+
+    a {
+      border-bottom: 2px solid $cremaPurple;
+      font-size:10vw;
       color: $cremaPurple;
     }
   }

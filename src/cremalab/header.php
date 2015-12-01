@@ -32,10 +32,10 @@
   <button class="c-hamburger c-hamburger--black c-hamburger--htx">
     <span class="Cremalab__Navbar--hamburger">toggle menu</span>
   </button>
-  <span class="Cremalab__NavbarMoreLabel--black">More <?php echo $pageID ?></span>
+  <span class="Cremalab__NavbarMoreLabel--black">More</span>
 <?php else: ?>
   <button class="c-hamburger c-hamburger--htx">
-  <span class="Cremalab__Navbar--hamburger">toggle menu <?php echo $pageID ?></span>
+  <span class="Cremalab__Navbar--hamburger">toggle menu</span>
   </button>
   <span class="Cremalab__NavbarMoreLabel">More</span>
 <?php endif; ?>
