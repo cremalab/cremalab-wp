@@ -9,10 +9,10 @@
     <a href="/" class="Cremalab__Navbar-brandTitle--Container">
       <?php if($pageID == '2'): ?>
 
-        <h1 class="Cremalab__Navbar-brandTitle--homePage">Crema</h1>
+        <p class="Cremalab__Navbar-brandTitle--homePage">Crema</p>
 
       <?php else: ?>
-        <h1 class="Cremalab__Navbar-brandTitle">Crema</h1>
+        <p class="Cremalab__Navbar-brandTitle">Crema</p>
       <?php  endif; ?>
   </a>
 
