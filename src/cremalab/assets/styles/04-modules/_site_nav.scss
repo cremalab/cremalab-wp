@@ -25,20 +25,20 @@
 
 .Cremalab__Navbar-brandTitle{
   color: $cremaBlack;
-
 }
-
 
 .Cremalab__Navbar-brandTitle--homepage{
   color:$cremaWhite;
 }
 
-
-
-
-
-
-
+.Cremalab__Navbar-brandImage{
+  width:150px;
+  height:45px;
+  display:inline;
+  position: absolute;
+  top:0;
+  left:0;
+}
 
 .Cremalab__Nav-navItems{
 

@@ -7,6 +7,12 @@ var blogVideoPlayButton = $('.Cremalab__BlogPost--videoIndicator');
 var videoContainer =  $('.Cremalab__BlogPost-VideoOverlay');
 
 
+  //Page transition - why doesn't this work??????
+  $(window).on('load', function(){
+    $('body').velocity("fadeIn", {duration:"1000"})
+  });
+
+
 //Team Member info card slide-up
 //teamMember.on({
 //  mouseenter:function(e){
@@ -88,5 +94,7 @@ blogVideoPlayButton.on({
       formContainer.velocity("fadeIn", {duration:150});
     }
   })
+
+
 
 })(jQuery);

@@ -1,4 +1,8 @@
-<?php $pageID = get_the_ID(); ?>
+<?php
+  $pageID = get_the_ID();
+  $whiteLogo = get_field('header_image_white', 2);
+  $blackLogo = get_field('header_image_black', 2);
+?>
 
 
 
@@ -8,11 +12,14 @@
 
     <a href="/" class="Cremalab__Navbar-brandTitle--Container">
       <?php if($pageID == '2'): ?>
+<!--        <img class="Cremalab__Navbar-brandImage" src="--><?php //echo $whiteLogo['url'] ?><!--" alt="Cremalab">-->
+          <p>Crema</p>
 
-        <p class="Cremalab__Navbar-brandTitle--homePage">Crema</p>
 
       <?php else: ?>
-        <p class="Cremalab__Navbar-brandTitle">Crema</p>
+<!--        <img class="Cremalab__Navbar-brandImage" src="--><?php //echo $blackLogo['url'] ?><!--" alt="Cremalab">-->
+        <p>Crema</p>
+
       <?php  endif; ?>
   </a>
 
