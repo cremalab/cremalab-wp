@@ -12,7 +12,7 @@
 
     <div class="Cremalab__Work-TitleContainer--Homepage">
         <div class="Cremalab__Work-TitleContainer--HomepageFlex">
-            <h3 class="Cremalab__Work-TitleContainer--header--Homepage"><a href="<?php the_permalink()?>"><?php the_title() ?></a></h3>
+            <h3 class="Cremalab__Work-TitleContainer--header--Homepage"><?php the_title() ?></h3>
             <p><?php the_excerpt() ?></p>
             <a class="Cremalab___Work-TitleContainer--caseLink--Homepage" href="<?php the_permalink()?>"><span class="Cremalab__Work--underline--Homepage">View Case Study</span></a>
         </div>

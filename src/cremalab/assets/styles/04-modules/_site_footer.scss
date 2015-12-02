@@ -44,13 +44,27 @@
 }
 
 label{
+  font-size:16px;
   text-align:center;
+  font-family:'MerriWeather-Regular';
+}
+
+textarea{
+
+}
+
+.ninja-forms-cont{
+  padding-top:50px;
+  height:95%;
 }
 
 input.ninja-forms-field{
   color: $cremaBlue;
-  font-size:18px;
-  width:30% !important;
+  font-family:'MerriWeather-Regular';
+  text-shadow:0 0 0 #000 !important;
+  -webkit-text-fill-color: transparent !important;
+  font-size:22px;
+  width:65% !important;
   height:50px !important;
   display:block;
   margin:0 auto;
@@ -60,25 +74,52 @@ input.ninja-forms-field{
 
 input.ninja-forms-field:focus{
   outline:none;
+  color: $cremaBlue;
+  font-family:'MerriWeather-Regular';
+  text-shadow:0 0 0 #000 !important;
+  -webkit-text-fill-color: transparent !important;
   border-bottom: 2px solid $cremaPurple;
 }
 
 #ninja_forms_form_5_progress_bar{
   position: absolute;
-  height:10%;
+  height:10px;
   border-radius:0;
   width:100%;
-  bottom:0;
+  bottom:50px;
 }
 
 input.ninja-forms-mp-next{
   position:absolute;
+  font-size:16px !important;
   right:0;
-  width:35px;
-  height:25px;
-  color:red;
+  bottom:75px;
+  width:25px !important;
+  height:25px !important;
+  color:$cremaWhite;
   background-color: $cremaPurple;
+  border:none;
 }
+
+
+
+
+input.ninja-forms-mp-prev{
+  position:absolute;
+  right:30px;
+  bottom:75px;
+  width:25px !important;
+  height:25px !important;
+  color: $cremaWhite;
+  background-color: $cremaPurple;
+  border:none;
+}
+
+.meter >span {
+  background-color:$cremaPurple !important;
+  border-radius:0 !important;
+ }
+
 
 .Cremalab__footerUnderline{
   border-bottom:1px solid $cremaWhite;
