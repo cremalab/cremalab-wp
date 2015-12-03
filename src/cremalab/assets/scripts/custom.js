@@ -5,17 +5,18 @@ var teamMember = $('.Cremalab__teamMemberWrapper');
 var homePageCaseItem = $('.Cremalab__Work-EntryWrapper--Homepage');
 var blogVideoPlayButton = $('.Cremalab__BlogPost--videoIndicator');
 var videoContainer =  $('.Cremalab__BlogPost-VideoOverlay');
+var teamPhotoCenterContainer = $('.Cremalab__teamContainer--centerWrapper');
 
 
-  //Page transition - why doesn't this work??????
-  $(window).on('load', function(){
+//Page transition - why doesn't this work??????
+$(window).on('load', function(){
 
-    $('body').velocity("fadeIn", {duration:"1500"});
-  });
+  $('body').velocity("fadeIn", {duration:"1500"});
+});
 
-  $('a').on('click', function(){
-    $('body').velocity("fadeOut", {duration:"500"});
-  });
+$('a').on('click', function(){
+  $('body').velocity("fadeOut", {duration:"500"});
+});
 
 
 //Team Member info card slide-up
@@ -34,6 +35,16 @@ var videoContainer =  $('.Cremalab__BlogPost-VideoOverlay');
 //    slideUpContainer.velocity({height:"0"}, {duration:175});
 //  }
 //});
+
+
+//Team Member Page Photo Sizing
+//One box is 320px;
+  $(window).on('resize', function(){
+    var numberOfPhotos = Math.floor($(window).width()/320);
+    var containerWidth = (320 * numberOfPhotos).toString()+'px';
+    teamPhotoCenterContainer.css('width', containerWidth);
+    console.log('ContainerWidth ', containerWidth);
+  });
 
 //Case Study Mouseover Action
   homePageCaseItem.on({
@@ -73,7 +84,7 @@ blogVideoPlayButton.on({
     });
   }
 
-//Non Homepage Toggles
+//Non Homepage Mobile Menu Toggles
   var togglesBlack = $(".c-hamburger-black");
   for (var i = togglesBlack.length - 1; i >= 0; i--) {
     var togglesB = togglesBlack[i];

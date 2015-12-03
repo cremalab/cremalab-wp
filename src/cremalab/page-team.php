@@ -8,14 +8,9 @@
   <?php get_header(); ?>
 </div>
 
-
-
-
-
 <div class="Cremalab__teamPageWrapper">
   <div class="Cremalab__teamContainer--centerWrapper">
     <div class="Cremalab__teamContainer">
-
         <?php
         $args = array( 'post_type' => 'team_member', 'posts_per_page' => 30 );
         $loop = new WP_Query( $args );
@@ -23,8 +18,6 @@
           get_template_part('templates/team', 'list');
         endwhile;
         ?>
-
-
     </div>
   </div>
 
