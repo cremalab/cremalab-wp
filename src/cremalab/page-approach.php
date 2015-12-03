@@ -19,49 +19,65 @@
 
   <div class="Cremalab__ApproachPage-StartupTeamWrapper">
     <h1 class="Cremalab__ApproachPage-StartupHeader">A startup team for hire</h1>
-    <div class="Cremalab__ApproachPage-StartupTeam--subItem">
-      <h3>Strategy</h3>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Discovery</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Business Model Validation</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Product Strategy</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Brand & Content Strategy</p>
-    </div>
-    <div class="Cremalab__ApproachPage-StartupTeam--subItem">
-      <h3 class="Cremalab__ApproachPage-StartupTeam--subItemHeader">Design</h3>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Interactive Design</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Product Design</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Information Architecture</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Branding</p>
-    </div>
-    <div class="Cremalab__ApproachPage-StartupTeam--subItem">
-      <h3>User Experience</h3>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">User Testing</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Usability Testing</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Quality Assurance</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Data Analytics</p>
-    </div>
-    <div class="Cremalab__ApproachPage-StartupTeam--subItem">
-      <h3>Development</h3>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Front-End Development</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Back-End Development</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Web App Development</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Hosting Environments</p>
-    </div>
-    <div class="Cremalab__ApproachPage-StartupTeam--subItem">
-      <h3>Marketing</h3>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Media Planning</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Product Awareness Strategy</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Brand Planning</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">3rd Part Sergices Profile</p>
-    </div>
-    <div class="Cremalab__ApproachPage-StartupTeam--subItem">
-      <h3>Launch & Support</h3>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Launch Strategy</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Planning Post Launch</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">New Product Development</p>
-      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Enhancements</p>
-    </div>
-  </div>
+
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Discovery</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Strategy</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Business Model Validation</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Market Research</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Responsive web design</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Visual Design</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Branding</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">User Testing</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Web app development</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Front-end development</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Information Architecture</p>
+    <p class="Cremalab__ApproachPage-StartupTeam--subItem">Usability testing</p>
+
+
+
+<!--    <div class="Cremalab__ApproachPage-StartupTeam--subItem">-->
+<!--      <h3>Strategy</h3>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Discovery</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Business Model Validation</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Product Strategy</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Brand & Content Strategy</p>-->
+<!--    </div>-->
+<!--    <div class="Cremalab__ApproachPage-StartupTeam--subItem">-->
+<!--      <h3 class="Cremalab__ApproachPage-StartupTeam--subItemHeader">Design</h3>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Interactive Design</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Product Design</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Information Architecture</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Branding</p>-->
+<!--    </div>-->
+<!--    <div class="Cremalab__ApproachPage-StartupTeam--subItem">-->
+<!--      <h3>User Experience</h3>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">User Testing</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Usability Testing</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Quality Assurance</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Data Analytics</p>-->
+<!--    </div>-->
+<!--    <div class="Cremalab__ApproachPage-StartupTeam--subItem">-->
+<!--      <h3>Development</h3>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Front-End Development</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Back-End Development</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Web App Development</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Hosting Environments</p>-->
+<!--    </div>-->
+<!--    <div class="Cremalab__ApproachPage-StartupTeam--subItem">-->
+<!--      <h3>Marketing</h3>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Media Planning</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Product Awareness Strategy</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Brand Planning</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">3rd Part Sergices Profile</p>-->
+<!--    </div>-->
+<!--    <div class="Cremalab__ApproachPage-StartupTeam--subItem">-->
+<!--      <h3>Launch & Support</h3>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Launch Strategy</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Planning Post Launch</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">New Product Development</p>-->
+<!--      <p class="Cremalab__ApproachPage-StartupTeam--subItemContent">Enhancements</p>-->
+<!--    </div>-->
+<!--  </div>-->
   <div class="Cremalab__ApproachPage-ProcessWrapper">
     <div class="Cremalab__ApproachPage--processHeaderContainer">
       <h1 class="CremalabApproachPage--ProcessHeader">Our process is not linear</h1>

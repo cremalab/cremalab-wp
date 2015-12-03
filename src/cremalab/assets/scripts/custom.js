@@ -11,11 +11,11 @@ var teamPhotoCenterContainer = $('.Cremalab__teamContainer--centerWrapper');
 //Page transition - why doesn't this work??????
 $(window).on('load', function(){
 
-  $('body').velocity("fadeIn", {duration:"1500"});
+  $('body').velocity("fadeIn", {duration:"250"});
 });
 
 $('a').on('click', function(){
-  $('body').velocity("fadeOut", {duration:"500"});
+  $('body').velocity("fadeOut", {duration:"250"});
 });
 
 

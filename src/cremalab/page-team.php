@@ -4,7 +4,7 @@
  */
 ?>
 
-<div class="Cremalab__Navbar--work">
+<div class="Cremalab__Navbar--team">
   <?php get_header(); ?>
 </div>
 

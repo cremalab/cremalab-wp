@@ -150,6 +150,13 @@
   }
 }
 
+.Cremalab__Navbar--team{
+  @extend .Cremalab__Navbar-BlackHeader;
+  background-color: $cremaWhite;
+
+
+}
+
 
 //really awful hack to get around wp not assigning active classes to pages  :( Sorry!
 
