@@ -17,7 +17,7 @@
 
 }
 .Cremalab__ApproachPageHeading{
-  font-size:8.5vw;
+  font-size:8vw;
   line-height:1.25;
   color:$cremaWhite;
   text-align:center;
@@ -36,6 +36,7 @@
   width:100vw;
   line-height:1;
   font-size:4vw;
+  text-align: center;
   margin:0 0 66px 20px;
 }
 
@@ -51,6 +52,7 @@
 }
 
 .Cremalab__ApproachPage-StartupTeam--subItem{
+  text-align: center;
   height:215px;
   width:300px;
   h3{
@@ -60,7 +62,7 @@
   p{
     font-family:"MerriWeather-Regular";
     font-size:16px;
-    margin:0;
+    margin:0 auto 20px auto;
     line-height: 1.7;
     color:$cremaGrey;
   }
@@ -76,7 +78,7 @@
 
 }
 .Cremalab__ApproachPage--processHeaderContainer{
-  max-width:940px;
+  text-align: center;
   display:block;
   margin:0 auto;
 }
@@ -84,7 +86,7 @@
 .CremalabApproachPage--ProcessHeader{
   width:100vw;
   line-height:1;
-  font-size:5.5vw;
+
   margin:0 0 66px 0;
   padding-top:35px;
 }
