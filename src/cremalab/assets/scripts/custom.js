@@ -9,7 +9,12 @@ var videoContainer =  $('.Cremalab__BlogPost-VideoOverlay');
 
   //Page transition - why doesn't this work??????
   $(window).on('load', function(){
-    $('body').velocity("fadeIn", {duration:"1000"})
+
+    $('body').velocity("fadeIn", {duration:"1500"});
+  });
+
+  $('a').on('click', function(){
+    $('body').velocity("fadeOut", {duration:"500"});
   });
 
 

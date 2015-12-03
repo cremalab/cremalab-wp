@@ -5,9 +5,10 @@
 ?>
 
 
-<div class="Cremalab__Navbar-BlackHeader">
+<div class="Cremalab__Navbar--about">
   <?php get_header(); ?>
 </div>
+
 <?php
   $trustImage = get_field('about_first_image');
   $improvementImage = get_field('about_second_image');

@@ -1,5 +1,5 @@
 
-<div class="Cremalab__Navbar--blog">
+<div class="Cremalab__Navbar--work">
     <a href="/" class="Cremalab__Navbar-logoImageContainer">
         <img class="Cremalab__Navbar-logoImage" src="../wp-content/themes/cremalab/assets/images/cremalab_icon.svg" alt="" />
     </a>

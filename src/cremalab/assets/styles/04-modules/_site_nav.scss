@@ -3,11 +3,11 @@
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   position:relative;
-  top: 0px;
-  left:0px;
+
   height:85px;
+  width:100%;
   z-index:999;
 }
 
@@ -16,7 +16,9 @@
   text-decoration:none;
   position: relative;
   margin-left:3rem;
-
+  height:100%;
+  width:150px;
+  display:inline;
   &:visited{
     color:$cremaWhite;
   }
@@ -33,11 +35,15 @@
 
 .Cremalab__Navbar-brandImage{
   width:150px;
-  height:45px;
-  display:inline;
   position: absolute;
-  top:0;
+
   left:0;
+}
+
+.Cremalab__Navbar-brandImage--white{
+  @extend .Cremalab__Navbar-brandImage;
+  top:30px;
+
 }
 
 .Cremalab__Nav-navItems{
@@ -107,6 +113,19 @@
 
 .Cremalab__Navbar-BlackHeader{
   height:85px;
+  background-color:$cremaSmoke;
+  .current-menu-item, .current_page_item {
+    a {
+      border-bottom: 2px solid $cremaPurple;
+      font-size:16px;
+      color: $cremaPurple;
+    }
+  }
+}
+
+.Cremalab__Navbar--about{
+  height:85px;
+  background-color:$cremaWhite;
   .current-menu-item, .current_page_item {
     a {
       border-bottom: 2px solid $cremaPurple;
@@ -119,7 +138,7 @@
 
 .Cremalab__Navbar--contact{
   @extend .Cremalab__Navbar-BlackHeader;
-  background-color: $cremaSmoke;
+
 }
 
 #menu-navbar-1 {

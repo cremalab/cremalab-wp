@@ -12,13 +12,11 @@
 
     <a href="/" class="Cremalab__Navbar-brandTitle--Container">
       <?php if($pageID == '2'): ?>
-<!--        <img class="Cremalab__Navbar-brandImage" src="--><?php //echo $whiteLogo['url'] ?><!--" alt="Cremalab">-->
-          <p>Crema</p>
-
-
+        <img class="Cremalab__Navbar-brandImage--white" src="<?php echo $whiteLogo['url'] ?>" alt="Cremalab">
+<!--          <p>Crema</p>-->
       <?php else: ?>
-<!--        <img class="Cremalab__Navbar-brandImage" src="--><?php //echo $blackLogo['url'] ?><!--" alt="Cremalab">-->
-        <p>Crema</p>
+        <img class="Cremalab__Navbar-brandImage" src="<?php echo $blackLogo['url'] ?>" alt="Cremalab">
+<!--        <p>Crema</p>-->
 
       <?php  endif; ?>
   </a>

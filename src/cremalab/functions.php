@@ -78,11 +78,11 @@ function deliver_mail() {
   }
 }
 
-//add_filter( 'body_class', 'my_class_names' );
-//function my_class_names( $classes ) {
-//    // add 'class-name' to the $classes array
-//    $classes[] = 'page-transition';
-//    // return the $classes array
-//    return $classes;
-//}
+add_filter( 'body_class', 'my_class_names' );
+function my_class_names( $classes ) {
+    // add 'class-name' to the $classes array
+    $classes[] = 'page-transition';
+    // return the $classes array
+    return $classes;
+}
 
