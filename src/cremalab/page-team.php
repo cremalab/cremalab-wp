@@ -47,30 +47,33 @@
 
   ?>
 
+  <h1 class="Cremalab__CareersHeader">Together, we solve problems <br>that better lives</h1>
 
   <div class="Cremalab__CareersIntroContainer">
-    <h1 class="Cremalab__CareersHeader">Together, we solve problems <br>that better lives</h1>
-    <div class="CremalabCareersIntroFirstRow">
-      <div class="Cremalab__CareersIntroFeatures--smallImage"
+
+
+
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-1"
            style="background: url( <?php echo $joinUsImage1['url']?>) no-repeat top center;
            background-size:cover;">
-
       </div>
+
       <div class="Cremalab__CareersIntroFeatures--wideCopy  flex-2">
         <h3 class="Cremalab__CareersIntroFeatures-Header"><?php echo $joinUsHeader1?></h3>
         <p class="Cremalab__CareersIntroFeatures-text">
           <?php echo $joinUsText1 ?>
         </p>
       </div>
-      <div class="Cremalab__CareersIntroFeatures--smallImage flex-4"
+
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-3"
            style="background: url( <?php echo $joinUsImage2['url']?>) no-repeat top center;
            background-size:cover;">
       </div>
-    </div>
 
 
-    <div class="CremalabCareersIntroSecondRow">
-      <div class="Cremalab__CareersIntroFeatures--smallCopy flex-3">
+
+
+      <div class="Cremalab__CareersIntroFeatures--smallCopy flex-4">
         <h3 class="Cremalab__CareersIntroFeatures-Header"><?php echo $joinUsHeader2?></h3>
         <p class="Cremalab__CareersIntroFeatures-text">
           <?php echo $joinUsText2 ?>
@@ -90,10 +93,10 @@
         </p>
       </div>
 
-    </div>
 
 
-    <div class="CremalabCareersIntroThirdRow">
+
+
       <div class="Cremalab__CareersIntroFeatures--smallImage flex-7"
            style="background: url( <?php echo $joinUsImage4['url']?>) no-repeat top center;
            background-size:cover;">
@@ -112,9 +115,9 @@
     </div>
 
 
-    </div>
 
-    <div class="CremalabCareersIntroFourthRow">
+
+
       <div class="Cremalab__CareersIntroFeatures--smallCopy flex-10">
         <h3 class="Cremalab__CareersIntroFeatures-Header">
           <?php echo $joinUsHeader5?>
@@ -124,12 +127,12 @@
         </p>
       </div>
 
-      <div class="Cremalab__CareersIntroFeatures--smallImage flex-9"
+      <div class="Cremalab__CareersIntroFeatures--smallImage flex-11"
            style="background: url( <?php echo $joinUsImage6['url']?>) no-repeat top center;
            background-size:cover;">
       </div>
 
-      <div class="Cremalab__CareersIntroFeatures--wideCopy flex-2">
+      <div class="Cremalab__CareersIntroFeatures--wideCopy flex-12">
         <h3 class="Cremalab__CareersIntroFeatures-Header"><?php echo $joinUsHeader6?></h3>
         <p class="Cremalab__CareersIntroFeatures-text">
           <?php echo $joinUsText6 ?>
@@ -138,7 +141,7 @@
 
 
 
-    </div>
+
 
 
 
@@ -156,6 +159,7 @@
 
 
   <div class="Cremalab__CareersListWrapper">
+
     <div class="Cremalab__CareersListContainer">
       <h1 class="Cremalab__CareersListHeader">We're growing, so<br>come on board!</h1>
 

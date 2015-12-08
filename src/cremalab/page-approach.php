@@ -41,11 +41,14 @@
 
 
   <div class="Cremalab__ApproachPage-ProcessWrapper">
-    <div class="Cremalab__ApproachPage--processHeaderContainer">
-      <h1 class="CremalabApproachPage--ProcessHeader">A cross-discipinary team</h1>
-    </div>
-    <div class="Cremalab__ApproachPage-ProcessAnimationWrapper">
 
+      <h1 class="CremalabApproachPage--ProcessHeader">A cross-disciplinary team</h1>
+      <div class="CremalabApproachPage--crossDisciplineImage"></div>
+
+
+    <div class="Cremalab__ApproachPage-ProcessAnimationWrapper">
+        <h1 class="CremalabApproachPage--ProcessHeader">An iterative approach</h1>
+        <img class="Cremalab__ApproachPage--processImage"   src="http://placehold.it/1200x400?text=Iterative+Approach+Wikkity+Wah+Wah+George+Animation" alt="">
     </div>
 
   </div>

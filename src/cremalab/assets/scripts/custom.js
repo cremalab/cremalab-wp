@@ -39,6 +39,14 @@ $('a').on('click', function(){
 
 //Team Member Page Photo Sizing
 //One box is 320px;
+
+  $(window).on('load', function(){
+    var numberOfPhotos = Math.floor($(window).width()/320);
+    var containerWidth = (320 * numberOfPhotos).toString()+'px';
+    teamPhotoCenterContainer.css('width', containerWidth);
+    console.log('ContainerWidth ', containerWidth);
+  });
+
   $(window).on('resize', function(){
     var numberOfPhotos = Math.floor($(window).width()/320);
     var containerWidth = (320 * numberOfPhotos).toString()+'px';
