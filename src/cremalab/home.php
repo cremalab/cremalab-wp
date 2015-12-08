@@ -1,25 +1,36 @@
-
+<!--USED FOR BLOG POSTS-->
 <div class="Cremalab__Navbar-BlackHeader">
   <?php get_header(); ?>
 </div>
+
+
 
 <div class="Cremalab__BlogIndexPageWrapper">
 
   <div class="Cremalab__BlogItemsContainer">
     <?php while (have_posts()) : the_post(); ?>
-    <a class="Cremalab__BlogItemLinkBlock" href="<?php the_permalink() ?>">
+
+      <?php
+      $postHeaderImage = get_field('blog_index_image');
+      $postTitle = get_field('blog_title');
+      $postAuthor = get_field('blog_author');
+      $postLink = get_field('blog_link');
+      $postType = get_field('blog_post_type');
+      ?>
+
+    <a class="Cremalab__BlogItemLinkBlock" href="<?php echo $postLink ?>" target="_blank">
       <div class="Cremalab__BlogItemWrapper">
-        <?php $format = get_post_format( $post_id );
-        if($format == 'video'){
+        <?php
+        if($postType == 'Video'){
           echo '<img class="Cremalab__BlogItem--videoIndicator" src="../wp-content/themes/cremalab/assets/images/videoIndicator.svg" alt="" />';
         }
         ?>
-        <?php $postHeaderImage = get_field('post_intro_image') ?>
+
         <img class="Cremalab__BlogItem--indexImage" src="<?php  echo $postHeaderImage['url'] ?>" alt="">
 
         <div class="Cremalab__BlogItem--TitleContainer">
-          <h1 class="Cremalab__BlogItemTitle"><?php the_title(); ?></h1>
-          <p class="Cremalab__BlogItemAuthor"><?= get_the_author(); ?></p>
+          <h1 class="Cremalab__BlogItemTitle"><?php echo $postTitle; ?></h1>
+          <p class="Cremalab__BlogItemAuthor"><?php echo $postAuthor; ?></p>
         </div>
       </div>
   </a>

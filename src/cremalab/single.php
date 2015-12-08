@@ -18,6 +18,7 @@
 
 ?>
 
+
 <div id="post-<?php the_ID(); ?>" >
     <?php
         $format = get_post_format( $id );

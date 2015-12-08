@@ -6,6 +6,7 @@ var homePageCaseItem = $('.Cremalab__Work-EntryWrapper--Homepage');
 var blogVideoPlayButton = $('.Cremalab__BlogPost--videoIndicator');
 var videoContainer =  $('.Cremalab__BlogPost-VideoOverlay');
 var teamPhotoCenterContainer = $('.Cremalab__teamContainer--centerWrapper');
+var blogPostListContainer = $('.Cremalab__BlogItemsContainer');
 
 
 //Page transition - why doesn't this work??????
@@ -16,6 +17,7 @@ $(window).on('load', function(){
 
 $('a').on('click', function(){
   $('body').velocity("fadeOut", {duration:"250"});
+  $('body').velocity("fadeIn", {duration:"250"});
 });
 
 
@@ -44,6 +46,7 @@ $('a').on('click', function(){
     var numberOfPhotos = Math.floor($(window).width()/320);
     var containerWidth = (320 * numberOfPhotos).toString()+'px';
     teamPhotoCenterContainer.css('width', containerWidth);
+    blogPostListContainer.css('width', containerWidth);
     console.log('ContainerWidth ', containerWidth);
   });
 
@@ -51,6 +54,7 @@ $('a').on('click', function(){
     var numberOfPhotos = Math.floor($(window).width()/320);
     var containerWidth = (320 * numberOfPhotos).toString()+'px';
     teamPhotoCenterContainer.css('width', containerWidth);
+    blogPostListContainer.css('width', containerWidth);
     console.log('ContainerWidth ', containerWidth);
   });
 
