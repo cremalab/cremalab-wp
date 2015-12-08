@@ -33,15 +33,18 @@
 
 }
 .Cremalab__footerFormContainer{
-  display:none;
-  height:100%;
+  position: absolute;
+  bottom:0;
+  height:0;
+  width:100%;
+  overflow: hidden;
   background-color:$cremaWhite;
 }
 
 #ninja_forms_form_5_cont{
   display:block;
   margin:0 auto;
-  width:85%;
+  width:65%;
 }
 
 label{

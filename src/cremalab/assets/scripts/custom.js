@@ -12,12 +12,7 @@ var blogPostListContainer = $('.Cremalab__BlogItemsContainer');
 //Page transition - why doesn't this work??????
 $(window).on('load', function(){
 
-  $('body').velocity("fadeIn", {duration:"250"});
-});
-
-$('a').on('click', function(){
-  $('body').velocity("fadeOut", {duration:"250"});
-  $('body').velocity("fadeIn", {duration:"250"});
+  $('body').velocity("fadeIn", {duration:"50"});
 });
 
 
@@ -114,12 +109,14 @@ blogVideoPlayButton.on({
 //Footer Form Show/Hide
   var showForm = $('.Cremalab__footerUnderline')
   var welcomeContent = $('.Cremalab__footerWelcomeContainer');
+  var footerHeight = $('.Cremalab__footerWrapper').height();
   var formContainer = $('.Cremalab__footerFormContainer');
   showForm.on({
     click:function(e){
-      console.log('Form show clicked', e);
-      welcomeContent.velocity("fadeOut", {duration:150});
-      formContainer.velocity("fadeIn", {duration:150});
+
+
+      welcomeContent.velocity({height:0},[500, 20]);
+      formContainer.velocity({height:300}, [500, 20]);
     }
   })
 
