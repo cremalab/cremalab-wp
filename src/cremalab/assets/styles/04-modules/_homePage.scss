@@ -1,8 +1,14 @@
 .Cremalab__Homepage--pageWrapper{
-  background:url('/wp-content/themes/cremalab/assets/images/CremaBG1_laptopDesk.jpg') no-repeat top center;
-  background-size: cover;
   height: 90vh;
   position: relative;
+  width:100%;
+
+  video{
+    position:absolute;
+    top:-10px;
+
+    width:100%;
+  }
 }
 
 .Cremalab__Homepage-Approach{

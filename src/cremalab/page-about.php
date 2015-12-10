@@ -28,9 +28,9 @@
   <h2 class="Cremalab__About--subheader">1. Trust</h2>
   <div class="Cremalab__About-TrustTriangleWrapper">
 
-      <img class="Cremalab__About-image" src=" <?php echo $trustImage['url']?>" alt="">
+      <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/trustTriangle.png" alt="Trust">
 
-    
+
   </div>
   <div class="Cremalab__AboutCopyWrapper">
     <p class="Cremalab__About-copy" >Our team works to earn the trust of our clients and vendors.
@@ -42,7 +42,7 @@
 
 
   <h2 class="Cremalab__About--subheader">2. Constant Improvement</h2>
-    <img class="Cremalab__About-image" src=" <?php echo $improvementImage['url']?>" alt="">
+    <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/improvementShapes.png" alt="Constant Improvement">
 
   <div class="Cremalab__AboutCopyWrapper">
     <p class="Cremalab__About-copy">We will constantly improve ourselves, our product experiences, and our company.</p>
@@ -53,7 +53,7 @@
 
 
   <h2 class="Cremalab__About--subheader">3. Collaboration</h2>
-    <img class="Cremalab__About-image" src=" <?php echo $collaborationImage['url']?>" alt="">
+    <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/collaborationCaterpillars.png" alt="Collaboration">
 
   <div class="Cremalab__AboutCopyWrapper">
     <p class="Cremalab__About-copy">We believe that a truly great product experience is only as good as the team that
@@ -66,7 +66,7 @@
 
 
   <h2 class="Cremalab__About--subheader">4. Results</h2>
-    <img class="Cremalab__About-image" src=" <?php echo $resultsImage['url']?>" alt="">
+    <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/resultsThing.png" alt="Results">
 
   <div class="Cremalab__AboutCopyWrapper">
     <p class="Cremalab__About-copy">We desire to build product experiences that move people, solve problems for our
@@ -76,7 +76,7 @@
   <div class="Cremalab__About--separatorLine"></div>
 
   <h2 class="Cremalab__About--subheader">5. Generosity</h2>
-    <img class="Cremalab__About-image" src=" <?php echo $generosityImage['url']?>" alt="">
+    <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/generosityBlackHole.png" alt="Generosity">
 
   <div class="Cremalab__AboutCopyWrapper">
     <p class="Cremalab__About-copy">We desire to be generous with our time, talents and influence to get the right

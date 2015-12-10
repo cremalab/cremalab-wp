@@ -86,3 +86,26 @@ function my_class_names( $classes ) {
     return $classes;
 }
 
+
+
+/* check if user using smaller mobile device */
+function my_wp_is_mobile() {
+  include_once ( get_template_directory() . 'Mobile_Detect.php');
+  $detect = new Mobile_Detect;
+  if( $detect->isMobile() && !$detect->isTablet() ) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+/* check if user using tablet device */
+function my_wp_is_tablet() {
+  include_once ( get_template_directory() . 'Mobile_Detect.php');
+  $detect = new Mobile_Detect;
+  if( $detect->isTablet() ) {
+    return true;
+  } else {
+    return false;
+  }
+}

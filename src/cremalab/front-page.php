@@ -1,7 +1,18 @@
 
-<div class="Cremalab__Homepage--pageWrapper">
 
+
+
+
+<?php if( my_wp_is_mobile() ): ?>
+  <div class="Cremalab__Homepage--pageWrapper">
 <?php get_header(); ?>
+<?php  else: ?>
+<div class="Cremalab__Homepage--pageWrapper">
+<?php get_header(); ?>
+  <video loop autoplay muted>
+    <source src="https://s3.amazonaws.com/cremalab/wp-cremalab/video/Crema+Culture+v2-HD.mp4">
+  </video>
+<?php endif; ?>
 
 </div>
 
@@ -9,6 +20,7 @@
 
 
 <div class="Cremalab__Homepage-Approach">
+
     <h1 class="Cremalab__Homepage-Approach--header">What we do</h1>
     <h3 class="Cremalab__Homepage-Approach--subheader">We create the best solutions that solve problems and better lives</h3>
     <a class="Cremalab__Homepage-Approach--byline" href="/approach"><span class="Cremalab__Homepage-Approach--underline"><span>Check out our approach</span></span></a>
