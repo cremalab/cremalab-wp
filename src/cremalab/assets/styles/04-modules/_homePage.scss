@@ -1,24 +1,40 @@
 .Cremalab__Homepage--pageWrapper{
-  height: 90vh;
+  display:block;
   position: relative;
-  width:100%;
 
-  video{
-    position:absolute;
-    top:-10px;
 
-    width:100%;
-  }
+
 }
 
+.Cremalab__Homepage--videoWrapper{
+    display:block;
+    position: relative;
+    top: -85px;
+    left: 0;
+    z-index: -1;
+    height:0;
+    padding-bottom:56.25%;
+    video{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+}
+
+
+
 .Cremalab__Homepage-Approach{
+  position:relative;
   height:275px;
 }
 
 .Cremalab__Homepage-Approach--header{
   font-size:64px;
   text-align:center;
-  margin:65px 0 0 0;
+  margin:0 0 0 0;
 }
 
 .Cremalab__Homepage-Approach--subheader{
@@ -49,14 +65,9 @@
   }
 }
 
-
-
 .Cremalab__Homepage-Approach--underline{
   border-bottom:2px solid $cremaBlack;
 }
-
-
-
 
 .Cremalab__HomepageCaseStudyList{
   width:100%;

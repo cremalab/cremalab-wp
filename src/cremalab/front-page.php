@@ -6,15 +6,20 @@
 <?php if( my_wp_is_mobile() ): ?>
   <div class="Cremalab__Homepage--pageWrapper">
 <?php get_header(); ?>
+
 <?php  else: ?>
-<div class="Cremalab__Homepage--pageWrapper">
-<?php get_header(); ?>
-  <video loop autoplay muted>
-    <source src="https://s3.amazonaws.com/cremalab/wp-cremalab/video/Crema+Culture+v2-HD.mp4">
-  </video>
+  <div class="Cremalab__Homepage--pageWrapper">
+  <?php get_header(); ?>
+  <div class="Cremalab__Homepage--videoWrapper">
+
+    <video loop autoplay muted>
+      <source src="https://s3.amazonaws.com/cremalab/wp-cremalab/video/Crema+Culture+v2-HD.mp4">
+    </video>
+  </div>
+
 <?php endif; ?>
 
-</div>
+  </div>
 
 
 
