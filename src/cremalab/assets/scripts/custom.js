@@ -16,7 +16,7 @@ $(window).on('load', function(){
 });
 
 
-// Team Member info card slide-up
+// Team Member Smile/Goofy switch
 teamMember.on({
  mouseenter:function(e){
    console.log('enter', e);

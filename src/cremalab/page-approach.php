@@ -4,14 +4,17 @@
  */
 ?>
 
-
+<?php $approachHeroImage= get_field('approach_hero_image')?>
 
 
 <div class="Cremalab__ApproachPageWrapper">
   <div class="Cremalab__Navbar-BlackHeader">
     <?php get_header(); ?>
   </div>
-  <div class="Cremalab__ApproachPage-HeroWrapper">
+  <div class="Cremalab__ApproachPage-HeroWrapper"
+    style=" background: url( <?php echo $approachHeroImage['url']?>) no-repeat center;
+                background-size:cover;"
+    >
     <div class="Cremalab__ApproachPageHeaderWrapper">
       <h1 class="Cremalab__ApproachPageHeading">We turn good <br> ideas into great <br> product experiences</h1>
     </div>
