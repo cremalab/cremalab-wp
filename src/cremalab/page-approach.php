@@ -47,7 +47,7 @@
 
       <h1 class="CremalabApproachPage--ProcessHeader">A cross-disciplinary team</h1>
       <div class="CremalabApproachPage--crossDisciplineImage"></div>
-
+      <!-- <img class="CremalabApproachPage--crossDisciplineImage" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/cross_disciplanary_approach.png" alt=""> -->
 
     <div class="Cremalab__ApproachPage-ProcessAnimationWrapper">
         <h1 class="CremalabApproachPage--ProcessHeader">An iterative approach</h1>

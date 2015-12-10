@@ -28,13 +28,16 @@
 }
 
 .Cremalab__ApproachHeroImage{
-
 }
 
 
 .CremalabApproachPage--crossDisciplineImage{
-  height:650px;
-  background: url("/wp-content/uploads/2015/12/cross_disciplanary_approach.png") center no-repeat;
+  height:55vw;
+  display:block;
+
+
+  background: url("https://s3.amazonaws.com/cremalab/wp-cremalab/Images/cross_disciplanary_approach.png") center no-repeat;
+  background-size: contain;
 }
 
 .Cremalab__ApproachPage-StartupHeader{
@@ -76,10 +79,9 @@
 .Cremalab__ApproachPage-ProcessWrapper{
   background-color:$cremaSmoke;
   position:relative;
-
   display:block;
   height:100%;
-  margin:0 auto;
+
 
 }
 .Cremalab__ApproachPage--processHeaderContainer{
@@ -93,7 +95,7 @@
   text-align:center;
   line-height:1;
   font-size:4vw;
-  margin:0 0 0 0;
+  margin:2% 0 2% 0;
   padding-top:35px;
 }
 .Cremalab__ApproachPage-ProcessAnimationWrapper{
