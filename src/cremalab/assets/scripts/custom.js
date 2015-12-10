@@ -16,22 +16,25 @@ $(window).on('load', function(){
 });
 
 
-//Team Member info card slide-up
-//teamMember.on({
-//  mouseenter:function(e){
-//    console.log(e);
-//    var slideUpContainer = $(e.currentTarget.children[1]);
-//    var line = $(e.currentTarget.children[1].children[8]);
-//    slideUpContainer.velocity({height:"371px"}, {duration:175});
-//    line.velocity("fadeIn" , {duration:500});
-//    },
-//  mouseleave:function(e){
-//    var slideUpContainer = $(e.currentTarget.children[1]);
-//    var line = $(e.currentTarget.children[1].children[8]);
-//    line.velocity("fadeOut" , {duration:50});
-//    slideUpContainer.velocity({height:"0"}, {duration:175});
-//  }
-//});
+// Team Member info card slide-up
+teamMember.on({
+ mouseenter:function(e){
+   console.log('enter', e);
+   var hideOnMouseover = $(e.currentTarget.children[0]);
+   var showOnMouseOver = $(e.currentTarget.children[1]);
+   hideOnMouseover.velocity("fadeOut", {duration:0});
+   showOnMouseOver.velocity("fadeIn", {duration:0});
+   },
+ mouseleave:function(e){
+   console.log('leave', e);
+   var hideOnMouseover = $(e.currentTarget.children[0]);
+   var showOnMouseOver = $(e.currentTarget.children[1]);
+   showOnMouseOver.velocity("fadeOut", {duration:0});
+   hideOnMouseover.velocity("fadeIn", {duration:0});
+   }
+});
+
+//Team Member PhotoSwitch
 
 
 //Team Member Page Photo Sizing

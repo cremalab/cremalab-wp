@@ -43,14 +43,19 @@
   margin:0 0 21px 21px;
   position:relative;
   width:299px;
-  z-index:4;
-  overflow: hidden;
 
+  overflow: hidden;
 }
 
 .Cremalab__teamMemberPhoto{
   height: 371px;
-  z-index:1;
+
+}
+
+.Cremalab__teamMemberPhotoGoofy{
+  display:none;
+  height: 371px;
+
 }
 
 .Cremalab__teamMemberName{
@@ -76,7 +81,7 @@
   height: 80px;
   position: absolute;
   width: 100%;
-  z-index: 3;
+
 }
 
 .Cremalab__teamMemberInfo{
