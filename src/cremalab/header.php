@@ -22,7 +22,7 @@
 
 
   <?php
-    if($pageID == '2'){
+    if(is_front_page()){
       echo '<div class="Cremalab__Nav-navItems--frontPage">';
     } else {
       echo '<div class="Cremalab__Nav-navItems">';

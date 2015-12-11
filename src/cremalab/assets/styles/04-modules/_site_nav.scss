@@ -36,13 +36,13 @@
 .Cremalab__Navbar-brandImage{
   width:150px;
   position: absolute;
-
   left:0;
+  top:-13px;
 }
 
 .Cremalab__Navbar-brandImage--white{
   @extend .Cremalab__Navbar-brandImage;
-  top:30px;
+  top:15px;
 
 }
 
