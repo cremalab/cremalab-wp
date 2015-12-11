@@ -11,13 +11,11 @@
 
 
     <a href="/" class="Cremalab__Navbar-brandTitle--Container">
-      <?php if($pageID == '2'): ?>
-        <img class="Cremalab__Navbar-brandImage--white" src="<?php echo $whiteLogo['url'] ?>" alt="Cremalab">
-<!--          <p>Crema</p>-->
-      <?php else: ?>
-        <img class="Cremalab__Navbar-brandImage" src="<?php echo $blackLogo['url'] ?>" alt="Cremalab">
-<!--        <p>Crema</p>-->
+      <?php if(is_front_page()): ?>
+        <img class="Cremalab__Navbar-brandImage--white" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Crema_WordLogoWhite.png" alt="Cremalab">
 
+      <?php else: ?>
+        <img class="Cremalab__Navbar-brandImage" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Crema_logo.png" alt="Cremalab">
       <?php  endif; ?>
   </a>
 
@@ -38,7 +36,7 @@
 
 <!--$pageID =='180' or $pageID == '24' or $pageID == '27' or $pageID == '138' or $pageID == '20')-->
 
-<?php if($pageID != '2'): ?>
+<?php if(is_front_page()): ?>
   <button class="c-hamburger c-hamburger--black c-hamburger--htx">
     <span class="Cremalab__Navbar--hamburger">toggle menu</span>
   </button>
