@@ -1,12 +1,3 @@
-<?php
-  $pageID = get_the_ID();
-  $whiteLogo = get_field('header_image_white', 2);
-  $blackLogo = get_field('header_image_black', 2);
-?>
-
-
-
-
   <div class="Cremalab__Navbar">
 
 
