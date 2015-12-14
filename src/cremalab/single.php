@@ -2,7 +2,7 @@
 
 
 <div class="Cremalab__Navbar-BlackHeader">
-    <?php get_header('blog'); ?>
+    <?php get_header(); ?>
 </div>
 
 <?php

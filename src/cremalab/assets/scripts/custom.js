@@ -33,7 +33,20 @@ teamMember.on({
    }
 });
 
-//Team Member PhotoSwitch
+//Case Study Height Adjust
+var caseStudySliderContainer = $('.Cremalab__CaseStudySlider');
+var sliderInitialHeight = 563;
+
+$(window).on('load', function(){
+  caseStudySliderContainer.css('height', sliderInitialHeight);
+});
+
+$(window).on('resize', function(){
+  var sliderWindowHeight = $('.soliloquy-item').height();
+  console.log('Height:', sliderWindowHeight);
+  caseStudySliderContainer.css('height', sliderWindowHeight);
+});
+
 
 
 //Team Member Page Photo Sizing
