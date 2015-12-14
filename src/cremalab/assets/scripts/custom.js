@@ -11,7 +11,6 @@ var blogPostListContainer = $('.Cremalab__BlogItemsContainer');
 
 //Page transition - why doesn't this work??????
 $(window).on('load', function(){
-
   $('body').velocity("fadeIn", {duration:"50"});
 });
 
@@ -45,7 +44,6 @@ teamMember.on({
     var containerWidth = (320 * numberOfPhotos).toString()+'px';
     teamPhotoCenterContainer.css('width', containerWidth);
     blogPostListContainer.css('width', containerWidth);
-    console.log('ContainerWidth ', containerWidth);
   });
 
   $(window).on('resize', function(){
@@ -53,7 +51,6 @@ teamMember.on({
     var containerWidth = (320 * numberOfPhotos).toString()+'px';
     teamPhotoCenterContainer.css('width', containerWidth);
     blogPostListContainer.css('width', containerWidth);
-    console.log('ContainerWidth ', containerWidth);
   });
 
 //Case Study Mouseover Action
@@ -118,8 +115,8 @@ blogVideoPlayButton.on({
     click:function(e){
 
 
-      welcomeContent.velocity({height:0},[500, 20]);
-      formContainer.velocity({height:300}, [500, 20]);
+      welcomeContent.velocity({height:0},{duration:250});
+      formContainer.velocity({height:300}, {duration:250});
     }
   })
 

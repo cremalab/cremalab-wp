@@ -46,12 +46,21 @@
   <div class="Cremalab__ApproachPage-ProcessWrapper">
 
       <h1 class="CremalabApproachPage--ProcessHeader">A cross-disciplinary team</h1>
-      <div class="CremalabApproachPage--crossDisciplineImage"></div>
-      <!-- <img class="CremalabApproachPage--crossDisciplineImage" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/cross_disciplanary_approach.png" alt=""> -->
+
+      <div class="CremalabApproachPage--crossDisciplineContainer">
+        <img class="CremalabApproachPage--crossDisciplineImage" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/cross_disciplanary_approach.png" alt="">
+      </div>
+
 
     <div class="Cremalab__ApproachPage-ProcessAnimationWrapper">
         <h1 class="CremalabApproachPage--ProcessHeader">An iterative approach</h1>
-        <img class="Cremalab__ApproachPage--processImage"   src="http://placehold.it/1200x400?text=Iterative+Approach+Wikkity+Wah+Wah+George+Animation" alt="">
+        <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Arrows_in-2_1.gif" alt="">
+        <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Square_populate-2_2.gif" alt="">
+        <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Arrows_out-2_1.gif" alt="">
+        <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Iterative_1.gif" alt="">
+
+
+
     </div>
 
   </div>
