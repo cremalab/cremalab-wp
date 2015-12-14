@@ -73,7 +73,9 @@ input.ninja-forms-field{
   display:block;
   margin:0 auto;
   border:none;
-  border-bottom: 2px solid $cremaPurple
+  border-bottom: 2px solid $cremaPurple;
+  text-align: center;
+
 }
 
 input.ninja-forms-field:focus{
