@@ -120,18 +120,31 @@ blogVideoPlayButton.on({
   }
 
 //Footer Form Show/Hide
-  var showForm = $('.Cremalab__footerUnderline')
+
+  var showForm = $('.Cremalab__footerUnderline');
+  var cancelTemplate = '<span class="Cremalab__footer--close">&#10005;</span>';
+  var ninjaContainer = $('.ninja-forms-cont');
+  ninjaContainer.prepend(cancelTemplate);
+  var hideForm = $('.Cremalab__footer--close');
   var welcomeContent = $('.Cremalab__footerWelcomeContainer');
   var footerHeight = $('.Cremalab__footerWrapper').height();
   var formContainer = $('.Cremalab__footerFormContainer');
+
+
   showForm.on({
     click:function(e){
-
-
       welcomeContent.velocity({height:0},{duration:250});
       formContainer.velocity({height:300}, {duration:250});
     }
-  })
+  });
+
+  hideForm.on({
+    click:function(e){
+      welcomeContent.velocity({height:300},{duration:250});
+      formContainer.velocity({height:0}, {duration:250});
+
+    }
+  });
 
 
 
