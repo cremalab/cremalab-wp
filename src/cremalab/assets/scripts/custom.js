@@ -123,6 +123,7 @@ blogVideoPlayButton.on({
 
   var showForm = $('.Cremalab__footerUnderline');
   var cancelTemplate = '<span class="Cremalab__footer--close">&#10005;</span>';
+  var thankYouMessageTemplate = '<span class="Cremalab__footer--thankYouMessage">Thanks!</span>'
   var ninjaContainer = $('.ninja-forms-cont');
   ninjaContainer.prepend(cancelTemplate);
   var hideForm = $('.Cremalab__footer--close');
@@ -145,4 +146,15 @@ blogVideoPlayButton.on({
 
     }
   });
+
+//Footer Submit Button Re-draw
+  var footerSubmit  = $('input[type=submit].ninja-forms-field');
+  footerSubmit.on({
+    click:function(e){
+      $(thankYouMessageTemplate).insertAfter($(".Cremalab__footer--close"))
+    }
+  })
+
+
+
 })(jQuery);
