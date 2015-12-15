@@ -51,17 +51,18 @@
         <img class="CremalabApproachPage--crossDisciplineImage" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/cross_disciplanary_approach.png" alt="">
       </div>
 
-
-    <div class="Cremalab__ApproachPage-ProcessAnimationWrapper">
+      <div class="Cremalab__ApproachPage-IterativeApproachContainer">
         <h1 class="CremalabApproachPage--ProcessHeader">An iterative approach</h1>
-        <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Arrows_in-2_1.gif" alt="">
-        <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Square_populate-2_2.gif" alt="">
-        <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Arrows_out-2_1.gif" alt="">
-        <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Iterative_1.gif" alt="">
+        <div class="Cremalab__ApproachPage-ProcessAnimationWrapper">
+
+            <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Arrows_in-2_1.gif" alt="">
+            <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Square_populate-2_2.gif" alt="">
+            <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Arrows_out-2_1.gif" alt="">
+            <img class="Cremalab__ApproachPage--processImage"   src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Iterative_1.gif" alt="">
+        </div>
+      </div>
 
 
-
-    </div>
 
   </div>
 

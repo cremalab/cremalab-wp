@@ -84,10 +84,14 @@
   margin:0 auto;
 }
 
+.Cremalab__ApproachPage-IterativeApproachContainer{
+  background-color:$cremaWhite;
+}
+
 .CremalabApproachPage--ProcessHeader{
   width:100vw;
   display:block;
-
+  flex:0 0 100%;
   text-align:center;
   line-height:1;
   font-size:48px;
@@ -95,7 +99,12 @@
   padding-top:35px;
 }
 .Cremalab__ApproachPage-ProcessAnimationWrapper{
-  background-color:$cremaWhite;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width:100%;
 }
 .Cremalab__ApproachPage--processImage{
   width:250px;
