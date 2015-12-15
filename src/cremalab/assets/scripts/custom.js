@@ -145,7 +145,4 @@ blogVideoPlayButton.on({
 
     }
   });
-
-
-
 })(jQuery);

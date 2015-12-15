@@ -107,9 +107,6 @@ input.ninja-forms-mp-next{
   border:none;
 }
 
-
-
-
 input.ninja-forms-mp-prev{
   position:absolute;
   right:30px;
@@ -120,6 +117,22 @@ input.ninja-forms-mp-prev{
   background-color: $cremaPurple;
   border:none;
 }
+
+input[type=submit].ninja-forms-field{
+  font-family:'MerriWeather-Regular';
+  position:absolute;
+  padding-top:3px;
+  font-size:16px !important;
+  right:0;
+  bottom:75px;
+  width:25px !important;
+  height:25px !important;
+  color:$cremaWhite !important;
+  text-shadow: 0 0 0 #fff !important;
+  background-color: $cremaPurple;
+  border:none;
+}
+
 
 .meter >span {
   background-color:$cremaPurple !important;
@@ -138,5 +151,3 @@ input.ninja-forms-mp-prev{
   font-size:26px;
   cursor:pointer;
 }
-
-
