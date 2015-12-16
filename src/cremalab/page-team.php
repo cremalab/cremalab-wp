@@ -52,9 +52,9 @@
   <div class="Cremalab__CareersIntroContainer">
 
 
-
+      <?php $size='large' ?>
       <div class="Cremalab__CareersIntroFeatures--smallImage flex-1"
-           style="background: url( <?php echo $joinUsImage1['url']?>) no-repeat top center;
+           style="background: url( <?php echo $joinUsImage1['sizes'][$size]?>) no-repeat top center;
            background-size:cover;">
       </div>
 
@@ -66,7 +66,7 @@
       </div>
 
       <div class="Cremalab__CareersIntroFeatures--smallImage flex-3"
-           style="background: url( <?php echo $joinUsImage2['url']?>) no-repeat top center;
+           style="background: url( <?php echo $joinUsImage2['sizes'][$size]?>) no-repeat top center;
            background-size:cover;">
       </div>
 
@@ -80,7 +80,7 @@
         </p>
       </div>
       <div class="Cremalab__CareersIntroFeatures--wideImage flex-5"
-           style="background: url( <?php echo $joinUsImage3['url']?>) no-repeat top center;
+           style="background: url( <?php echo $joinUsImage3['sizes'][$size]?>) no-repeat 50%;
            background-size:cover;">
 
       </div>
@@ -98,7 +98,7 @@
 
 
       <div class="Cremalab__CareersIntroFeatures--smallImage flex-7"
-           style="background: url( <?php echo $joinUsImage4['url']?>) no-repeat top center;
+           style="background: url( <?php echo $joinUsImage4['sizes'][$size]?>) no-repeat top center;
            background-size:cover;">
       </div>
       <div class="Cremalab__CareersIntroFeatures--smallCopy flex-8">
@@ -110,7 +110,7 @@
         </p>
       </div>
       <div class="Cremalab__CareersIntroFeatures--wideImage flex-9"
-           style="background: url( <?php echo $joinUsImage5['url']?>) no-repeat top center;
+           style="background: url( <?php echo $joinUsImage5['sizes'][$size]?>) no-repeat 50%;
            background-size:cover;">
     </div>
 
@@ -128,7 +128,7 @@
       </div>
 
       <div class="Cremalab__CareersIntroFeatures--smallImage flex-11"
-           style="background: url( <?php echo $joinUsImage6['url']?>) no-repeat top center;
+           style="background: url( <?php echo $joinUsImage6['sizes'][$size]?>) no-repeat top center;
            background-size:cover;">
       </div>
 
