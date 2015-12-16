@@ -138,27 +138,14 @@
           <?php echo $joinUsText6 ?>
         </p>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
-
   </div>
 
 
 
 
 
-  <div class="Cremalab__CareersListWrapper">
+
 
     <div class="Cremalab__CareersListContainer">
       <h1 class="Cremalab__CareersListHeader">We're growing, so<br>come on board!</h1>
@@ -173,15 +160,9 @@
     </div>
 
 
-  </div>
+  
 
 
 </div>
 
 <?php get_footer(); ?>
-
-
-
-
-
-

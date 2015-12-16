@@ -223,13 +223,10 @@ h1.Cremalab__CareersHeader{
 }
 
 
-.Cremalab__CareersListWrapper{
-
-}
 
 .Cremalab__CareersListContainer{
   padding-top:55px;
-  max-width:940px;
+  max-width:85%;
   margin:0 auto;
 }
 
@@ -250,13 +247,17 @@ h1.Cremalab__CareersHeader{
   height:280px;
   margin-bottom:35px;
   padding:25px;
+
   //Using nested "p" selector because wordpress acf is not applying class to content ¯\_(ツ)_/¯
   p{
     color:$cremaDarkGrey;
+
     font-size:16px;
     font-family:'MerriWeather-Regular';
   }
 }
+
+
 
 .Cremalab__Careers--itemHeader{
   color:$cremaBlack;
@@ -270,8 +271,13 @@ h1.Cremalab__CareersHeader{
   margin-bottom:150px;
 }
 
+.Cremalab___Careers-listLinkContainer{
+  position: relative;
+  text-align:right;
+}
+
 .Cremalab__Careers--link{
-  position: absolute;
+
   bottom:25px;
   right:35px;
   font-family:'AvenirNext-Medium';
@@ -286,6 +292,10 @@ h1.Cremalab__CareersHeader{
 
   h1.Cremalab__CareersHeader{
     font-size:48px;
+  }
+
+  .Cremalab__Careers-listItem{
+    height:100%;
   }
 
   .Cremalab__CareersIntroFeatures--smallImage{
