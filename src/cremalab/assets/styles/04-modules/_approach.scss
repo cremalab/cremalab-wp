@@ -99,18 +99,47 @@
   padding-top:35px;
 }
 .Cremalab__ApproachPage-ProcessAnimationWrapper{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap:wrap;
+  // display:flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: row;
+  // flex-wrap:wrap;
   width:100%;
 }
 .Cremalab__ApproachPage--processImage{
   width:250px;
-
   display: inline-block;
+  &:last-child{
+    margin-bottom:44px;
+  }
+}
 
+@media screen and (max-width: 1011px){
+  .Cremalab__ApproachPage-ProcessAnimationWrapper{
+    display:block;
+    margin:0 auto;
+    width:738px;
+  }
+}
 
+@media screen and (max-width: 768px){
+  .Cremalab__ApproachPageHeading{
+    font-size:9vw;
+  }
+
+}
+
+@media screen and (max-width: 414px){
+  .Cremalab__ApproachPage-ProcessAnimationWrapper{
+    display:block;
+    margin:0 auto;
+    width:400px;
+  }
+
+  .CremalabApproachPage--crossDisciplineImage{
+    display:block;
+    margin:0 auto;
+    height:250px;
+  }
 
 }
