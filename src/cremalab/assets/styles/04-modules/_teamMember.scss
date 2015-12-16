@@ -84,16 +84,6 @@
 
 }
 
-.Cremalab__teamMemberInfo{
-  background-color:$cremaWhite;
-  bottom:79px;
-  height:0;
-  overflow:hidden;
-  padding-left:20px;
-  padding-right:20px;
-  position:absolute;
-  z-index:2;
-}
 
 .Cremalab__teamAnswersCopy{
   display:inline;
@@ -138,7 +128,7 @@
 }
 
 h1.Cremalab__CareersHeader{
-  font-size:4vw;
+  font-size:64px;
   margin-bottom:50px;
   text-align:center;
   width:100%;
@@ -292,8 +282,24 @@ h1.Cremalab__CareersHeader{
 }
 
 
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
 
+  h1.Cremalab__CareersHeader{
+    font-size:48px;
+  }
+
+  .Cremalab__CareersIntroFeatures--smallImage{
+    flex:0 0 50%;
+  }
+  .Cremalab__CareersIntroFeatures--wideImage{
+    flex:0 0 50%;
+  }
+  .Cremalab__CareersIntroFeatures--wideCopy{
+    flex:0 0 50%;
+  }
+  .Cremalab__CareersIntroFeatures--smallCopy{
+    flex:0 0 50%;
+  }
 
   .flex-1{
     order:1;
@@ -333,7 +339,10 @@ h1.Cremalab__CareersHeader{
   }
 }
 
-@media screen and (max-width:735px){
+
+
+
+@media screen and (max-width:414px){
   .Cremalab__CareersIntroFeatures--smallImage{
     flex:0 0 100%;
   }
