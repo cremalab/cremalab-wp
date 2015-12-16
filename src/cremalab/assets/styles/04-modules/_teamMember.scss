@@ -138,12 +138,9 @@ h1.Cremalab__CareersHeader{
 
 
 .Cremalab__CareersIntroFeatures{
-  display:inline;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items:center;
-  margin: 10px auto;
+
+
+
 }
 
 //.CremalabCareersIntroFirstRow, .CremalabCareersIntroSecondRow, .CremalabCareersIntroThirdRow, .CremalabCareersIntroFourthRow{
@@ -189,16 +186,17 @@ h1.Cremalab__CareersHeader{
 .Cremalab__CareersIntroFeatures--wideCopy{
   height:250px;
   flex:0 0 50%;
-  padding:25px 5px 0 25px;
+  padding:30px;
   background-color: $cremaSmoke;
 }
 
 .Cremalab__CareersIntroFeatures--smallCopy{
   flex: 0 0 25%;
   height:250px;
-  padding:25px 5px 0 25px;
+  padding:30px;
   background-color: $cremaSmoke;
   margin:0;
+  overflow:hidden;
 }
 #Cremalab__Careers--secondaryImage{
   display:none;
