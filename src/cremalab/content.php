@@ -4,6 +4,12 @@
     <?php get_header(); ?>
 </div>
 
+<?php
+  $client1=get_field('client_logo_1', 52);
+  $client2=get_field('client_logo_2', 52);
+  $client3=get_field('client_logo_3', 52);
+  $client4=get_field('client_logo_4', 52);
+?>
 
 <?php
 
@@ -17,10 +23,24 @@
     endwhile; ?>
 
 <div class="Cremalab-Work-Clients">
-    <img src="http://placehold.it/400x300">
-    <img src="http://placehold.it/400x300">
-    <img src="http://placehold.it/400x300">
-    <img src="http://placehold.it/400x300">
+
+
+<div class="Cremalab__Work--clientLogo"
+  style=" background: url( <?php echo $client1['url']?>) no-repeat center;
+          background-size:contain;"
+></div>
+<div class="Cremalab__Work--clientLogo"
+    style=" background: url( <?php echo $client2['url']?>) no-repeat center;
+          background-size:contain;"
+></div>
+<div class="Cremalab__Work--clientLogo"
+  style=" background: url( <?php echo $client3['url']?>) no-repeat center;
+        background-size:contain;"
+></div>
+<div class="Cremalab__Work--clientLogo"
+  style=" background: url( <?php echo $client4['url']?>) no-repeat center;
+          background-size:contain;"
+></div>
 </div>
 
 <?php get_footer(); ?>
