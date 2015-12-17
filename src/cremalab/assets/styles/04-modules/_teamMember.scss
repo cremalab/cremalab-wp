@@ -219,15 +219,11 @@ h1.Cremalab__CareersHeader{
   padding: 0 0 10px 0;
   text-transform:uppercase;
 }
-
-
-
 .Cremalab__CareersListContainer{
   padding-top:55px;
-  max-width:85%;
+  max-width:940px;
   margin:0 auto;
 }
-
 .Cremalab__CareersListHeader{
   font-family:'AvenirNext-Bold';
   margin:0 0 50px 0;
@@ -237,15 +233,12 @@ h1.Cremalab__CareersHeader{
   display:block;
   text-align:center;
 }
-
 .Cremalab__Careers-listItem{
-
   position: relative;
   background-color:$cremaSmoke;
   height:280px;
   margin-bottom:35px;
   padding:25px;
-
   //Using nested "p" selector because wordpress acf is not applying class to content ¯\_(ツ)_/¯
   p{
     color:$cremaDarkGrey;
@@ -270,8 +263,9 @@ h1.Cremalab__CareersHeader{
 }
 
 .Cremalab___Careers-listLinkContainer{
-  position: relative;
-  text-align:right;
+  position: absolute;
+  right:35px;
+  bottom:25px;
 }
 
 .Cremalab__Careers--link{

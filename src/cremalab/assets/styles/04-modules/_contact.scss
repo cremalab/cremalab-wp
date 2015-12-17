@@ -4,13 +4,17 @@
   color:$cremaBlack;
   background-color:$cremaSmoke;
   height:100%;
-  p{
-    font-family:"MerriWeather-Bold"
+  p, a{
+    font-family:"MerriWeather-Regular"
   }
 }
 .contact-icons{
   color:$cremaBlack;
   font-size:33px;
+  &:hover{
+    color:$cremaPurple;
+
+  }
 }
 
 .Cremalab__ContactPage-contactlist{
@@ -33,6 +37,9 @@
     text-decoration:none;
     color: $cremaBlack;
   }
+  &:hover{
+    border-bottom:2px solid $cremaPurple;
+  }
 }
 
 .Cremalab__ContactPage-FormWrapper{
@@ -46,6 +53,7 @@
 }
 
 .Cremalab__ContactPage--email{
+  color:$cremaBlack;
   font-family:"MerriWeather-Bold";
   text-decoration:none;
   &:visited{

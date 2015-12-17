@@ -134,15 +134,15 @@ blogVideoPlayButton.on({
 
   showForm.on({
     click:function(e){
-      welcomeContent.velocity({height:0},{duration:250});
-      formContainer.velocity({height:300}, {duration:250});
+      welcomeContent.velocity({height:0},{duration:50});
+      formContainer.velocity({height:300}, {duration:50});
     }
   });
 
   hideForm.on({
     click:function(e){
-      welcomeContent.velocity({height:300},{duration:250});
-      formContainer.velocity({height:0}, {duration:250});
+      welcomeContent.velocity({height:300},{duration:50});
+      formContainer.velocity({height:0}, {duration:50});
 
     }
   });

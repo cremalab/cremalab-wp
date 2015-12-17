@@ -1,6 +1,7 @@
 .Cremalab__footerWrapper{
   background-color:$cremaBlack;
   height:300px;
+  overflow:hidden;
   position: relative;
   bottom:0;
   left:0;
@@ -19,7 +20,6 @@
 
 .Cremalab__footer--text{
   margin:0;
-
   font-size:18px;
   color:$cremaWhite;
   text-align:center;

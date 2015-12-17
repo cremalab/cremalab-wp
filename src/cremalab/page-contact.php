@@ -5,7 +5,7 @@
 <div class="Cremalab__ContactPageWrapper">
 
   <h1 class="Cremalab__pageHeaderOne">Contact us</h1>
-  <a class="Cremalab__ContactPage--email" href="#">info@cremalab.com</a>
+  <a class="Cremalab__ContactPage--email" href="mailto:info@cremalab.com">info@cremalab.com</a>
   <p class="Cremalab__ContactPage--phone"> 913.735.9864</p>
   <p class="Cremalab__ContactPage--address">1815 Central St.</p>
   <p class="Cremalab__ContactPage--address">Kansas City, MO 64108</p>
