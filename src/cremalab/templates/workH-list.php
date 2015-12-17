@@ -5,9 +5,6 @@
          style="background: url( <?php echo $headerImage['url']?>) no-repeat top center;
              background-size:cover;"
     >
-
-
-
     </div>
 
     <div class="Cremalab__Work-TitleContainer--Homepage">
