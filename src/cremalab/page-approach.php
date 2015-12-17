@@ -75,7 +75,7 @@
             <img src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Iterative_1.gif" alt="">
             <p>Iterate</p>
           </div>
-          <img class"Cremalab__ApproachPage--approachArrow" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/ApproachArrow.png" alt="" />
+          <img class="Cremalab__ApproachPage--approachArrow" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/ApproachArrow.png" alt="" />
 
 
 

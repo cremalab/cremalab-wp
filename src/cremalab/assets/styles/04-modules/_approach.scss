@@ -32,7 +32,7 @@
 .CremalabApproachPage--crossDisciplineImage{
   display:block;
   width:50%;
-  margin:0 auto;
+  margin:50px auto 50px auto;
 }
 
 .Cremalab__ApproachPage-StartupHeader{
@@ -40,7 +40,7 @@
   line-height:1;
   font-size:48px;
   text-align: center;
-  margin:0 0 66px 20px;
+  margin-bottom:50px;
 }
 
 .Cremalab__ApproachPage-StartupTeamWrapper{
@@ -121,16 +121,17 @@
   }
 }
 
-.Cremalab__ApproachPage--approachArrow{
+img.Cremalab__ApproachPage--approachArrow{
   position: relative;
-  display:block;
+  width:65%;
+
 }
 
 @media screen and (max-width: 1011px){
   .Cremalab__ApproachPage-ProcessAnimationWrapper{
     display:block;
     margin:0 auto;
-    width:738px;
+
   }
 }
 
