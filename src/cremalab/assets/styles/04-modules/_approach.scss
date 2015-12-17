@@ -27,10 +27,11 @@
 
 .crossDisciplineContainer{
   position: relative;
+  padding:50px 0 50px 0;
 }
 .CremalabApproachPage--crossDisciplineImage{
-
   display:block;
+  width:50%;
   margin:0 auto;
 }
 
@@ -100,23 +101,29 @@
   padding-top:35px;
 }
 .Cremalab__ApproachPage-ProcessAnimationWrapper{
-
+  padding:50px 0 50px 0;
   background-color:$cremaWhite;
   width:100%;
-
-
 }
 .Cremalab__ApproachPage--processImage{
-  width:250px;
+  width:20vw;
   display: inline-block;
+  img{
+    width:20vw;
+  }
+  p{
+    color:$cremaGrey;
+  }
   &:last-child{
-    margin-bottom:44px;
+    img{
+      margin-bottom:42px;
+    }
   }
 }
 
 .Cremalab__ApproachPage--approachArrow{
-  width:750px;
-  margin:50px;
+  position: relative;
+  display:block;
 }
 
 @media screen and (max-width: 1011px){
