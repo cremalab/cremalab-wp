@@ -10,7 +10,8 @@
 
 .Cremalab__footer--header{
   margin:0;
-  padding-top:50px;
+
+
   font-size:64px;
   color:$cremaWhite;
   text-align:center;
@@ -18,6 +19,7 @@
 
 .Cremalab__footer--text{
   margin:0;
+
   font-size:18px;
   color:$cremaWhite;
   text-align:center;
@@ -30,8 +32,17 @@
   position: relative;
 }
 .Cremalab__footerWelcomeContainer{
-
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+  height:100%;
 }
+.Cremalab__footerWelcomeContainerFlex{
+  width:100%;
+}
+
 .Cremalab__footerFormContainer{
   position: absolute;
   bottom:0;
