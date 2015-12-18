@@ -7,7 +7,7 @@
   position: relative;
   display:block;
   margin-bottom:50px;
-  
+
 }
 
 .Cremalab__CaseStudyContentContainer{
@@ -55,6 +55,12 @@
 .Cremalab__caseStudyLink:visited{
   color:$cremaBlack
 }
+
+
+.soliloquy-viewport,.soliloquy-wrapper, .soliloquy-container{
+  height:483px !important;
+}
+
 
 .soliloquy-pager{
   display:none;

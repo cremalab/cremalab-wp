@@ -35,10 +35,15 @@ teamMember.on({
 
 //Case Study Height Adjust
 var caseStudySliderContainer = $('.Cremalab__CaseStudySlider');
+var caseStudyViewport = $('.soliloquy-viewport');
+var caseStudyWrapper = $('.soliloquy-wrapper');
 var sliderInitialHeight = 563;
+caseStudyViewport.css('height', 483);
+caseStudyWrapper.css('height', 483);
 
 $(window).on('load', function(){
   caseStudySliderContainer.css('height', sliderInitialHeight);
+
 });
 
 $(window).on('resize', function(){
