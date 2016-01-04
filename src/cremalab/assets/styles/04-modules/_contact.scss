@@ -21,7 +21,7 @@
   list-style-type:none;
   padding:0;
   display: block;
-  margin-bottom:150px;
+  margin-bottom:85px;
   li{
     display:inline;
     padding-right:30px;
@@ -54,6 +54,7 @@
 
 .Cremalab__ContactPage--email{
   color:$cremaBlack;
+  font-size:18px;
   font-family:"MerriWeather-Bold";
   text-decoration:none;
   &:visited{

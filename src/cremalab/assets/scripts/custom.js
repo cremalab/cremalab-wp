@@ -35,14 +35,14 @@ teamMember.on({
 
 //Case Study Height Adjust
 var caseStudySliderContainer = $('.Cremalab__CaseStudySlider');
-var caseStudyViewport = $('.soliloquy-viewport');
-var caseStudyWrapper = $('.soliloquy-wrapper');
-var sliderInitialHeight = 563;
-caseStudyViewport.css('height', 483);
-caseStudyWrapper.css('height', 483);
+var sliderInitialHeight = '563px';
+var initialViewportHeight = '563px !important';
+var viewport = $('.soliloquy-viewport');
+var wrapper = $('.soliloquy-wrapper');
+var container = $('.soliloquy-container');
 
 $(window).on('load', function(){
-  caseStudySliderContainer.css('height', sliderInitialHeight);
+caseStudySliderContainer.css('height', sliderInitialHeight);
 
 });
 

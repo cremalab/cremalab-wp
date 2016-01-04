@@ -52,7 +52,13 @@
   background-color:$cremaWhite;
 }
 
-#ninja_forms_form_5_cont{
+// #ninja_forms_form_5_cont{
+//   display:block;
+//   margin:0 auto;
+//   width:65%;
+// }
+
+.ninja-forms-cont{
   display:block;
   margin:0 auto;
   width:65%;
@@ -97,8 +103,16 @@ input.ninja-forms-field:focus{
   -webkit-text-fill-color: transparent !important;
   border-bottom: 2px solid $cremaPurple;
 }
+//
+// #ninja_forms_form_5_progress_bar{
+//   position: absolute;
+//   height:10px;
+//   border-radius:0;
+//   width:100%;
+//   bottom:50px;
+// }
 
-#ninja_forms_form_5_progress_bar{
+.meter.nostripes.progressbar{
   position: absolute;
   height:10px;
   border-radius:0;
