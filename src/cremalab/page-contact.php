@@ -15,7 +15,7 @@
   <div class="Cremalab__ContactPage--spacer"></div>
 
   <h1 class="Cremalab__pageHeaderOne">Join Us</h1>
-  <p class="Cremalab__linkCopy">We're hiring.  <span class="Cremalab__ContactPage--underline"><a href="/careers">Learn more.</a></span></p>
+  <p class="Cremalab__linkCopy">We're hiring.  <span class="Cremalab__ContactPage--underline"><a href="/team">Learn more.</a></span></p>
 
   <div class="Cremalab__ContactPage--spacer"></div>
 
