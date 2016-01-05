@@ -108,7 +108,8 @@
   width:50%;
   min-width:50%;
   display:inline-block;
-  
+  border-right: 2px solid $cremaGrey;
+
   a{
     font-family:"AvenirNext-Bold";
     font-size:16px;
@@ -155,6 +156,6 @@
 .Cremalab__ContentNavContainer{
   position: relative;
   width:100%;
-  border:solid 2px $cremaGrey;
+  border-top:solid 2px $cremaGrey;
   height:100px;
 }
