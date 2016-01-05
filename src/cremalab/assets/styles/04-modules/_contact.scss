@@ -24,7 +24,7 @@
   margin-bottom:85px;
   li{
     display:inline;
-    padding-right:30px;
+    padding:15px;
   }
 }
 
@@ -68,4 +68,26 @@
 .Cremalab__ContactPage--address{
 
   margin:0;
+}
+
+@media screen and (max-width:414px){
+  .Cremalab__ContactPageWrapper{
+    padding-top:25px;
+  }
+  .Cremalab__pageHeaderOne{
+    font-size:32px;
+  }
+  .Cremalab__ContactPage--email, .Cremalab__ContactPage--phone, .Cremalab__ContactPage--address, .Cremalab__linkCopy{
+    font-size:16px;
+  }
+  .contact-icons{
+    font-size:24px;
+  }
+  .Cremalab__ContactPage-contactlist{
+    li{
+      display:inline;
+      padding:5px;
+    }
+  }
+
 }
