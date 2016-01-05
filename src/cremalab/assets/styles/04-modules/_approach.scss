@@ -75,9 +75,6 @@
 .Cremalab__ApproachPage-ProcessWrapper{
   background-color:$cremaSmoke;
   text-align:center;
-
-
-
 }
 .Cremalab__ApproachPage--processHeaderContainer{
   text-align: center;
@@ -91,13 +88,13 @@
 }
 
 .CremalabApproachPage--ProcessHeader{
-  width:100vw;
+  width:100%;
   display:block;
   flex:0 0 100%;
   text-align:center;
   line-height:1;
   font-size:48px;
-  margin:2% auto 2% auto;
+
   padding-top:35px;
 }
 .Cremalab__ApproachPage-ProcessAnimationWrapper{
@@ -142,17 +139,21 @@ img.Cremalab__ApproachPage--approachArrow{
 
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width:414px){
+  .Cremalab__ApproachPage-ProcessWrapper{
+    width:100%;
+  }
   .Cremalab__ApproachPage-ProcessAnimationWrapper{
     display:block;
     margin:0 auto;
-    width:400px;
+    width:100％;
   }
 
   .CremalabApproachPage--crossDisciplineImage{
     display:block;
-    margin:0 auto;
-    height:250px;
+    margin:50px auto;
+
+    width:90%;
   }
 
 }
