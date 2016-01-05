@@ -13,7 +13,7 @@
   <div class="Cremalab__Homepage--videoWrapper">
 
     <video loop autoplay muted>
-      <source src="https://s3.amazonaws.com/cremalab/wp-cremalab/video/Crema+Culture+v2-HD.mp4">
+      <source src="https://s3.amazonaws.com/cremalab/wp-cremalab/video/Crema+Culture+v4-HD.mp4">
     </video>
   </div>
 
@@ -21,6 +21,8 @@
 
   </div>
 
+
+<img src="" alt="" />
 
 
 

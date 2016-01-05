@@ -68,6 +68,8 @@ function asset_path($filename) {
 function assets() {
   wp_enqueue_style('fonts', 'http://hello.myfonts.net/count/25cabb', false, null);
   wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, null);
+  wp_enqueue_style('slick.css', asset_path('styles/slick.css'), false, null);
+
 
   if (is_single() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');
@@ -77,6 +79,6 @@ function assets() {
   wp_enqueue_script('sage_js', asset_path('scripts/main.js'), ['jquery'], null, true);
   wp_enqueue_script('velocity', asset_path('scripts/velocity.js'), ['jquery'], null, true);
   wp_enqueue_script('custom', asset_path('scripts/custom.js'), ['jquery'], null, true);
-
+  wp_enqueue_script('slick.min.js', asset_path('scripts/slick.min.js'), ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);

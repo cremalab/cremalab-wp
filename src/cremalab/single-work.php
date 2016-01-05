@@ -18,10 +18,29 @@
         $BodyText2 = get_field('cs_body_text_2');
         $BodyText3 = get_field('cs_body_text_3');
         $BodyText4 = get_field('cs_body_text_4');
+        $sliderImage1 = get_field('slider_image_1');
+        $sliderImage2 = get_field('slider_image_2');
+        $sliderImage3 = get_field('slider_image_3');
     ?>
 
     <div class="Cremalab__CaseStudyWrapper">
-        <div class="Cremalab__CaseStudySlider"><?php echo do_shortcode($slider); ?></div>
+
+      <div class="Cremalab__CaseStudySlider">
+        <div style=" background: url( <?php echo $sliderImage1['url'];?>) no-repeat center;
+                    background-size:cover;">
+          <!-- <img class="Cremalab__CaseStudySlider" src="<?php echo $sliderImage1['url'] ?>" alt=""> -->
+        </div>
+        <div style=" background: url( <?php echo $sliderImage2['url'];?>) no-repeat center;
+                    background-size:cover;">
+
+          <!-- <img class="Cremalab__CaseStudySlider" src="<?php echo $sliderImage2['url'] ?>" alt=""> -->
+        </div>
+        <div style=" background: url( <?php echo $sliderImage3['url'];?>) no-repeat center;
+                    background-size:cover;">
+          <!-- <img class="Cremalab__CaseStudySlider" src="<?php echo $sliderImage3['url'] ?>" alt=""> -->
+        </div>
+      </div>
+        <!-- <div class="Cremalab__CaseStudySlider"><?php echo do_shortcode($slider); ?></div> -->
         <div class="Cremalab__CaseStudyContentContainer">
             <h1 class="Cremalab__caseStudyTitle">
                 <?php echo $Title ?>

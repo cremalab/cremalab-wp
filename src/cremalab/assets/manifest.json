@@ -12,9 +12,19 @@
     "velocity.js":{
       "bower":["velocity"]
     },
+    "slick.min.js":{
+      "files":[
+        "scripts/slick.min.js"
+      ]
+    },
     "custom.js":{
       "files": [
         "scripts/custom.js"
+      ]
+    },
+    "slick.css":{
+      "files": [
+        "styles/slick.css"
       ]
     },
     "main.css": {

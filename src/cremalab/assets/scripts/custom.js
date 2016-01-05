@@ -9,9 +9,10 @@ var teamPhotoCenterContainer = $('.Cremalab__teamContainer--centerWrapper');
 var blogPostListContainer = $('.Cremalab__BlogItemsContainer');
 
 
-//Page transition - why doesn't this work??????
+
 $(window).on('load', function(){
   $('body').velocity("fadeIn", {duration:"50"});
+  $(window).trigger('resize');
 });
 
 
@@ -160,6 +161,17 @@ blogVideoPlayButton.on({
     }
   })
 
+//SlickSlider Init
+$(document).on('ready', function(){
+  $('.Cremalab__CaseStudySlider').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: false,
+
+  });
+});
 
 
 })(jQuery);
