@@ -25,7 +25,7 @@
   <div class="Cremalab__About--hightlightLine"></div>
 
 
-  <h2 class="Cremalab__About--subheader">1. Trust</h2>
+  <h2 class="Cremalab__About--subheader"><span class="Cremalab__About--number">1.</span>Trust</h2>
   <div class="Cremalab__About-TrustTriangleWrapper">
 
       <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/trustTriangle.png" alt="Trust">
@@ -41,7 +41,7 @@
   <div class="Cremalab__About--separatorLine"></div>
 
 
-  <h2 class="Cremalab__About--subheader">2. Constant Improvement</h2>
+  <h2 class="Cremalab__About--subheader"><span class="Cremalab__About--number">2.</span> Constant Improvement</h2>
     <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/improvementShapes.png" alt="Constant Improvement">
 
   <div class="Cremalab__AboutCopyWrapper">
@@ -52,7 +52,7 @@
   <div class="Cremalab__About--separatorLine"></div>
 
 
-  <h2 class="Cremalab__About--subheader">3. Collaboration</h2>
+  <h2 class="Cremalab__About--subheader"><span class="Cremalab__About--number">3.</span> Collaboration</h2>
     <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/collaborationCaterpillars.png" alt="Collaboration">
 
   <div class="Cremalab__AboutCopyWrapper">
@@ -65,7 +65,7 @@
   <div class="Cremalab__About--separatorLine"></div>
 
 
-  <h2 class="Cremalab__About--subheader">4. Results</h2>
+  <h2 class="Cremalab__About--subheader"><span class="Cremalab__About--number">4.</span> Results</h2>
     <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/resultsThing.png" alt="Results">
 
   <div class="Cremalab__AboutCopyWrapper">
@@ -75,7 +75,7 @@
 
   <div class="Cremalab__About--separatorLine"></div>
 
-  <h2 class="Cremalab__About--subheader">5. Generosity</h2>
+  <h2 class="Cremalab__About--subheader"><span class="Cremalab__About--number">5.</span> Generosity</h2>
     <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/generosityBlackHole.png" alt="Generosity">
 
   <div class="Cremalab__AboutCopyWrapper">
