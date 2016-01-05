@@ -71,3 +71,12 @@
     display:none;
   }
 }
+
+@media screen and (max-width:320px){
+  .Cremalab__About--header{
+    font-size:42px;
+  }
+  .Cremalab__About--subheader{
+    font-size:42px;
+  }
+}

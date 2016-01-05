@@ -183,3 +183,34 @@ input[type=submit].ninja-forms-field{
   font-size:26px;
   cursor:pointer;
 }
+
+
+@media screen and (max-width:414px){
+  .Cremalab__footer--header{
+    font-size:48px;
+  }
+
+  .Cremalab__footer--text{
+    font-size:18px;
+  }
+}
+
+@media screen and (max-width:375px){
+  .Cremalab__footer--header{
+    font-size:32px;
+  }
+
+  .Cremalab__footer--text{
+    font-size:16px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .Cremalab__footer--header{
+    font-size:32px;
+  }
+
+  .Cremalab__footer--text{
+    font-size:14px;
+  }
+}
