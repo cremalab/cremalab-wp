@@ -377,3 +377,17 @@ img.Cremalab__BlogPost--videoIndicator{
   height:0;
   overflow:hidden;
 }
+
+@media screen and (max-width:414px){
+  .Cremalab__BlogIndexPageWrapper{
+    padding-top:50px;
+  }
+
+  .Cremalab__BlogItemLinkBlock{
+    display:block;
+    margin:0 auto;
+  }
+  .Cremalab__BlogItemWrapper{
+    margin:0
+  }
+}
