@@ -30,6 +30,8 @@
                     background-size:cover;">
           <!-- <img class="Cremalab__CaseStudySlider" src="<?php echo $sliderImage1['url'] ?>" alt=""> -->
         </div>
+
+
         <div style=" background: url( <?php echo $sliderImage2['url'];?>) no-repeat center;
                     background-size:cover;">
 
@@ -42,9 +44,16 @@
       </div>
         <!-- <div class="Cremalab__CaseStudySlider"><?php echo do_shortcode($slider); ?></div> -->
         <div class="Cremalab__CaseStudyContentContainer">
+
+
             <h1 class="Cremalab__caseStudyTitle">
                 <?php echo $Title ?>
             </h1>
+
+            <div style="background-color:black; height:350px;">
+              <img src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Left_caret.svg" alt="" />
+              <img src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Right_caret.svg" alt="" />
+            </div>
 
             <h3 class="Cremalab__caseStudySubHeader"><?php echo $Subheading ?></h3>
 

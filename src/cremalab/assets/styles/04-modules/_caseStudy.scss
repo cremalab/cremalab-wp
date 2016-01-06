@@ -1,15 +1,37 @@
 .Cremalab__caseStudyTitle{
   @extend .Cremalab__caseStudyHeader;
-
   text-align:center;
+
 }
+
+
 .Cremalab__CaseStudySlider{
   position: relative;
   display:block;
   margin-bottom:50px;
   div{
-    min-height:600px;
+    height:65vh;
   }
+}
+
+.slick-prev.slick-arrow{
+  display: inline-block;
+  position: absolute;
+  left: 2%;
+  top: 42.5%;
+  z-index: 1;
+  background-color: transparent;
+  border:none;
+}
+
+.slick-next.slick-arrow{
+  display: inline-block;
+  position: absolute;
+  right: 2%;
+  top: 42.5%;
+  z-index: 1;
+  background-color: transparent;
+  border:none;
 }
 
 .Cremalab__CaseStudyContentContainer{
