@@ -226,7 +226,7 @@ gulp.task('jshint', function() {
     .pipe(jshint.reporter('fail'));
 });
 
-// ### Clean
+// ### chrome
 // `gulp clean` - Deletes the build folder entirely.
 gulp.task('clean', require('del').bind(null, [path.dist]));
 
