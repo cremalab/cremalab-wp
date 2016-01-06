@@ -42,7 +42,7 @@
 
 
   <h2 class="Cremalab__About--subheader"><span class="Cremalab__About--number">2.</span> Constant Improvement</h2>
-    <img class="Cremalab__About-image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/improvementShapes.png" alt="Constant Improvement">
+    <img class="Cremalab__About-image constant_improvement_image" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/improvementShapes.png" alt="Constant Improvement">
 
   <div class="Cremalab__AboutCopyWrapper">
     <p class="Cremalab__About-copy">We will constantly improve ourselves, our product experiences, and our company.</p>

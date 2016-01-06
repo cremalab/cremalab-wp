@@ -2,7 +2,9 @@
 // @import "compass/css3";
 // @import "compass/css3/transform";
 
-
+body{
+  margin:0;
+}
 
 // Local Imports (Order Dependant)
 @import "01-settings/**/*";
