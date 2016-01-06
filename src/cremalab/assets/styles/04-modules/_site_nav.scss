@@ -143,6 +143,8 @@
 }
 
 #menu-navbar-1 {
+  list-style-type: none;
+  padding:0;
   li.current-menu-item{
     a {
       border-bottom: 2px solid $cremaPurple;
@@ -425,6 +427,7 @@
     text-align:center;
     display:block;
     margin:0 auto;
+    list-style-type: none;
     li{
       a{
         font-size:10vw;
