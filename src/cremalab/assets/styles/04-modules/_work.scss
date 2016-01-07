@@ -113,8 +113,6 @@
   justify-content: center;
   flex-direction:row;
   flex-wrap:wrap;
-
-
 }
 
 .Cremalab__Work--clientLogo{
@@ -149,5 +147,8 @@
 @media screen and (max-width: 414px){
   .Cremalab__Work-TitleContainer--header{
     font-size:42px;
+  }
+  .Cremalab__Work--clientLogo{
+    width:50%;
   }
 }
