@@ -52,30 +52,19 @@
   background-color:$cremaWhite;
 }
 
-// #ninja_forms_form_5_cont{
-//   display:block;
-//   margin:0 auto;
-//   width:65%;
-// }
-
-.ninja-forms-cont{
-  display:block;
-  margin:0 auto;
-  width:65%;
-}
-
 label{
   font-size:16px;
   text-align:center;
   font-family:'MerriWeather-Regular';
 }
 
-textarea{
 
-}
 
 .ninja-forms-cont{
-  padding-top:50px;
+  display:block;
+  margin:0 auto;
+  width:65%;
+  padding-top:0;
   height:95%;
 }
 
@@ -85,14 +74,13 @@ input.ninja-forms-field{
   text-shadow:0 0 0 #000 !important;
   -webkit-text-fill-color: transparent !important;
   font-size:22px;
-  width:65% !important;
+  width:100% !important;
   height:50px !important;
   display:block;
   margin:0 auto;
   border:none;
   border-bottom: 2px solid $cremaPurple;
   text-align: center;
-
 }
 
 input.ninja-forms-field:focus{
@@ -103,14 +91,6 @@ input.ninja-forms-field:focus{
   -webkit-text-fill-color: transparent !important;
   border-bottom: 2px solid $cremaPurple;
 }
-//
-// #ninja_forms_form_5_progress_bar{
-//   position: absolute;
-//   height:10px;
-//   border-radius:0;
-//   width:100%;
-//   bottom:50px;
-// }
 
 .meter.nostripes.progressbar{
   position: absolute;
@@ -124,7 +104,7 @@ input.ninja-forms-mp-next{
   position:absolute;
   font-size:16px !important;
   right:0;
-  bottom:75px;
+  bottom:85px;
   width:25px !important;
   height:25px !important;
   color:$cremaWhite;
@@ -135,7 +115,7 @@ input.ninja-forms-mp-next{
 input.ninja-forms-mp-prev{
   position:absolute;
   right:30px;
-  bottom:75px;
+  bottom:85px;
   width:25px !important;
   height:25px !important;
   color: $cremaWhite;
@@ -149,7 +129,7 @@ input[type=submit].ninja-forms-field{
   padding-top:3px;
   font-size:16px !important;
   right:0;
-  bottom:75px;
+  bottom:85px;
   width:25px !important;
   height:25px !important;
   color:$cremaWhite !important;
@@ -193,6 +173,48 @@ input[type=submit].ninja-forms-field{
   .Cremalab__footer--text{
     font-size:18px;
   }
+
+  .ninja-forms-all-fields-wrap{
+    label{
+      font-size:16px;
+    }
+  }
+
+  .ninja-forms-form-wrap{
+    position: absolute;
+    bottom:55px;
+  }
+
+  .ninja-forms-cont{
+    display:block;
+    margin:0 auto;
+    width:65%;
+    padding-top:50px;
+    height:95%;
+  }
+
+  .meter.nostripes.progressbar{
+    position: absolute;
+    height:10px;
+    border-radius:0;
+    width:100%;
+    bottom:15px;
+  }
+  input.ninja-forms-field{
+
+  }
+
+  input[type=submit].ninja-forms-field{
+    bottom:-15px;
+  }
+
+  input.ninja-forms-mp-next{
+    bottom:-15px;
+  }
+  input.ninja-forms-mp-prev{
+    bottom:-15px;
+  }
+
 }
 
 @media screen and (max-width:375px){
@@ -202,6 +224,12 @@ input[type=submit].ninja-forms-field{
 
   .Cremalab__footer--text{
     font-size:16px;
+  }
+
+  .ninja-forms-all-fields-wrap{
+    label{
+      font-size:16px;
+    }
   }
 }
 
@@ -213,4 +241,46 @@ input[type=submit].ninja-forms-field{
   .Cremalab__footer--text{
     font-size:14px;
   }
+
+  .ninja-forms-all-fields-wrap{
+    label{
+      font-size:12px;
+    }
+  }
+
+  .ninja-forms-form-wrap{
+    position: absolute;
+    bottom:55px;
+  }
+
+  .ninja-forms-cont{
+    display:block;
+    margin:0 auto;
+    width:65%;
+    padding-top:50px;
+    height:95%;
+  }
+
+  .meter.nostripes.progressbar{
+    position: absolute;
+    height:10px;
+    border-radius:0;
+    width:100%;
+    bottom:15px;
+  }
+  input.ninja-forms-field{
+
+  }
+
+  input[type=submit].ninja-forms-field{
+    bottom:-15px;
+  }
+
+  input.ninja-forms-mp-next{
+    bottom:-15px;
+  }
+  input.ninja-forms-mp-prev{
+    bottom:-15px;
+  }
+
 }
