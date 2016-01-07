@@ -22,7 +22,7 @@
   </div>
 
 
-<img src="" alt="" />
+<img class="Cremalab__Homepage-MobileLogo" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Crema_logo.png" alt="Crema" />
 
 
 

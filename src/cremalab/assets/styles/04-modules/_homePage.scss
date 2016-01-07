@@ -21,6 +21,11 @@
   position: relative;
 }
 
+.Cremalab__Homepage-MobileLogo{
+  display:block;
+  margin:0 auto;
+}
+
 .Cremalab__Homepage--videoWrapper{
   display:block;
   position: relative;
@@ -214,5 +219,21 @@
   .Cremalab__Work-EntryWrapper--Homepage{
     width:100%;
     position: relative;
+  }
+}
+@media screen and (max-width: 414px){
+  .Cremalab__Homepage-MobileLogo{
+    display:block;
+    margin:50px auto;
+  }
+  .Cremalab__Homepage-Approach{
+    height:auto;
+    margin:35px auto 35px auto;
+  }
+  .Cremalab__Homepage-Approach--header{
+    font-size:48px;
+  }
+  .Cremalab__Homepage-Approach--subheader{
+    font-size:22px;
   }
 }

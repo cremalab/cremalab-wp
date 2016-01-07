@@ -32,6 +32,7 @@
   position: relative;
 }
 .Cremalab__footerWelcomeContainer{
+
   display:flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +45,7 @@
 }
 
 .Cremalab__footerFormContainer{
+  padding-top:15px;
   position: absolute;
   bottom:0;
   height:0;
@@ -178,6 +180,9 @@ input[type=submit].ninja-forms-field{
     label{
       font-size:16px;
     }
+  }
+  .Cremalab__footerFormContainer{
+    padding-top:0;
   }
 
   .ninja-forms-form-wrap{
