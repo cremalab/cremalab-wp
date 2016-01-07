@@ -1,9 +1,18 @@
 
 
 
-<div class="Cremalab__Navbar-BlackHeader">
+
+<div class="Cremalab__ApproachPageWrapper">
+  <?php if( my_wp_is_mobile() ): ?>
+  <div class="Cremalab__Navbar--blog">
+    <?php get_header('mobile'); ?>
+  </div>
+  <?php else: ?>
+
+  <div class="Cremalab__Navbar--blog">
     <?php get_header(); ?>
-</div>
+  </div>
+  <?php endif?>
 
 <?php
     $id= get_the_ID();

@@ -4,10 +4,16 @@
  */
 ?>
 
+<?php if( my_wp_is_mobile() ): ?>
+<div class="Cremalab__Navbar--about">
+  <?php get_header('mobile'); ?>
+</div>
+<?php else: ?>
 
 <div class="Cremalab__Navbar--about">
   <?php get_header(); ?>
 </div>
+<?php endif?>
 
 <?php
   $trustImage = get_field('about_first_image');

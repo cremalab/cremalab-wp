@@ -11,9 +11,16 @@
 
 
 <div class="Cremalab__ApproachPageWrapper">
-  <div class="Cremalab__Navbar-BlackHeader">
+  <?php if( my_wp_is_mobile() ): ?>
+  <div class="Cremalab__Navbar--approach">
+    <?php get_header('mobile'); ?>
+  </div>
+  <?php else: ?>
+
+  <div class="Cremalab__Navbar--approach">
     <?php get_header(); ?>
   </div>
+  <?php endif?>
 
   <?php $size='large'; ?>
   <div class="Cremalab__ApproachPage-HeroWrapper"

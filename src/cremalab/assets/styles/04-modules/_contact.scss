@@ -3,7 +3,8 @@
   text-align:center;
   color:$cremaBlack;
   background-color:$cremaSmoke;
-  height:100%;
+  padding:75px 0 75px 0;
+  height:85vh;
   p, a{
     font-family:"MerriWeather-Regular"
   }
@@ -74,9 +75,6 @@
 }
 
 @media screen and (max-width:414px){
-  .Cremalab__ContactPageWrapper{
-    padding-top:25px;
-  }
   .Cremalab__pageHeaderOne{
     font-size:32px;
   }
@@ -87,6 +85,7 @@
     font-size:24px;
   }
   .Cremalab__ContactPageWrapper{
+    padding:35px 0 35px 0;
     height:auto;
   }
   .Cremalab__ContactPage-contactlist{

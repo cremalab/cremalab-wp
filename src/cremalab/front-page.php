@@ -5,8 +5,8 @@
 
 <?php if( my_wp_is_mobile() ): ?>
   <div class="Cremalab__Homepage--pageWrapper">
-<?php get_header(); ?>
-
+<?php get_header('mobile'); ?>
+  <img class="Cremalab__Homepage-MobileLogo" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Crema_logo.png" alt="Crema" />
 <?php  else: ?>
   <div class="Cremalab__Homepage--pageWrapper">
   <?php get_header(); ?>
@@ -22,7 +22,7 @@
   </div>
 
 
-<img class="Cremalab__Homepage-MobileLogo" src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Crema_logo.png" alt="Crema" />
+
 
 
 

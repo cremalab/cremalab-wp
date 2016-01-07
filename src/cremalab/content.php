@@ -1,8 +1,15 @@
 
 
+<?php if( my_wp_is_mobile() ): ?>
 <div class="Cremalab__Navbar--work">
-    <?php get_header(); ?>
+  <?php get_header('mobile'); ?>
 </div>
+<?php else: ?>
+
+<div class="Cremalab__Navbar--work">
+  <?php get_header(); ?>
+</div>
+<?php endif?>
 
 <?php
   $client1=get_field('client_logo_1', 52);

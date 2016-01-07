@@ -129,7 +129,7 @@
   }
 }
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 768px){
   .Cremalab__Work-EntryWrapper{
 
     .Cremalab__Work-ImageContainer{
@@ -142,13 +142,15 @@
       order:2;
     }
   }
+
+  .Cremalab__Work--clientLogo{
+    width:50%;
+  }
 }
 
 @media screen and (max-width: 414px){
   .Cremalab__Work-TitleContainer--header{
     font-size:42px;
   }
-  .Cremalab__Work--clientLogo{
-    width:50%;
-  }
+
 }

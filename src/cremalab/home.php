@@ -1,8 +1,16 @@
 <!--USED FOR BLOG POSTS-->
-<div class="Cremalab__Navbar-BlackHeader">
-  <?php get_header(); ?>
-</div>
 
+<div class="Cremalab__Navbar-BlackHeader">
+  <?php if( my_wp_is_mobile() ): ?>
+  <div class="Cremalab__Navbar--blog">
+    <?php get_header('mobile'); ?>
+  </div>
+  <?php else: ?>
+
+  <div class="Cremalab__Navbar-BlackHeader">
+    <?php get_header(); ?>
+  </div>
+  <?php endif?>
 
 
 <div class="Cremalab__BlogIndexPageWrapper">
