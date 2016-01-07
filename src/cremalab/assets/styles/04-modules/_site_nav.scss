@@ -142,7 +142,7 @@
 
 }
 
-#menu-navbar-1 {
+#menu-navbar {
   list-style-type: none;
   padding:0;
   li.current-menu-item{
@@ -181,7 +181,7 @@
   @extend .Cremalab__Navbar-BlackHeader;
   background-color: $cremaWhite;
 
-  > .Cremalab__Navbar > .Cremalab__Navbar--mobile > .menu-navbar-container > ul#menu-navbar-1 > li:first-child{
+  > .Cremalab__Navbar > .Cremalab__Navbar--mobile > .menu-navbar-container > ul#menu-navbar > li:first-child{
 
     a {
       border-bottom: 2px solid $cremaPurple;
@@ -423,7 +423,7 @@
     display:block;
   }
 
-  #menu-navbar-1{
+  #menu-navbar{
     text-align:center;
     display:block;
     margin:0 auto;
@@ -434,9 +434,9 @@
         color:$cremaWhite;
         text-decoration:none;
       }
-      a:visited{
-        color:$cremaWhite;
-      }
+      // a:visited{
+      //   color:$cremaWhite;
+      // }
     }
   }
 
