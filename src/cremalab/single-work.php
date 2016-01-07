@@ -49,12 +49,6 @@
             <h1 class="Cremalab__caseStudyTitle">
                 <?php echo $Title ?>
             </h1>
-
-            <div style="background-color:black; height:350px;">
-              <img src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Left_caret.svg" alt="" />
-              <img src="https://s3.amazonaws.com/cremalab/wp-cremalab/Images/Right_caret.svg" alt="" />
-            </div>
-
             <h3 class="Cremalab__caseStudySubHeader"><?php echo $Subheading ?></h3>
 
             <div class="Cremalab__caseStudyhighlightLine"></div>

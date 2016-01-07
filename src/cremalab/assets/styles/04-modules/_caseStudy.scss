@@ -9,6 +9,7 @@
   position: relative;
   display:block;
   margin-bottom:50px;
+  height:auto !important;
   div{
     height:65vh;
   }
@@ -182,4 +183,36 @@
   width:100%;
   border-top:solid 2px $cremaGrey;
   height:100px;
+}
+
+
+
+
+
+@media screen and (max-width:414px){
+  .slick-next.slick-arrow, .slick-prev.slick-arrow{
+    top: 43.5%;
+  }
+  .Cremalab__contentNavPrevious{
+    a{
+      left:15px;
+      top:40px;
+    }
+  }
+  .Cremalab__contentNavNext{
+    a{
+      right:15px;
+    }
+  }
+
+  .Cremalab__caseStudyTitle{
+    font-size:48px;
+  }
+  .Cremalab__caseStudyTextContainer{
+    padding:10px;
+    p{
+      font-size:16px;
+    }
+  }
+
 }
