@@ -163,7 +163,7 @@ blogVideoPlayButton.on({
 
 //Footer first name grabber
 var footerFirstnameInput = $('.submission-name');
-var nameReplace = $('#ninja_forms_field_26_label');
+var nameReplace = $('#ninja_forms_field_13_label');
 $(footerFirstnameInput).on('blur', function(e){
   console.log('Name event', e.currentTarget.value);
   var firstName = e.currentTarget.value;

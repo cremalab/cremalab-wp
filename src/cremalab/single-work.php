@@ -1,9 +1,17 @@
 
 
 
-    <div class="Cremalab__Navbar-BlackHeader">
-        <?php get_header(); ?>
-    </div>
+<div class="Cremalab__Navbar-BlackHeader">
+  <?php if( my_wp_is_mobile() ): ?>
+  <div class="Cremalab__Navbar--blog">
+    <?php get_header('mobile'); ?>
+  </div>
+  <?php else: ?>
+
+  <div class="Cremalab__Navbar-BlackHeader">
+    <?php get_header(); ?>
+  </div>
+  <?php endif?>
 
     <?php
         $headerImage = get_field('case_study_header_image');

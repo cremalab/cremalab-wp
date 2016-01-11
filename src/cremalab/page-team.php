@@ -4,18 +4,18 @@
  */
 ?>
 
-<div class="Cremalab__ApproachPageWrapper">
+<div class="Cremalab__Navbar-BlackHeader">
   <?php if( my_wp_is_mobile() ): ?>
-  <div class="Cremalab__Navbar--team">
+  <div class="Cremalab__Navbar--blog">
     <?php get_header('mobile'); ?>
   </div>
   <?php else: ?>
 
-  <div class="Cremalab__Navbar--team">
+  <div class="Cremalab__Navbar-BlackHeader">
     <?php get_header(); ?>
   </div>
   <?php endif?>
-
+</div>
 <div class="Cremalab__teamPageWrapper">
   <div class="Cremalab__teamContainer--centerWrapper">
     <div class="Cremalab__teamContainer">
